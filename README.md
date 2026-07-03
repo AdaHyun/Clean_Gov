@@ -222,21 +222,3 @@ data/bodyClean/datatrove_documents.jsonl
 7. 抽查 `data/bodyClean/manual_review_list.jsonl`，确认不确定记录没有被静默丢弃。
 8. 抽查 `data/bodyClean/12_datatrove_export/datatrove_documents.jsonl`，确认每行是 `id / text / metadata`。
 
-## Git 提交建议
-
-建议提交：
-
-```text
-README.md
-.gitignore
-article_cleaning_pipeline/
-```
-
-不建议提交：
-
-```text
-data/bodyClean/
-```
-
-该目录包含全量 JSONL、Excel 和报告输出，体量较大，已在 `.gitignore` 中忽略。
-
