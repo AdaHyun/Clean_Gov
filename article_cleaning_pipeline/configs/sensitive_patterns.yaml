@@ -1,0 +1,5 @@
+risk_levels:
+  office_contact: low
+  personal_mobile: medium
+  id_card: high
+  patient_case: high

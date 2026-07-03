@@ -1,0 +1,25 @@
+required:
+  - id
+  - text
+  - metadata
+metadata_fields:
+  - doc_id
+  - canonical_doc_id
+  - title
+  - url
+  - canonical_url
+  - site_name
+  - institution_code
+  - channel_name
+  - standard_channel_name
+  - document_type
+  - policy_category
+  - content_genre
+  - publish_date
+  - issue_date
+  - crawl_date
+  - has_attachments
+  - has_images
+  - has_tables
+  - sensitive_risk_level
+  - quality_label

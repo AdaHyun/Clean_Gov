@@ -1,0 +1,26 @@
+chinacdc.cn:
+  article_selectors: [".article", ".article-content", ".TRS_Editor", "#zoom", ".content"]
+nhc.gov.cn:
+  article_selectors: [".con", ".article", ".zw", "#xw_box", ".TRS_Editor"]
+ndcpa.gov.cn:
+  article_selectors: [".article", ".content", ".detail", ".TRS_Editor"]
+cdcp.gd.gov.cn:
+  article_selectors: [".article-content", ".content", ".zw", ".TRS_Editor"]
+wsjkw.gd.gov.cn:
+  article_selectors: [".article-content", ".content", ".zw", ".TRS_Editor"]
+hsa.gd.gov.cn:
+  article_selectors: [".article-content", ".content", ".zw", "#zoom"]
+nhsa.gov.cn:
+  article_selectors: [".content", ".detail", ".article"]
+sport.gov.cn:
+  article_selectors: [".content", ".article", "#Zoom", ".TRS_Editor"]
+www.natcm.gov.cn:
+  article_selectors: [".content", ".article", ".TRS_Editor"]
+www.cncaprc.gov.cn:
+  article_selectors: [".content", ".article", ".detail"]
+ncmhc.org.cn:
+  article_selectors: [".content", ".article", ".news-detail"]
+ncncd.chinacdc.cn:
+  article_selectors: [".content", ".article", ".TRS_Editor"]
+who.int:
+  article_selectors: ["article", "main", ".sf-detail-body-wrapper"]

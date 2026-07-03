@@ -1,0 +1,11 @@
+pydantic>=2.0
+beautifulsoup4
+lxml
+pandas
+openpyxl
+python-dateutil
+dateparser
+w3lib
+rapidfuzz
+tqdm
+pyyaml

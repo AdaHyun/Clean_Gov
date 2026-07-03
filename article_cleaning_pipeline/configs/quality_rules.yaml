@@ -1,0 +1,3 @@
+min_clean_text_length: 80
+max_noise_hits_for_clean: 0
+min_clean_raw_ratio: 0.2

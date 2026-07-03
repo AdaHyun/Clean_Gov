@@ -1,0 +1,28 @@
+top_level_required:
+  - doc_id
+  - title
+  - url
+  - source
+  - organization
+  - classification
+  - dates
+  - content
+  - attachments
+  - images
+  - crawl
+  - raw
+stable_output_fields:
+  - doc_id
+  - title
+  - url
+  - canonical_url
+  - source
+  - organization
+  - classification
+  - dates
+  - content
+  - attachments
+  - images
+  - privacy
+  - dedup
+  - quality
