@@ -117,45 +117,7 @@ main_pipeline:
   output_dir: "data/bodyClean"
 ```
 
-### 5. 不建议提交虚拟环境文件
-
-虚拟环境目录不应提交到 Git 仓库。请确保 `.gitignore` 中包含：
-
-```gitignore
-.venv/
-venv/
-env/
-__pycache__/
-*.pyc
-```
-
-### 6. 配置流程
-
-首次运行项目时，建议按以下顺序配置：
-
-```bash
-# 1. 创建并激活虚拟环境
-python -m venv .venv
-.venv\Scripts\activate
-
-# 2. 安装依赖
-pip install -r requirements.txt
-
-# 3. 修改路径配置
-configs/path_config.yaml
-
-# 4. 执行 00_raw_repair
-python pipeline_00_raw_repair.py --mode scan
-python pipeline_00_raw_repair.py --mode repair
-
-# 5. 人工核验后执行 verify
-python pipeline_00_raw_repair.py --mode verify
-
-# 6. 确认后执行正式清洗流程
-python pipeline_main.py
-```
-
-### 7. 说明
+### 5. 说明
 
 本项目尽量将路径、规则和执行流程配置化，避免将本地路径写死在代码中。复用者在新的机器或新的数据目录下运行时，应优先修改 `configs/path_config.yaml`，并确保原始 JSONL、raw_html、图片目录和附件目录路径正确。
 
