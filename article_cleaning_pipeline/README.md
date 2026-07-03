@@ -6,12 +6,26 @@
 
 ## 输入数据
 
-默认输入：
+默认情况下，代码按项目相对结构推导输入输出路径。推荐保持目录结构如下：
 
 ```text
-JSONL_INPUT_DIR = D:\LZH\A-Project\Crawler311\corpus_crawler\Crawler_Gov\data\output
-RAW_HTML_DIR    = D:\LZH\A-Project\Crawler311\corpus_crawler\Crawler_Gov\data\raw_html
-OUTPUT_DIR      = D:\LZH\A-Project\Crawler311\corpus_crawler\Clean_Gov\data\bodyClean
+corpus_crawler/
+├── Crawler_Gov/
+│   └── data/
+│       ├── output/
+│       └── raw_html/
+└── Clean_Gov/
+    ├── article_cleaning_pipeline/
+    └── data/
+        └── bodyClean/
+```
+
+默认路径等价于：
+
+```text
+JSONL_INPUT_DIR = ..\..\Crawler_Gov\data\output
+RAW_HTML_DIR    = ..\..\Crawler_Gov\data\raw_html
+OUTPUT_DIR      = ..\data\bodyClean
 ```
 
 JSONL 记录建议包含：
@@ -30,10 +44,16 @@ pip install -r requirements.txt
 ## 一键运行
 
 ```bash
+python run_pipeline.py --run-all
+```
+
+如果需要显式指定路径，优先使用相对路径：
+
+```bash
 python run_pipeline.py ^
-  --jsonl-dir "D:\LZH\A-Project\Crawler311\corpus_crawler\Crawler_Gov\data\output" ^
-  --raw-html-dir "D:\LZH\A-Project\Crawler311\corpus_crawler\Crawler_Gov\data\raw_html" ^
-  --output-dir "D:\LZH\A-Project\Crawler311\corpus_crawler\Clean_Gov\data\bodyClean" ^
+  --jsonl-dir "..\..\Crawler_Gov\data\output" ^
+  --raw-html-dir "..\..\Crawler_Gov\data\raw_html" ^
+  --output-dir "..\data\bodyClean" ^
   --run-all
 ```
 
@@ -290,4 +310,3 @@ raw_html_path 找不到怎么办？
 为什么 DataTrove 条数少于 clean article？
 
 `11_datatrove` 会跳过 `content.clean_text` 为空的记录。查看 `11_datatrove/datatrove_export_summary.json` 和 `10_quality/manual_review_list.jsonl`。
-
