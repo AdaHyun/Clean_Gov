@@ -1,0 +1,19 @@
+project:
+  output_root: "data/bodyClean"
+
+crawler:
+  crawler_root: "../Crawler_Gov"
+  jsonl_dir: "../Crawler_Gov/data/output"
+  raw_html_dir: "../Crawler_Gov/data/raw_html"
+  image_root_dir: "../Crawler_Gov/data/images"
+  attachment_root_dir: "../Crawler_Gov/data/attachments"
+
+raw_repair:
+  output_dir: "data/bodyClean/00_raw_repair"
+  manifest: "data/bodyClean/00_raw_repair/repair_manifest.jsonl"
+  output_raw_dir: "data/bodyClean/data/raw"
+  manual_asset_map: "data/bodyClean/00_raw_repair/manual_asset_map.xlsx"
+
+main_pipeline:
+  input_raw_dir: "data/bodyClean/data/raw"
+  output_dir: "data/bodyClean"

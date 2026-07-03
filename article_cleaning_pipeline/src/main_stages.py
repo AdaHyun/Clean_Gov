@@ -17,7 +17,7 @@ from rapidfuzz import fuzz
 from tqdm import tqdm
 from w3lib.url import canonicalize_url
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from src.io.jsonl_reader import iter_jsonl_files, read_jsonl
@@ -53,6 +53,21 @@ STAGES = [
     "tables", "assets", "sensitive", "dedup", "quality", "datatrove",
 ]
 
+STAGE_DIR_NAMES = {
+    "profile": "00_profile",
+    "validation": "01_validation",
+    "normalization": "02_normalization",
+    "extraction": "03_extraction",
+    "cleaning": "04_text_cleaning",
+    "structure": "05_structure",
+    "tables": "06_tables",
+    "assets": "07_assets",
+    "sensitive": "08_sensitive",
+    "dedup": "09_dedup",
+    "quality": "10_quality",
+    "datatrove": "11_datatrove",
+}
+
 
 def load_configs():
     cfg = {}
@@ -68,16 +83,16 @@ def read_records(path: Path):
 
 def find_previous(output_dir: Path, stage: str):
     mapping = {
-        "normalization": output_dir / "01_validation" / "validated_records.jsonl",
-        "extraction": output_dir / "02_normalization" / "normalized_records.jsonl",
-        "cleaning": output_dir / "03_extraction" / "article_html_records.jsonl",
-        "structure": output_dir / "04_text_cleaning" / "content_cleaned_records.jsonl",
-        "tables": output_dir / "05_structure" / "structured_records.jsonl",
-        "assets": output_dir / "06_tables" / "table_parsed_records.jsonl",
-        "sensitive": output_dir / "07_assets" / "asset_linked_records.jsonl",
-        "dedup": output_dir / "08_sensitive" / "sensitive_marked_records.jsonl",
-        "quality": output_dir / "09_dedup" / "deduplicated_records.jsonl",
-        "datatrove": output_dir / "10_quality" / "cleaned_articles.jsonl",
+        "normalization": output_dir / STAGE_DIR_NAMES["validation"] / "validated_records.jsonl",
+        "extraction": output_dir / STAGE_DIR_NAMES["normalization"] / "normalized_records.jsonl",
+        "cleaning": output_dir / STAGE_DIR_NAMES["extraction"] / "article_html_records.jsonl",
+        "structure": output_dir / STAGE_DIR_NAMES["cleaning"] / "content_cleaned_records.jsonl",
+        "tables": output_dir / STAGE_DIR_NAMES["structure"] / "structured_records.jsonl",
+        "assets": output_dir / STAGE_DIR_NAMES["tables"] / "table_parsed_records.jsonl",
+        "sensitive": output_dir / STAGE_DIR_NAMES["assets"] / "asset_linked_records.jsonl",
+        "dedup": output_dir / STAGE_DIR_NAMES["sensitive"] / "sensitive_marked_records.jsonl",
+        "quality": output_dir / STAGE_DIR_NAMES["dedup"] / "deduplicated_records.jsonl",
+        "datatrove": output_dir / STAGE_DIR_NAMES["quality"] / "cleaned_articles.jsonl",
     }
     return mapping[stage]
 
@@ -89,7 +104,7 @@ def iter_all_raw(jsonl_dir: Path):
 
 
 def stage_profile(jsonl_dir: Path, raw_html_dir: Path, output_dir: Path, cfg):
-    out = output_dir / "00_profile"
+    out = output_dir / STAGE_DIR_NAMES["profile"]
     ensure_dir(out)
     files = sorted(iter_jsonl_files(jsonl_dir))
     raw_files = list(raw_html_dir.rglob("*")) if raw_html_dir.exists() else []
@@ -249,7 +264,7 @@ def validate_record(rec):
 
 
 def stage_validation(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "01_validation"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["validation"]; ensure_dir(out)
     valid, invalid, err_rows = [], [], []
     summary = Counter()
     for _, rec in tqdm(iter_all_raw(jsonl_dir), desc="01 validation"):
@@ -296,7 +311,7 @@ def norm_asset(asset, idx, kind, raw_html_dir, project_root):
 
 
 def stage_normalization(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "02_normalization"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["normalization"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "normalization"))
     normalized, corrections = [], []
     vocab = {"document_type": Counter(), "policy_category": Counter(), "channel_name": Counter(), "site_name": Counter()}
@@ -363,7 +378,7 @@ def read_raw_html_for(rec, raw_html_dir):
 
 
 def stage_extraction(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "03_extraction"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["extraction"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "extraction"))
     ok, fail, logs = [], [], []
     discovered = defaultdict(Counter)
@@ -404,7 +419,7 @@ def stage_extraction(jsonl_dir, raw_html_dir, output_dir, cfg):
 
 
 def stage_cleaning(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "04_text_cleaning"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["cleaning"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "cleaning"))
     cleaned, noise_logs, norm_logs = [], [], []
     residue = Counter()
@@ -436,7 +451,7 @@ def element_type(line):
 
 
 def stage_structure(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "05_structure"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["structure"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "structure"))
     recs, elems, logs = [], [], []
     sig_report, attach_report = Counter(), []
@@ -488,7 +503,7 @@ def expand_table(table):
 
 
 def stage_tables(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "06_tables"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["tables"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "tables"))
     recs, tables, logs, fails = [], [], [], []
     for rec in tqdm(records, desc="06 tables"):
@@ -509,7 +524,7 @@ def stage_tables(jsonl_dir, raw_html_dir, output_dir, cfg):
 
 
 def stage_assets(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "07_assets"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["assets"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "assets"))
     recs, a_rows, i_rows, logs = [], [], [], []
     for rec in tqdm(records, desc="07 assets"):
@@ -539,7 +554,7 @@ from src.privacy.sensitive_info_detector import SENSITIVE_RULES
 
 
 def stage_sensitive(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "08_sensitive"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["sensitive"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "sensitive"))
     recs, report, manual = [], [], []
     for rec in tqdm(records, desc="08 sensitive"):
@@ -562,7 +577,7 @@ def stage_sensitive(jsonl_dir, raw_html_dir, output_dir, cfg):
 
 
 def stage_dedup(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "09_dedup"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["dedup"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "dedup"))
     groups = defaultdict(list)
     for rec in records:
@@ -599,7 +614,7 @@ def quality_for(rec):
 
 
 def stage_quality(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "10_quality"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["quality"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "quality"))
     cleaned, manual, scores = [], [], []
     site_rows = []
@@ -626,7 +641,7 @@ def stage_quality(jsonl_dir, raw_html_dir, output_dir, cfg):
 
 
 def stage_datatrove(jsonl_dir, raw_html_dir, output_dir, cfg):
-    out = output_dir / "11_datatrove"; ensure_dir(out)
+    out = output_dir / STAGE_DIR_NAMES["datatrove"]; ensure_dir(out)
     records = read_records(find_previous(output_dir, "datatrove"))
     docs = []
     for rec in tqdm(records, desc="11 datatrove"):
@@ -656,15 +671,15 @@ STAGE_FUNCS = {
 
 
 def write_top_reports(output_dir: Path, manifest):
-    profile = output_dir / "00_profile" / "data_health_check_report.md"
-    quality = output_dir / "10_quality" / "final_quality_report.json"
+    profile = output_dir / STAGE_DIR_NAMES["profile"] / "data_health_check_report.md"
+    quality = output_dir / STAGE_DIR_NAMES["quality"] / "final_quality_report.json"
     profile_text = profile.read_text(encoding="utf-8") if profile.exists() else "尚未运行 profile。"
     quality_obj = json.loads(quality.read_text(encoding="utf-8")) if quality.exists() else {}
     if not (ROOT / "README.md").exists():
         write_md(ROOT / "README.md", "中文政府/公卫网页 JSONL 清洗系统", [
             ("项目目标", "把原始 parsed JSONL 和 raw_html 清洗为稳定 clean article，并导出可直接喂给 DataTrove 的 id/text/metadata JSONL。"),
             ("安装依赖", "`pip install -r requirements.txt`"),
-            ("一键运行", "`python run_pipeline.py --jsonl-dir \"D:\\\\LZH\\\\A-Project\\\\Crawler311\\\\corpus_crawler\\\\Crawler_Gov\\\\data\\\\output\" --raw-html-dir \"D:\\\\LZH\\\\A-Project\\\\Crawler311\\\\corpus_crawler\\\\Crawler_Gov\\\\data\\\\raw_html\" --output-dir \"D:\\\\LZH\\\\A-Project\\\\Crawler311\\\\corpus_crawler\\\\Clean_Gov\\\\data\\\\bodyClean\" --run-all`"),
+            ("正式 clean pipeline", "`python pipeline_main.py`"),
             ("输出", "每层都有独立目录、主结果 JSONL、日志、summary/report。"),
         ])
     write_md(ROOT / "technical_report.md", "技术报告", [
@@ -687,9 +702,9 @@ def write_top_reports(output_dir: Path, manifest):
     ])
     write_json(output_dir / "pipeline_summary.json", manifest)
     copies = [
-        (output_dir / "10_quality" / "cleaned_articles.jsonl", output_dir / "cleaned_articles.jsonl"),
-        (output_dir / "10_quality" / "manual_review_list.jsonl", output_dir / "manual_review_list.jsonl"),
-        (output_dir / "11_datatrove" / "datatrove_documents.jsonl", output_dir / "datatrove_documents.jsonl"),
+        (output_dir / STAGE_DIR_NAMES["quality"] / "cleaned_articles.jsonl", output_dir / "cleaned_articles.jsonl"),
+        (output_dir / STAGE_DIR_NAMES["quality"] / "manual_review_list.jsonl", output_dir / "manual_review_list.jsonl"),
+        (output_dir / STAGE_DIR_NAMES["datatrove"] / "datatrove_documents.jsonl", output_dir / "datatrove_documents.jsonl"),
         (ROOT / "README.md", output_dir / "README.md"),
         (ROOT / "technical_report.md", output_dir / "technical_report.md"),
         (ROOT / "colleague_handoff_report.md", output_dir / "colleague_handoff_report.md"),

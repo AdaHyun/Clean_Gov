@@ -1,0 +1,1 @@
+from src.structure.asset_linker import mark_attachment_references

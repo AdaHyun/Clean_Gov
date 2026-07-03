@@ -1,0 +1,32 @@
+ok_download_status:
+  - success
+  - downloaded
+  - cached
+  - verified
+  - manual_saved
+retry_download_status:
+  - failed
+  - pending
+  - missing
+  - http_403
+attachment_extensions:
+  - .pdf
+  - .doc
+  - .docx
+  - .xls
+  - .xlsx
+  - .ppt
+  - .pptx
+  - .zip
+  - .rar
+  - .7z
+  - .csv
+  - .txt
+image_extensions:
+  - .jpg
+  - .jpeg
+  - .png
+  - .gif
+  - .svg
+  - .bmp
+  - .webp

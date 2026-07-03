@@ -1,4 +1,4 @@
-from run_pipeline import quality_for
+from src.main_stages import quality_for
 
 
 def test_quality_flags_short_text():

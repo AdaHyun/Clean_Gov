@@ -1,4 +1,4 @@
-from run_pipeline import validate_record
+from src.main_stages import validate_record
 
 
 def test_validation_missing_required():

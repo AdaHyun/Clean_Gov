@@ -1,0 +1,1 @@
+from src.structure.asset_linker import classify_image_role, mark_image_roles

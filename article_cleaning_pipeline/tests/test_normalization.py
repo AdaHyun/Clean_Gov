@@ -1,4 +1,4 @@
-from run_pipeline import parse_date
+from src.main_stages import parse_date
 
 
 def test_parse_date_chinese_like():

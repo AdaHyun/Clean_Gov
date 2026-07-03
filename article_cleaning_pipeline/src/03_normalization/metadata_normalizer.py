@@ -1,0 +1,1 @@
+from src.normalization.metadata_normalizer import normalize_metadata

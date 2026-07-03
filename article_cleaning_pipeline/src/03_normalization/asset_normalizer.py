@@ -1,0 +1,1 @@
+from src.normalization.asset_normalizer import normalize_asset

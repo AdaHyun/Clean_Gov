@@ -1,4 +1,4 @@
-# Clean_Gov 中文政府/公卫网页清洗项目
+﻿# Clean_Gov 中文政府/公卫网页清洗项目
 
 本仓库用于搭建和运行“中文政府/公卫网页 JSONL 清洗系统”。系统把 `Crawler_Gov` 产出的 parsed JSONL 和 raw HTML 清洗成稳定的 clean article，并导出可直接进入 DataTrove 的 `id / text / metadata` JSONL。
 
@@ -10,7 +10,8 @@ Clean_Gov/
 ├── .gitignore
 ├── article_cleaning_pipeline/
 │   ├── README.md
-│   ├── run_pipeline.py
+│   ├── pipeline_00_raw_repair.py
+│   ├── pipeline_main.py
 │   ├── requirements.txt
 │   ├── configs/
 │   ├── src/
@@ -58,30 +59,131 @@ data\bodyClean
 
 `data/bodyClean/` 是本地生成的大体量结果目录，默认不提交到 Git。
 
-## 安装依赖
+## 环境与依赖配置
+
+为保证本项目可以在不同机器上顺利复用，建议使用独立虚拟环境运行本项目，不建议直接使用系统 Python 环境。
+
+### 1. Python 版本建议
+
+推荐使用：
 
 ```bash
-cd article_cleaning_pipeline
+Python 3.10+
+```
+
+建议优先使用 Python 3.10 或 3.11，避免因 Python 版本过高或过低导致部分第三方库兼容问题。
+
+### 2. 安装依赖
+
+激活虚拟环境后，在项目根目录执行：
+
+```bash
 pip install -r requirements.txt
 ```
 
-## 一键运行
+如果后续新增依赖，请同步更新 `requirements.txt`：
 
-推荐方式：保持 `Crawler_Gov` 和 `Clean_Gov` 是同级目录，然后直接使用默认相对路径。
+```bash
+pip freeze > requirements.txt
+```
+
+### 4. 路径配置
+
+本项目的输入输出路径、原爬虫项目路径等信息统一写在：
+
+```text
+configs/path_config.yaml
+```
+
+用户复用本项目时，通常只需要修改该配置文件中的路径，不需要直接改代码。
+
+示例：
+
+```yaml
+crawler:
+  crawler_root: "../Crawler_Gov"
+  jsonl_dir: "../Crawler_Gov/data/output"
+  raw_html_dir: "../Crawler_Gov/data/raw_html"
+  image_root_dir: "../Crawler_Gov/data/images"
+  attachment_root_dir: "../Crawler_Gov/data/attachments"
+
+raw_repair:
+  output_dir: "data/bodyClean/00_raw_repair"
+  manifest: "data/bodyClean/00_raw_repair/repair_manifest.jsonl"
+  output_raw_dir: "data/bodyClean/data/raw"
+
+main_pipeline:
+  input_raw_dir: "data/bodyClean/data/raw"
+  output_dir: "data/bodyClean"
+```
+
+### 5. 不建议提交虚拟环境文件
+
+虚拟环境目录不应提交到 Git 仓库。请确保 `.gitignore` 中包含：
+
+```gitignore
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+```
+
+### 6. 配置流程
+
+首次运行项目时，建议按以下顺序配置：
+
+```bash
+# 1. 创建并激活虚拟环境
+python -m venv .venv
+.venv\Scripts\activate
+
+# 2. 安装依赖
+pip install -r requirements.txt
+
+# 3. 修改路径配置
+configs/path_config.yaml
+
+# 4. 执行 00_raw_repair
+python pipeline_00_raw_repair.py --mode scan
+python pipeline_00_raw_repair.py --mode repair
+
+# 5. 人工核验后执行 verify
+python pipeline_00_raw_repair.py --mode verify
+
+# 6. 确认后执行正式清洗流程
+python pipeline_main.py
+```
+
+### 7. 说明
+
+本项目尽量将路径、规则和执行流程配置化，避免将本地路径写死在代码中。复用者在新的机器或新的数据目录下运行时，应优先修改 `configs/path_config.yaml`，并确保原始 JSONL、raw_html、图片目录和附件目录路径正确。
+
+## 推荐执行顺序
+
+第一步，进入 pipeline 目录：
 
 ```bash
 cd article_cleaning_pipeline
-python run_pipeline.py --run-all
 ```
 
-也可以从 `Clean_Gov` 根目录显式传相对路径：
+第二步，先执行 clean 前独立修复阶段。`00_raw_repair` 不会自动进入正式 clean pipeline：
 
 ```bash
-python article_cleaning_pipeline\run_pipeline.py ^
-  --jsonl-dir "..\Crawler_Gov\data\output" ^
-  --raw-html-dir "..\Crawler_Gov\data\raw_html" ^
-  --output-dir "data\bodyClean" ^
-  --run-all
+python pipeline_00_raw_repair.py --mode scan
+python pipeline_00_raw_repair.py --mode repair
+```
+
+第三步，人工核验 repair report、failed_after_repair、manual_review_list 和 `data/bodyClean/data/raw/*.jsonl`。如果人工补了失败文件，再执行：
+
+```bash
+python pipeline_00_raw_repair.py --mode verify
+```
+
+第四步，人工确认 verify 结果后，执行正式 clean pipeline。默认执行 01-12，不包含 00：
+
+```bash
+python pipeline_main.py
 ```
 
 ## 单层运行
@@ -89,38 +191,39 @@ python article_cleaning_pipeline\run_pipeline.py ^
 ```bash
 cd article_cleaning_pipeline
 
-python run_pipeline.py --stage profile
-python run_pipeline.py --stage validation
-python run_pipeline.py --stage normalization
-python run_pipeline.py --stage extraction
-python run_pipeline.py --stage cleaning
-python run_pipeline.py --stage structure
-python run_pipeline.py --stage tables
-python run_pipeline.py --stage assets
-python run_pipeline.py --stage sensitive
-python run_pipeline.py --stage dedup
-python run_pipeline.py --stage quality
-python run_pipeline.py --stage datatrove
+python pipeline_main.py --stage 01_profile
+python pipeline_main.py --stage 02_validation
+python pipeline_main.py --stage 03_normalization
+python pipeline_main.py --stage 04_extraction
+python pipeline_main.py --stage 05_text_cleaning
+python pipeline_main.py --stage 06_structure
+python pipeline_main.py --stage 07_tables
+python pipeline_main.py --stage 08_assets
+python pipeline_main.py --stage 09_sensitive
+python pipeline_main.py --stage 10_dedup
+python pipeline_main.py --stage 11_quality
+python pipeline_main.py --stage 12_datatrove_export
 ```
 
 ## 分层流程
 
 ```text
-00_profile
-01_validation
-02_normalization
-03_extraction
-04_text_cleaning
-05_structure
-06_tables
-07_assets
-08_sensitive
-09_dedup
-10_quality
-11_datatrove
+00_raw_repair  # 独立执行，不自动进入 01
+01_profile
+02_validation
+03_normalization
+04_extraction
+05_text_cleaning
+06_structure
+07_tables
+08_assets
+09_sensitive
+10_dedup
+11_quality
+12_datatrove_export
 ```
 
-每一层都会输出主结果文件、日志文件、统计报告和 `stage_summary.json`。
+每一层都会输出主结果文件、日志文件、统计报告和 `stage_summary.json`。正式 clean pipeline 的输入是 `data/bodyClean/data/raw/*.jsonl`。
 
 ## 最重要的输出文件
 
@@ -148,11 +251,14 @@ data/bodyClean/datatrove_documents.jsonl
 
 ## 验收方式
 
-1. 查看 `data/bodyClean/run_manifest.json`，确认 00-11 层已完成。
-2. 查看 `data/bodyClean/00_profile/data_health_check_report.md`，确认输入规模和主要问题。
-3. 查看 `data/bodyClean/10_quality/final_quality_report.json`，确认质量标签分布和复核数量。
-4. 抽查 `data/bodyClean/manual_review_list.jsonl`，确认不确定记录没有被静默丢弃。
-5. 抽查 `data/bodyClean/11_datatrove/datatrove_documents.jsonl`，确认每行是 `id / text / metadata`。
+1. 查看 `data/bodyClean/00_raw_repair/scan_summary.json` 和 `repair_manifest.jsonl`，确认旧数据缺失项可解释。
+2. repair 后查看 `repair_summary.json`、`failed_after_repair.jsonl` 和 `manual_review_list.jsonl`。
+3. 人工补文件后查看 `verify_summary.json`，确认仍失败项可接受。
+4. 查看 `data/bodyClean/run_manifest.json`，确认 01-12 层已完成。
+5. 查看 `data/bodyClean/01_profile/data_health_check_report.md`，确认输入规模和主要问题。
+6. 查看 `data/bodyClean/11_quality/final_quality_report.json`，确认质量标签分布和复核数量。
+7. 抽查 `data/bodyClean/manual_review_list.jsonl`，确认不确定记录没有被静默丢弃。
+8. 抽查 `data/bodyClean/12_datatrove_export/datatrove_documents.jsonl`，确认每行是 `id / text / metadata`。
 
 ## Git 提交建议
 
@@ -171,3 +277,4 @@ data/bodyClean/
 ```
 
 该目录包含全量 JSONL、Excel 和报告输出，体量较大，已在 `.gitignore` 中忽略。
+

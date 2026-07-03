@@ -1,0 +1,1 @@
+from src.extraction.boilerplate_remover import remove_html_boilerplate
