@@ -1,0 +1,3830 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "test_ppt",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 6876670828923869765,
+    "filename": "test_ppt.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/58"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 272.1158142089844,
+            "t": 304.16351318359375,
+            "r": 431.50445556640625,
+            "b": 272.0555725097656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "\u9884\u9632\u72c2\u72ac\u75c5",
+      "text": "\u9884\u9632\u72c2\u72ac\u75c5",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 294.1444396972656,
+            "t": 252.9896697998047,
+            "r": 410.2343444824219,
+            "b": 242.8262176513672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Rabies Prevention",
+      "text": "Rabies Prevention"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 317.0796813964844,
+            "t": 193.3035125732422,
+            "r": 396.8403015136719,
+            "b": 173.72311401367188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "\u8bb8 \u9510 \u6052",
+      "text": "\u8bb8 \u9510 \u6052"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 252.19921875,
+            "t": 157.443359375,
+            "r": 471.4609375,
+            "b": 137.24359130859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\u5e7f\u4e1c\u7701\u75be\u75c5\u9884\u9632\u63a7\u5236\u4e2d\u5fc3",
+      "text": "\u5e7f\u4e1c\u7701\u75be\u75c5\u9884\u9632\u63a7\u5236\u4e2d\u5fc3"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 261.9259948730469,
+            "t": 122.44200134277344,
+            "r": 450.9439697265625,
+            "b": 105.55799865722656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "xuruiheng@cdcp.org.cn",
+      "text": "xuruiheng@cdcp.org.cn"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 328.0820007324219,
+            "t": 79.18199920654297,
+            "r": 388.0400085449219,
+            "b": 66.04199981689453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "2019.11",
+      "text": "2019.11"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 670.0260009765625,
+            "t": 23.625999450683594,
+            "r": 674.4359741210938,
+            "b": 13.5600004196167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 323.1419677734375,
+            "t": 321.9435119628906,
+            "r": 399.5283203125,
+            "b": 290.3472595214844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u5185\r\n\u5bb9",
+      "text": "\u5185\r\n\u5bb9",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 274.21600341796875,
+            "t": 244.7080078125,
+            "r": 418.0360107421875,
+            "b": 220.8280029296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "1. \u72c2\u72ac\u75c5\u7b80\u4ecb",
+      "text": "\u72c2\u72ac\u75c5\u7b80\u4ecb",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 272.2960205078125,
+            "t": 190.39599609375,
+            "r": 418.0360107421875,
+            "b": 166.68399047851562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "2. \u66b4\u9732\u540e\u9884\u9632",
+      "text": "\u66b4\u9732\u540e\u9884\u9632",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 272.6080017089844,
+            "t": 136.63600158691406,
+            "r": 345.3039855957031,
+            "b": 113.5,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "3. \u5c0f\u7ed3",
+      "text": "\u5c0f\u7ed3",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 669.2699584960938,
+            "t": 23.625999450683594,
+            "r": 676.0039672851562,
+            "b": 13.5600004196167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 265.52801513671875,
+            "t": 222.52398681640625,
+            "r": 457.38800048828125,
+            "b": 190.68399047851562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "1. \u72c2\u72ac\u75c5\u7b80\u4ecb",
+      "text": "1. \u72c2\u72ac\u75c5\u7b80\u4ecb",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 669.4519653320312,
+            "t": 23.625999450683594,
+            "r": 676.1019897460938,
+            "b": 13.406000137329102,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 193.68905639648438,
+            "t": 364.35650634765625,
+            "r": 439.5216064453125,
+            "b": 325.360595703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u72c2\u72ac\u75c5\u662f\u7531\u72c2\u72ac\u75c5\u75c5\u6bd2\u5f15\u8d77\u7684 \u52a8\u7269\u6e90\u6027\u4f20\u67d3\u75c5(\u4eba\u517d\u5171\u60a3\u75c5)",
+      "text": "\u72c2\u72ac\u75c5\u662f\u7531\u72c2\u72ac\u75c5\u75c5\u6bd2\u5f15\u8d77\u7684 \u52a8\u7269\u6e90\u6027\u4f20\u67d3\u75c5(\u4eba\u517d\u5171\u60a3\u75c5)",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 193.68905639648438,
+            "t": 316.1164855957031,
+            "r": 412.90338134765625,
+            "b": 299.9042663574219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u72c2\u72ac\u75c5\u5bfc\u81f4\u6025\u6027\u8fdb\u884c\u6027\u8111\u708e",
+      "text": "\u72c2\u72ac\u75c5\u5bfc\u81f4\u6025\u6027\u8fdb\u884c\u6027\u8111\u708e",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 226.1811065673828,
+            "t": 293.1886291503906,
+            "r": 426.2070617675781,
+            "b": 277.1205749511719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "\u4e00\u65e6\u51fa\u73b0\u75c7\u72b6 , \u51e0\u4e4e\u5168\u90e8\u6b7b\u4ea1",
+      "text": "\u4e00\u65e6\u51fa\u73b0\u75c7\u72b6 , \u51e0\u4e4e\u5168\u90e8\u6b7b\u4ea1",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 193.68905639648438,
+            "t": 267.8764953613281,
+            "r": 460.9588928222656,
+            "b": 228.86058044433594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u72ac\u662f\u72c2\u72ac\u75c5\u7684\u4e3b\u8981\u5bbf\u4e3b\u548c\u4f20\u64ad\u52a8\u7269 \u901a\u8fc7\u54ac\u4f24\u6216\u6293\u75d5\u7ecf\u553e\u6db2\u4f20\u7ed9\u4eba",
+      "text": "\u72ac\u662f\u72c2\u72ac\u75c5\u7684\u4e3b\u8981\u5bbf\u4e3b\u548c\u4f20\u64ad\u52a8\u7269 \u901a\u8fc7\u54ac\u4f24\u6216\u6293\u75d5\u7ecf\u553e\u6db2\u4f20\u7ed9\u4eba",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 193.68905639648438,
+            "t": 213.34864807128906,
+            "r": 418.3115234375,
+            "b": 197.1524200439453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "\u00b7 99% \u7684\u4eba\u72c2\u72ac\u75c5\u75c5\u4f8b\u6e90\u4e8e\u72ac",
+      "text": "99% \u7684\u4eba\u72c2\u72ac\u75c5\u75c5\u4f8b\u6e90\u4e8e\u72ac",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 193.68905639648438,
+            "t": 178.82864379882812,
+            "r": 444.2835693359375,
+            "b": 96.99690246582031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u88ab\u72ac\u4f24\u540e\u7684\u5904\u7f6e\uff08\u66b4\u9732\u540e\u9884\u9632\uff09 \u662f\u9884\u9632\u72c2\u72ac\u75c5\u7684\u552f\u4e00\u6709\u6548\u624b\u6bb5 \u4f24\u53e3\u5904\u7406 + \u514d\u75ab\u7403\u86cb\u767d + \u75ab\u82d7 \" \u516c\u5e73\u5168\u6c11\u53ca\u65f6\u53ef\u53ca\"",
+      "text": "\u88ab\u72ac\u4f24\u540e\u7684\u5904\u7f6e\uff08\u66b4\u9732\u540e\u9884\u9632\uff09 \u662f\u9884\u9632\u72c2\u72ac\u75c5\u7684\u552f\u4e00\u6709\u6548\u624b\u6bb5 \u4f24\u53e3\u5904\u7406 + \u514d\u75ab\u7403\u86cb\u767d + \u75ab\u82d7 \" \u516c\u5e73\u5168\u6c11\u53ca\u65f6\u53ef\u53ca\"",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 193.68905639648438,
+            "t": 77.82098388671875,
+            "r": 463.7915344238281,
+            "b": 39.332420349121094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u72ac\u63a5\u79cd\u75ab\u82d7\u662f\u6700\u5177\u6210\u672c\u6548\u76ca\u7684\u65b9\u6cd5 \u963b\u65ad\u4f20\u64ad , \u662f\u6d88\u9664\u72c2\u72ac\u75c5\u7684\u6839\u672c",
+      "text": "\u72ac\u63a5\u79cd\u75ab\u82d7\u662f\u6700\u5177\u6210\u672c\u6548\u76ca\u7684\u65b9\u6cd5 \u963b\u65ad\u4f20\u64ad , \u662f\u6d88\u9664\u72c2\u72ac\u75c5\u7684\u6839\u672c",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 668.1847534179688,
+            "t": 24.372760772705078,
+            "r": 676.4293212890625,
+            "b": 12.84000015258789,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.596923828125,
+            "t": 372.37652587890625,
+            "r": 387.935546875,
+            "b": 344.6927490234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u72c2\u72ac\u75c5",
+      "text": "\u72c2\u72ac\u75c5",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.43012237548828,
+            "t": 330.6130065917969,
+            "r": 425.8027648925781,
+            "b": 314.26824951171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u72c2\u72ac\u75c5\u75c5\u6bd2\uff08\u81f3\u5c11\u6709 14 \u79cd\uff09\u611f\u67d3\u5f15\u8d77\u7684\u6025\u6027\u8111\u708e",
+      "text": "\u72c2\u72ac\u75c5\u75c5\u6bd2\uff08\u81f3\u5c11\u6709 14 \u79cd\uff09\u611f\u67d3\u5f15\u8d77\u7684\u6025\u6027\u8111\u708e",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.42906188964844,
+            "t": 302.57647705078125,
+            "r": 331.1392822265625,
+            "b": 286.4924011230469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u4e34\u5e8a\u4e0a\u4eba\u72c2\u72ac\u75c5\u5206\u4e3a\u72c2\u8e81\u578b\u6216\u9ebb\u75f9\u578b",
+      "text": "\u4e34\u5e8a\u4e0a\u4eba\u72c2\u72ac\u75c5\u5206\u4e3a\u72c2\u8e81\u578b\u6216\u9ebb\u75f9\u578b",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.42906188964844,
+            "t": 274.7286376953125,
+            "r": 322.9070739746094,
+            "b": 258.66058349609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u4e00\u65e6\u51fa\u73b0\u75c5\u4e34\u5e8a\u75c7\u72b6 , \u51e0\u4e4e\u5168\u90e8\u6b7b\u4ea1",
+      "text": "\u4e00\u65e6\u51fa\u73b0\u75c5\u4e34\u5e8a\u75c7\u72b6 , \u51e0\u4e4e\u5168\u90e8\u6b7b\u4ea1",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.42906188964844,
+            "t": 246.93292236328125,
+            "r": 360.9836730957031,
+            "b": 230.51242065429688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u6f5c\u4f0f\u671f \u591a\u4e3a 1~3 \u4e2a\u6708 , \u4e5f\u6709 >1\u5e74\u7684\u8bb0\u8f7d",
+      "text": "\u6f5c\u4f0f\u671f \u591a\u4e3a 1~3 \u4e2a\u6708 , \u4e5f\u6709 >1\u5e74\u7684\u8bb0\u8f7d",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.42906188964844,
+            "t": 218.6886444091797,
+            "r": 451.2187194824219,
+            "b": 202.2521209716797,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u66b4\u9732\u540e , \u9ad8\u5ea6\u55dc\u795e\u7ecf\u6027\u7684\u72c2\u72ac\u75c5\u75c5\u6bd2\u5728\u808c\u8089\u7ec4\u7ec7\u4e2d\u590d\u5236",
+      "text": "\u66b4\u9732\u540e , \u9ad8\u5ea6\u55dc\u795e\u7ecf\u6027\u7684\u72c2\u72ac\u75c5\u75c5\u6bd2\u5728\u808c\u8089\u7ec4\u7ec7\u4e2d\u590d\u5236",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 71.0081558227539,
+            "t": 190.70864868164062,
+            "r": 466.30816650390625,
+            "b": 174.38426208496094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\u8fdb\u5165\u5468\u56f4\u795e\u7ecf , \u7ecf\u5468\u56f4\u795e\u7ecf\u7cfb\u7edf\u6269\u6563\u5230\u810a\u9ad3\u5e76\u4e0a\u884c\u81f3\u8111\u90e8",
+      "text": "\u8fdb\u5165\u5468\u56f4\u795e\u7ecf , \u7ecf\u5468\u56f4\u795e\u7ecf\u7cfb\u7edf\u6269\u6563\u5230\u810a\u9ad3\u5e76\u4e0a\u884c\u81f3\u8111\u90e8"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 71.0081558227539,
+            "t": 164.84864807128906,
+            "r": 304.5636901855469,
+            "b": 148.41212463378906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "\u5230\u8fbe\u8111\u90e8\u540e , \u75c5\u6bd2\u8fc5\u901f\u590d\u5236\u548c\u64ad\u6563",
+      "text": "\u5230\u8fbe\u8111\u90e8\u540e , \u75c5\u6bd2\u8fc5\u901f\u590d\u5236\u548c\u64ad\u6563"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 70.87999725341797,
+            "t": 138.8765106201172,
+            "r": 401.1833801269531,
+            "b": 122.66426086425781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "\u7ecf\u795e\u7ecf\u7cfb\u7edf\u64ad\u6563\u5230\u8bb8\u591a\u4e0d\u540c\u7684\u7ec4\u7ec7 , \u5305\u62ec\u553e\u6db2\u817a",
+      "text": "\u7ecf\u795e\u7ecf\u7cfb\u7edf\u64ad\u6563\u5230\u8bb8\u591a\u4e0d\u540c\u7684\u7ec4\u7ec7 , \u5305\u62ec\u553e\u6db2\u817a"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.42906188964844,
+            "t": 111.02864074707031,
+            "r": 233.7386016845703,
+            "b": 95.08873748779297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u4e34\u5e8a\u72c2\u72ac\u75c5\u5b58\u6d3b\u6781\u7f55\u89c1",
+      "text": "\u4e34\u5e8a\u72c2\u72ac\u75c5\u5b58\u6d3b\u6781\u7f55\u89c1",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 79.53662109375,
+            "t": 85.89649963378906,
+            "r": 379.7470703125,
+            "b": 70.06874084472656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "\u5982\u65e0\u91cd\u75c7\u76d1\u62a4 , \u901a\u5e38\u5165\u9662\u540e 2~3 \u5929\u5185\u6b7b\u4ea1",
+      "text": "\u5982\u65e0\u91cd\u75c7\u76d1\u62a4 , \u901a\u5e38\u5165\u9662\u540e 2~3 \u5929\u5185\u6b7b\u4ea1"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 159.87158203125,
+            "t": 47.90650177001953,
+            "r": 548.510986328125,
+            "b": 37.65604019165039,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Rabies vaccines WHO position paper \u2013 April 2018 WHO \u72c2\u72ac\u75c5\u75ab\u82d7\u7acb\u573a\u6587\u4ef6 2018.04",
+      "text": "Rabies vaccines WHO position paper \u2013 April 2018 WHO \u72c2\u72ac\u75c5\u75ab\u82d7\u7acb\u573a\u6587\u4ef6 2018.04"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 669.5360107421875,
+            "t": 23.444000244140625,
+            "r": 676.2839965820312,
+            "b": 13.406000137329102,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 262.8169250488281,
+            "t": 381.97650146484375,
+            "r": 458.1358337402344,
+            "b": 354.292724609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u72c2\u72ac\u75c5\u91cd\u8981\u4e8b\u5b9e",
+      "text": "\u72c2\u72ac\u75c5\u91cd\u8981\u4e8b\u5b9e",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 92.42906188964844,
+            "t": 341.85650634765625,
+            "r": 392.3240966796875,
+            "b": 300.04058837890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u72c2\u72ac\u75c5\u662f\u4e00\u79cd\u75ab\u82d7\u53ef\u9884\u9632\u7684\u75c5\u6bd2\u6027\u75be\u75c5 \u5168\u7403\u6709\u8be5\u75c5\u56fd\u5bb6\u548c\u5730\u533a >150",
+      "text": "\u72c2\u72ac\u75c5\u662f\u4e00\u79cd\u75ab\u82d7\u53ef\u9884\u9632\u7684\u75c5\u6bd2\u6027\u75be\u75c5 \u5168\u7403\u6709\u8be5\u75c5\u56fd\u5bb6\u548c\u5730\u533a >150",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 92.42906188964844,
+            "t": 290.0686340332031,
+            "r": 528.9400024414062,
+            "b": 257.49200439453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u9ad8\u8fbe 99% \u4eba\u72c2\u72ac\u75c5\u6b7b\u4ea1\u75c5\u4f8b\u6e90\u4e8e\u72ac \u5c0f\u90e8\u5206\u662f\u901a\u8fc7\u91ce\u751f\u52a8\u7269\u4f20\u64ad\u7684\uff08\u5982\u72d0\u72f8 \u3001 \u72fc\u3001\u8c7a\u72fc \u3001 \u8759\u8760 \u3001 \u6d63\u718a \u3001 \u81ed\u9f2c\u6216\u732b\u9f2c\uff09",
+      "text": "\u9ad8\u8fbe 99% \u4eba\u72c2\u72ac\u75c5\u6b7b\u4ea1\u75c5\u4f8b\u6e90\u4e8e\u72ac \u5c0f\u90e8\u5206\u662f\u901a\u8fc7\u91ce\u751f\u52a8\u7269\u4f20\u64ad\u7684\uff08\u5982\u72d0\u72f8 \u3001 \u72fc\u3001\u8c7a\u72fc \u3001 \u8759\u8760 \u3001 \u6d63\u718a \u3001 \u81ed\u9f2c\u6216\u732b\u9f2c\uff09",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 92.42906188964844,
+            "t": 246.01651000976562,
+            "r": 384.56365966796875,
+            "b": 229.9324188232422,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u72ac\u63a5\u79cd\u75ab\u82d7\u548c\u9632\u6b62\u72ac\u54ac\u4f24 , \u53ef\u963b\u65ad\u4f20\u64ad",
+      "text": "\u72ac\u63a5\u79cd\u75ab\u82d7\u548c\u9632\u6b62\u72ac\u54ac\u4f24 , \u53ef\u963b\u65ad\u4f20\u64ad",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 92.42906188964844,
+            "t": 217.9965057373047,
+            "r": 460.1822814941406,
+            "b": 201.91241455078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u6bcf\u5e74\u5bfc\u81f4\u6570\u4e07\u4eba(59000)\u6b7b\u4ea1 , \u4e3b\u8981\u5728\u4e9a\u6d32\u548c\u975e\u6d32",
+      "text": "\u6bcf\u5e74\u5bfc\u81f4\u6570\u4e07\u4eba(59000)\u6b7b\u4ea1 , \u4e3b\u8981\u5728\u4e9a\u6d32\u548c\u975e\u6d32",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 92.42906188964844,
+            "t": 190.08863830566406,
+            "r": 465.3535461425781,
+            "b": 174.02056884765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u88ab\u7591\u60a3\u72c2\u72ac\u75c5\u52a8\u7269\u54ac\u4f24\u8005\u4e2d , <15 \u5c81\u513f\u7ae5\u5360 40%",
+      "text": "\u88ab\u7591\u60a3\u72c2\u72ac\u75c5\u52a8\u7269\u54ac\u4f24\u8005\u4e2d , <15 \u5c81\u513f\u7ae5\u5360 40%",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 92.42906188964844,
+            "t": 162.12864685058594,
+            "r": 478.56011962890625,
+            "b": 120.32874298095703,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u63a5\u89e6\u7591\u60a3\u72c2\u72ac\u75c5\u52a8\u7269\u540e \u7acb\u5373\u7528\u80a5\u7682\u548c\u6c34\u5f7b\u5e95\u6e05\u6d17\u4f24\u53e3\u6781\u4e3a\u91cd\u8981 , \u53ef\u633d\u6551\u751f\u547d",
+      "text": "\u63a5\u89e6\u7591\u60a3\u72c2\u72ac\u75c5\u52a8\u7269\u540e \u7acb\u5373\u7528\u80a5\u7682\u548c\u6c34\u5f7b\u5e95\u6e05\u6d17\u4f24\u53e3\u6781\u4e3a\u91cd\u8981 , \u53ef\u633d\u6551\u751f\u547d",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 118.7724838256836,
+            "t": 108.24528503417969,
+            "r": 373.5372009277344,
+            "b": 92.41380310058594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "WHO\u7275\u5934\u7ec4\u7ec7 \uff3b\u8054\u5408\u56fd\u7cae\u98df\u53ca\u519c\u4e1a\u7ec4\u7ec7\uff08FAO\uff09",
+      "text": "WHO\u7275\u5934\u7ec4\u7ec7 \uff3b\u8054\u5408\u56fd\u7cae\u98df\u53ca\u519c\u4e1a\u7ec4\u7ec7\uff08FAO\uff09",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 92.43012237548828,
+            "t": 104.8525619506836,
+            "r": 650.6488647460938,
+            "b": 44.34058380126953,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u3001 \u4e16\u754c\u52a8\u7269\u536b\u751f\u7ec4\u7ec7\uff08OIE\uff09\u548c\u5168\u7403\u72c2\u72ac\u75c5\u63a7\u5236\u8054\u76df(GARC)\uff3d \u6210\u7acb\"\u8054\u5408\u6297\u51fb\u72c2\u72ac\u75c5\"\u5168\u7403\u5408\u4f5c \u2015United Against Rabies\u2016 \u63a8\u52a8\u5b9e\u73b0\"\u5230 2030 \u5e74\u4eba\u7c7b\u72c2\u72ac\u75c5\u96f6\u6b7b\u4ea1\"",
+      "text": "\u3001 \u4e16\u754c\u52a8\u7269\u536b\u751f\u7ec4\u7ec7\uff08OIE\uff09\u548c\u5168\u7403\u72c2\u72ac\u75c5\u63a7\u5236\u8054\u76df(GARC)\uff3d \u6210\u7acb\"\u8054\u5408\u6297\u51fb\u72c2\u72ac\u75c5\"\u5168\u7403\u5408\u4f5c \u2015United Against Rabies\u2016 \u63a8\u52a8\u5b9e\u73b0\"\u5230 2030 \u5e74\u4eba\u7c7b\u72c2\u72ac\u75c5\u96f6\u6b7b\u4ea1\"",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 215.6005096435547,
+            "t": 33.50437927246094,
+            "r": 487.298583984375,
+            "b": 24.887178421020508,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "www.who.int/news -room/fact -sheets/detail/rabies, 2019.09.27",
+      "text": "www.who.int/news -room/fact -sheets/detail/rabies, 2019.09.27"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 669.5079956054688,
+            "t": 23.625999450683594,
+            "r": 676.2139892578125,
+            "b": 13.406000137329102,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 319.096923828125,
+            "t": 361.896484375,
+            "r": 401.435546875,
+            "b": 334.2127380371094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u72c2\u72ac\u75c5",
+      "text": "\u72c2\u72ac\u75c5",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 188.1739959716797,
+            "t": 313.33001708984375,
+            "r": 431.3059997558594,
+            "b": 269.3180236816406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u72c2\u72ac\u75c5\u662f\u7531\u72c2\u72ac\u75c5\u75c5\u6bd2\u611f\u67d3 \u5f15\u8d77\u7684\u4e00\u79cd\u52a8\u7269\u6e90\u6027\u4f20\u67d3\u75c5",
+      "text": "\u72c2\u72ac\u75c5\u662f\u7531\u72c2\u72ac\u75c5\u75c5\u6bd2\u611f\u67d3 \u5f15\u8d77\u7684\u4e00\u79cd\u52a8\u7269\u6e90\u6027\u4f20\u67d3\u75c5",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 188.1739959716797,
+            "t": 255.77000427246094,
+            "r": 431.3060302734375,
+            "b": 211.7779998779297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u72c2\u72ac\u75c5\u75c5\u6bd2\u4e3b\u8981\u901a\u8fc7 \u7834\u635f\u7684\u76ae\u80a4\u6216\u7c98\u819c\u4fb5\u5165\u4eba\u4f53",
+      "text": "\u72c2\u72ac\u75c5\u75c5\u6bd2\u4e3b\u8981\u901a\u8fc7 \u7834\u635f\u7684\u76ae\u80a4\u6216\u7c98\u819c\u4fb5\u5165\u4eba\u4f53",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 188.1739959716797,
+            "t": 198.23001098632812,
+            "r": 521.5660400390625,
+            "b": 154.09400939941406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u4e34\u5e8a\u5927\u591a\u8868\u73b0\u4e3a\u7279\u5f02\u6027 \u6050\u98ce \u3001 \u6050\u6c34 \u3001 \u54bd\u808c\u75c9\u631b \u3001 \u8fdb\u884c\u6027\u762b\u75ea\u7b49",
+      "text": "\u4e34\u5e8a\u5927\u591a\u8868\u73b0\u4e3a\u7279\u5f02\u6027 \u6050\u98ce \u3001 \u6050\u6c34 \u3001 \u54bd\u808c\u75c9\u631b \u3001 \u8fdb\u884c\u6027\u762b\u75ea\u7b49",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 188.17506408691406,
+            "t": 140.8726348876953,
+            "r": 421.9655456542969,
+            "b": 122.94273376464844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "\u00b7 \u8fd1\u5e74\u6765 , \u72c2\u72ac\u75c5\u62a5\u544a\u6b7b\u4ea1\u6570",
+      "text": "\u8fd1\u5e74\u6765 , \u72c2\u72ac\u75c5\u62a5\u544a\u6b7b\u4ea1\u6570",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 215.04200744628906,
+            "t": 116.27399444580078,
+            "r": 483.16998291015625,
+            "b": 98.41799926757812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "\u4e00\u76f4\u4f4d\u5c45\u6211\u56fd\u6cd5\u5b9a\u62a5\u544a\u4f20\u67d3\u75c5\u524d\u5217",
+      "text": "\u4e00\u76f4\u4f4d\u5c45\u6211\u56fd\u6cd5\u5b9a\u62a5\u544a\u4f20\u67d3\u75c5\u524d\u5217",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 214.66400146484375,
+            "t": 89.01599884033203,
+            "r": 485.18603515625,
+            "b": 70.96199798583984,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "\u7ed9\u4eba\u6c11\u7fa4\u4f17\u751f\u547d\u5065\u5eb7\u5e26\u6765\u4e25\u91cd\u5a01\u80c1",
+      "text": "\u7ed9\u4eba\u6c11\u7fa4\u4f17\u751f\u547d\u5065\u5eb7\u5e26\u6765\u4e25\u91cd\u5a01\u80c1"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 249.97218322753906,
+            "t": 51.09663772583008,
+            "r": 511.2303161621094,
+            "b": 40.9664192199707,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "\u4e2d\u56fd\u75be\u63a7\u4e2d\u5fc3\u5370\u53d1\u300a \u72c2\u72ac\u75c5\u9884\u9632\u63a7\u5236\u6280\u672f\u6307\u5357\uff082016\u7248\uff09\u300b",
+      "text": "\u4e2d\u56fd\u75be\u63a7\u4e2d\u5fc3\u5370\u53d1\u300a \u72c2\u72ac\u75c5\u9884\u9632\u63a7\u5236\u6280\u672f\u6307\u5357\uff082016\u7248\uff09\u300b"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 669.5079956054688,
+            "t": 23.444000244140625,
+            "r": 676.0880126953125,
+            "b": 13.5600004196167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "7",
+      "text": "7"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 226.25694274902344,
+            "t": 381.37652587890625,
+            "r": 505.77166748046875,
+            "b": 352.8241271972656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\u72c2\u72ac\u75c5\u75c5\u6bd2\u7684\u81f4\u75c5\u673a\u7406",
+      "text": "\u72c2\u72ac\u75c5\u75c5\u6bd2\u7684\u81f4\u75c5\u673a\u7406",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 244.4080047607422,
+            "t": 113.11199951171875,
+            "r": 363.8919982910156,
+            "b": 101.26800537109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "1. \u75c5\u6bd2\u7ecf\u4f24\u53e3\u8fdb\u5165\u808c\u8089",
+      "text": "\u75c5\u6bd2\u7ecf\u4f24\u53e3\u8fdb\u5165\u808c\u8089",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 193.1405029296875,
+            "t": 332.1090393066406,
+            "r": 255.16799926757812,
+            "b": 304.2759704589844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "2 . \u75c5\u6bd2\u8fdb\u5165 \u672b\u68a2\u795e\u7ecf",
+      "text": "2 . \u75c5\u6bd2\u8fdb\u5165 \u672b\u68a2\u795e\u7ecf",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 272.0559997558594,
+            "t": 259.0199890136719,
+            "r": 345.8320007324219,
+            "b": 231.12001037597656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "3. \u7ecf\u672b\u68a2\u795e\u7ecf \u5230\u810a\u9ad3\u548c\u8111",
+      "text": "\u7ecf\u672b\u68a2\u795e\u7ecf \u5230\u810a\u9ad3\u548c\u8111",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 418.0879821777344,
+            "t": 264.3320007324219,
+            "r": 537.3079833984375,
+            "b": 252.5,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "4. \u75c5\u6bd2\u5165\u8111 \u5927\u91cf\u590d\u5236",
+      "text": "4. \u75c5\u6bd2\u5165\u8111 \u5927\u91cf\u590d\u5236"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 390.26800537109375,
+            "t": 96.23199462890625,
+            "r": 570.2559814453125,
+            "b": 84.30399322509766,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "5. \u75c5\u6bd2\u5728\u553e\u6db2\u817a\u590d\u5236\uff0c\u7ecf\u553e\u6db2\u6392\u51fa",
+      "text": "\u75c5\u6bd2\u5728\u553e\u6db2\u817a\u590d\u5236\uff0c\u7ecf\u553e\u6db2\u6392\u51fa",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 423.6600036621094,
+            "t": 248.239990234375,
+            "r": 531.3240356445312,
+            "b": 236.33599853515625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "\u5bfc\u81f4\u795e\u7ecf\u5143\u529f\u80fd\u969c\u788d",
+      "text": "\u5bfc\u81f4\u795e\u7ecf\u5143\u529f\u80fd\u969c\u788d"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 242.4010009765625,
+            "t": 35.15456008911133,
+            "r": 477.18963623046875,
+            "b": 25.876041412353516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "Current status of rabies and prospects for elimination,",
+      "text": "Current status of rabies and prospects for elimination,"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 189.27044677734375,
+            "t": 23.164581298828125,
+            "r": 530.6131591796875,
+            "b": 13.765819549560547,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "The Lancet, Volume 384, Issue 9951, 11\u201317 October 2014, Pages 1389-1399",
+      "text": "The Lancet, Volume 384, Issue 9951, 11\u201317 October 2014, Pages 1389-1399"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 669.4939575195312,
+            "t": 23.625999450683594,
+            "r": 676.073974609375,
+            "b": 13.392000198364258,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 164.33694458007812,
+            "t": 368.176513671875,
+            "r": 555.31884765625,
+            "b": 340.0444030761719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "\u72c2\u72ac\u75c5\u5728\u81ea\u7136\u754c\u7684\u50a8\u5b58\u5bbf\u4e3b\u52a8\u7269",
+      "text": "\u72c2\u72ac\u75c5\u5728\u81ea\u7136\u754c\u7684\u50a8\u5b58\u5bbf\u4e3b\u52a8\u7269",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 120.11399841308594,
+            "t": 318.95001220703125,
+            "r": 353.84002685546875,
+            "b": 300.8780212402344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "\u5305\u62ec\u98df\u8089\u76ee\u52a8\u7269\u548c\u7ffc\u624b\u76ee\u52a8\u7269",
+      "text": "\u5305\u62ec\u98df\u8089\u76ee\u52a8\u7269\u548c\u7ffc\u624b\u76ee\u52a8\u7269",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 147.55799865722656,
+            "t": 287.4560241699219,
+            "r": 562.3660278320312,
+            "b": 268.9880065917969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "\u72d0 \u3001 \u72fc \u3001 \u8c7a \u3001 \u9f2c\u737e \u3001 \u8c89 \u3001 \u81ed\u9f2c \u3001 \u6d63\u718a \u3001 \u732b\u9f2c\u548c\u8759\u8760\u7b49",
+      "text": "\u72d0 \u3001 \u72fc \u3001 \u8c7a \u3001 \u9f2c\u737e \u3001 \u8c89 \u3001 \u81ed\u9f2c \u3001 \u6d63\u718a \u3001 \u732b\u9f2c\u548c\u8759\u8760\u7b49"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 147.1441650390625,
+            "t": 261.406494140625,
+            "r": 399.9020080566406,
+            "b": 217.12799072265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\u4e5f\u662f\u72c2\u72ac\u75c5\u7684\u81ea\u7136\u50a8\u5b58\u5bbf\u4e3b \u5747\u53ef\u611f\u67d3\u72c2\u72ac\u75c5\u75c5\u6bd2\u6210\u4e3a\u4f20\u67d3\u6e90",
+      "text": "\u4e5f\u662f\u72c2\u72ac\u75c5\u7684\u81ea\u7136\u50a8\u5b58\u5bbf\u4e3b \u5747\u53ef\u611f\u67d3\u72c2\u72ac\u75c5\u75c5\u6bd2\u6210\u4e3a\u4f20\u67d3\u6e90"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 147.1439971923828,
+            "t": 209.5500030517578,
+            "r": 399.8059997558594,
+            "b": 191.47799682617188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "\u8fdb\u800c\u611f\u67d3\u732a \u3001 \u725b \u3001 \u7f8a\u548c\u9a6c\u7b49\u5bb6\u755c",
+      "text": "\u8fdb\u800c\u611f\u67d3\u732a \u3001 \u725b \u3001 \u7f8a\u548c\u9a6c\u7b49\u5bb6\u755c"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 176.80599975585938,
+            "t": 173.2100067138672,
+            "r": 301.384033203125,
+            "b": 155.28199768066406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "\u72c2\u72ac\u75c5\u6613\u611f\u52a8\u7269",
+      "text": "\u72c2\u72ac\u75c5\u6613\u611f\u52a8\u7269",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 203.40399169921875,
+            "t": 149.6060028076172,
+            "r": 472.7820129394531,
+            "b": 131.57000732421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "\u4e3b\u8981\u5305\u62ec\u72ac\u79d1 \u3001 \u732b\u79d1\u53ca\u7ffc\u624b\u76ee\u52a8\u7269",
+      "text": "\u4e3b\u8981\u5305\u62ec\u72ac\u79d1 \u3001 \u732b\u79d1\u53ca\u7ffc\u624b\u76ee\u52a8\u7269"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 203.25999450683594,
+            "t": 125.33599853515625,
+            "r": 492.06597900390625,
+            "b": 107.4260025024414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "\u79bd\u7c7b \u3001 \u9c7c\u7c7b \u3001 \u6606\u866b \u3001 \u8725\u86ce \u3001 \u9f9f\u548c\u86c7\u7b49",
+      "text": "\u79bd\u7c7b \u3001 \u9c7c\u7c7b \u3001 \u6606\u866b \u3001 \u8725\u86ce \u3001 \u9f9f\u548c\u86c7\u7b49"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 203.40399169921875,
+            "t": 101.20999908447266,
+            "r": 401.90802001953125,
+            "b": 82.86800384521484,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\u4e0d\u611f\u67d3\u548c\u4f20\u64ad\u72c2\u72ac\u75c5\u75c5\u6bd2",
+      "text": "\u4e0d\u611f\u67d3\u548c\u4f20\u64ad\u72c2\u72ac\u75c5\u75c5\u6bd2"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 203.54798889160156,
+            "t": 77.20999908447266,
+            "r": 533.7000122070312,
+            "b": 59.13800048828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "\u5168\u7403\u8303\u56f4\u5185 , 99% \u7684\u4eba\u72c2\u72ac\u75c5\u662f\u7531\u72ac\u5f15\u8d77",
+      "text": "\u5168\u7403\u8303\u56f4\u5185 , 99% \u7684\u4eba\u72c2\u72ac\u75c5\u662f\u7531\u72ac\u5f15\u8d77"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 238.732177734375,
+            "t": 33.53664016723633,
+            "r": 499.9903259277344,
+            "b": 23.40641975402832,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "\u4e2d\u56fd\u75be\u63a7\u4e2d\u5fc3\u5370\u53d1\u300a \u72c2\u72ac\u75c5\u9884\u9632\u63a7\u5236\u6280\u672f\u6307\u5357\uff082016\u7248\uff09\u300b",
+      "text": "\u4e2d\u56fd\u75be\u63a7\u4e2d\u5fc3\u5370\u53d1\u300a \u72c2\u72ac\u75c5\u9884\u9632\u63a7\u5236\u6280\u672f\u6307\u5357\uff082016\u7248\uff09\u300b"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 669.3679809570312,
+            "t": 23.625999450683594,
+            "r": 676.0599975585938,
+            "b": 13.392000198364258,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "9",
+      "text": "9"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 191.6083221435547,
+            "t": 380.47650146484375,
+            "r": 527.1788940429688,
+            "b": 351.9241027832031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "\u5168\u7403\u72c2\u72ac\u75c5\u75c5\u6bd2\u7684\u5bbf\u4e3b\u52a8\u7269",
+      "text": "\u5168\u7403\u72c2\u72ac\u75c5\u75c5\u6bd2\u7684\u5bbf\u4e3b\u52a8\u7269",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 345.96600341796875,
+            "t": 206.16799926757812,
+            "r": 374.5559997558594,
+            "b": 188.11399841308594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u8c89(r",
+      "text": "\u8c89(r"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 473.583984375,
+            "t": 259.55999755859375,
+            "r": 485.4880065917969,
+            "b": 247.656005859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u8c89",
+      "text": "\u8c89"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 474.3119812011719,
+            "t": 220.33599853515625,
+            "r": 485.9519958496094,
+            "b": 208.42001342773438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72fc",
+      "text": "\u72fc"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 462.41998291015625,
+            "t": 180.45199584960938,
+            "r": 474.1199951171875,
+            "b": 168.82398986816406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72d0",
+      "text": "\u72d0"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 575.5239868164062,
+            "t": 118.73200225830078,
+            "r": 598.93603515625,
+            "b": 106.9000015258789,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\u8759\u8760",
+      "text": "\u8759\u8760"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 114.21980285644531,
+            "t": 253.2373809814453,
+            "r": 127.85030364990234,
+            "b": 239.6907501220703,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72d0",
+      "text": "\u72d0"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 136.7239990234375,
+            "t": 129.99200439453125,
+            "r": 184.13600158691406,
+            "b": 118.11199951171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u98df\u866b\u8759\u8760",
+      "text": "\u98df\u866b\u8759\u8760"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 255.46400451660156,
+            "t": 220.1199951171875,
+            "r": 279.10400390625,
+            "b": 208.1439971923828,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\u6d63\u718a",
+      "text": "\u6d63\u718a"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 395.0039978027344,
+            "t": 180.57199096679688,
+            "r": 406.583984375,
+            "b": 168.90798950195312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72ac",
+      "text": "\u72ac"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 428.67999267578125,
+            "t": 225.45199584960938,
+            "r": 440.3800048828125,
+            "b": 213.82398986816406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72d0",
+      "text": "\u72d0"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 250.7639923095703,
+            "t": 107.43199920654297,
+            "r": 262.343994140625,
+            "b": 95.76799774169922,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72ac",
+      "text": "\u72ac"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 166.3839874267578,
+            "t": 163.69200134277344,
+            "r": 177.9639892578125,
+            "b": 152.0279998779297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72ac",
+      "text": "\u72ac"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 541.2639770507812,
+            "t": 141.19200134277344,
+            "r": 552.843994140625,
+            "b": 129.5279998779297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72ac",
+      "text": "\u72ac"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 577.0440063476562,
+            "t": 219.95199584960938,
+            "r": 588.6240234375,
+            "b": 208.28799438476562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72ac",
+      "text": "\u72ac"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 526.2639770507812,
+            "t": 158.052001953125,
+            "r": 537.843994140625,
+            "b": 146.38800048828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u72ac",
+      "text": "\u72ac"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 133.91200256347656,
+            "t": 231.5159912109375,
+            "r": 157.08399963378906,
+            "b": 219.66000366210938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\u81ed\u9f2c",
+      "text": "\u81ed\u9f2c"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 102.60000610351562,
+            "t": 203.45599365234375,
+            "r": 138.31201171875,
+            "b": 191.54000854492188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u4e1b\u6797\u72fc",
+      "text": "\u4e1b\u6797\u72fc"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 453.91998291015625,
+            "t": 101.87200164794922,
+            "r": 477.2239990234375,
+            "b": 90.0999984741211,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\u732b\u9f2c",
+      "text": "\u732b\u9f2c"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 426.2519836425781,
+            "t": 130.38800048828125,
+            "r": 438.0119934082031,
+            "b": 118.49600219726562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u8c7a",
+      "text": "\u8c7a"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 258.8480224609375,
+            "t": 141.26400756835938,
+            "r": 305.8160095214844,
+            "b": 129.42001342773438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u5438\u8840\u8759\u8760",
+      "text": "\u5438\u8840\u8759\u8760"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 322.364013671875,
+            "t": 146.87200927734375,
+            "r": 369.7760009765625,
+            "b": 134.99200439453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u98df\u866b\u8759\u8760",
+      "text": "\u98df\u866b\u8759\u8760"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 549.4240112304688,
+            "t": 259.3919982910156,
+            "r": 596.8360595703125,
+            "b": 247.5120086669922,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u98df\u866b\u8759\u8760",
+      "text": "\u98df\u866b\u8759\u8760"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 266.1399841308594,
+            "t": 310.1920166015625,
+            "r": 301.7799987792969,
+            "b": 298.4440002441406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u5317\u6781\u72d0",
+      "text": "\u5317\u6781\u72d0"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 578.1400146484375,
+            "t": 287.6920166015625,
+            "r": 613.780029296875,
+            "b": 275.9440002441406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u5317\u6781\u72d0",
+      "text": "\u5317\u6781\u72d0"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 63.63999938964844,
+            "t": 276.4519958496094,
+            "r": 99.27999877929688,
+            "b": 264.7039794921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u5317\u6781\u72d0",
+      "text": "\u5317\u6781\u72d0"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 223.1442413330078,
+            "t": 197.5089111328125,
+            "r": 270.57525634765625,
+            "b": 185.60911560058594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u98df\u866b\u8759\u8760",
+      "text": "\u98df\u866b\u8759\u8760"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 287.4840087890625,
+            "t": 248.13198852539062,
+            "r": 334.89599609375,
+            "b": 236.2519989013672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u98df\u866b\u8759\u8760",
+      "text": "\u98df\u866b\u8759\u8760"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 165.38131713867188,
+            "t": 33.294559478759766,
+            "r": 576.3056030273438,
+            "b": 23.905818939208984,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "http://blogs.cdc.gov/global/2013/09/23/rabies-control-three-months-three-continents/photo1-2/",
+      "text": "http://blogs.cdc.gov/global/2013/09/23/rabies-control-three-months-three-continents/photo1-2/"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 662.2260131835938,
+            "t": 23.625999450683594,
+            "r": 676.0180053710938,
+            "b": 13.406000137329102,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "10",
+      "text": "10"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 437.670166015625,
+            "t": 338.84165954589844,
+            "r": 670.1011962890625,
+            "b": 241.67178344726562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 465.0,
+          "height": 195.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\image_000000_aae9564e97e85837503ac074008ac3ad043ef495cfee1b1efba8d48aac7987ab.png"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 483.0829162597656,
+            "t": 236.44219970703125,
+            "r": 574.3353881835938,
+            "b": 67.43264770507812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 183.0,
+          "height": 338.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\image_000001_64a23e901a8172a0314c83e0ca47e63383282ce49015dafc19bb7c337b0c801b.png"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 594.2415161132812,
+            "t": 120.21456909179688,
+            "r": 659.320556640625,
+            "b": 65.62893676757812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 131.0,
+          "height": 109.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\image_000002_ac86713b8c2e0407e10af7b613830d13ae911407f6c6bdf6e6a1ec79086c589b.png"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        },
+        {
+          "$ref": "#/groups/7"
+        },
+        {
+          "$ref": "#/groups/8"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/groups/9"
+        },
+        {
+          "$ref": "#/texts/61"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 150.04678344726562,
+            "t": 344.0854721069336,
+            "r": 577.8470458984375,
+            "b": 86.32254028320312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 856.0,
+          "height": 515.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\image_000003_0b5c8b8558076ecc6130ecad3986aa93acb251b4b3c551e2afb851bce3aa466b.png"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 10,
+          "bbox": {
+            "l": 27.37544059753418,
+            "t": 345.51485443115234,
+            "r": 693.07568359375,
+            "b": 49.8800048828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1331.0,
+          "height": 591.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\image_000004_57e35b8ff6cb9220588b1870a69c553dce2201b64ea2c5a94bc618baebfc1ce2.png"
+      },
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000001_43230144ee843902ecbd84e4acb0723b4a7c90326d5503ce595edc7e48fdbfe9.png"
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000002_bcc7ddafd4cb3c598ff1e7ca41df2811092c8cac86cf2260fd5960b0fa93f165.png"
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000003_5a3566435467209dffaab32530795b81880d245eccc2aec478cdcd031ebb88cc.png"
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000004_b7b60d96afffa4a8af9bcb724453a739f12ade2a732a032f1c556c11f21d0d94.png"
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000005_f0b57ea99cdff09654dd11ca0d9476cb5b98e586b7d433eb5b3a41f33cdc007a.png"
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000006_70f36d3d15fbf4d40efe561da9e43bcc10031e2c2aceed849b7dfa6130530872.png"
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000007_5b3a91ce4ff36254849b60a3f5ba824dde9c2b1dbede8145d38d76da8ef72332.png"
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000008_74f7b74f2933a689fe1c91c50bd3e9f8cf84d9060fd636f7cb1299bb036adec0.png"
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000009_3997c4c128e93ea2336b005e0466db6cacebbf2c06be817aed14e996fe1d60c5.png"
+      },
+      "page_no": 9
+    },
+    "10": {
+      "size": {
+        "width": 720.0,
+        "height": 405.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 1440.0,
+          "height": 810.0
+        },
+        "uri": "output\\test_from_ppt_pdf_pypdfium2\\test_ppt_artifacts\\page_000010_7512db90a03188be3faa27a201165bdd98daf971a7820da2bb6a5b9070ce58a6.png"
+      },
+      "page_no": 10
+    }
+  }
+}

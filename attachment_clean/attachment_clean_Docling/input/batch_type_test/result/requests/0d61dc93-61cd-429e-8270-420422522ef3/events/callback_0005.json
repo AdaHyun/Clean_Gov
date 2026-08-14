@@ -1,0 +1,380 @@
+{
+  "received_at": "2026-07-17T16:14:44.332642+08:00",
+  "callback_count": 5,
+  "payload": {
+    "FileId": "",
+    "RequestId": "0d61dc93-61cd-429e-8270-420422522ef3",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_pptx.pptx",
+    "Pages_Info": {
+      "current": 6,
+      "total": 10,
+      "progress": 0.6
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "text",
+          "bbox": [
+            233,
+            263,
+            1253,
+            440
+          ],
+          "lines": [
+            {
+              "bbox": [
+                232,
+                253,
+                1206,
+                360
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    232,
+                    253,
+                    1206,
+                    360
+                  ],
+                  "score": 1.0,
+                  "content": "Chemicals: heavy metals, persistent",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            },
+            {
+              "bbox": [
+                232,
+                341,
+                1250,
+                391
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    232,
+                    341,
+                    1250,
+                    391
+                  ],
+                  "score": 1.0,
+                  "content": "organic pollutants (POPs), pesticides and endocrine",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            },
+            {
+              "bbox": [
+                237,
+                393,
+                793,
+                440
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    237,
+                    393,
+                    793,
+                    440
+                  ],
+                  "score": 1.0,
+                  "content": "disrupting chemicals (EDCs)",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            }
+          ],
+          "index": 1
+        },
+        {
+          "type": "title",
+          "bbox": [
+            145,
+            521,
+            367,
+            559
+          ],
+          "lines": [
+            {
+              "bbox": [
+                144,
+                521,
+                368,
+                559
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    144,
+                    521,
+                    368,
+                    559
+                  ],
+                  "score": 1.0,
+                  "content": "Health effects",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            }
+          ],
+          "index": 3
+        },
+        {
+          "type": "text",
+          "bbox": [
+            207,
+            592,
+            1269,
+            733
+          ],
+          "lines": [
+            {
+              "bbox": [
+                202,
+                585,
+                1116,
+                646
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    202,
+                    585,
+                    1116,
+                    646
+                  ],
+                  "score": 1.0,
+                  "content": "Exposure to lead in utero can cause reduced IQ,",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            },
+            {
+              "bbox": [
+                202,
+                629,
+                1272,
+                692
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    202,
+                    629,
+                    1272,
+                    692
+                  ],
+                  "score": 1.0,
+                  "content": "increased antisocial behaviour and reduced educational",
+                  "type": "text"
+                }
+              ],
+              "index": 5
+            },
+            {
+              "bbox": [
+                204,
+                684,
+                421,
+                737
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    204,
+                    684,
+                    421,
+                    737
+                  ],
+                  "score": 1.0,
+                  "content": "attainment",
+                  "type": "text"
+                }
+              ],
+              "index": 6
+            }
+          ],
+          "index": 5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            209,
+            786,
+            1286,
+            879
+          ],
+          "lines": [
+            {
+              "bbox": [
+                202,
+                778,
+                1294,
+                842
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    202,
+                    778,
+                    1294,
+                    842
+                  ],
+                  "score": 1.0,
+                  "content": "Exposure to mercury in utero can cause neurological and",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            },
+            {
+              "bbox": [
+                205,
+                831,
+                638,
+                884
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    205,
+                    831,
+                    638,
+                    884
+                  ],
+                  "score": 1.0,
+                  "content": "behavioural disorders",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            }
+          ],
+          "index": 7.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            210,
+            929,
+            1364,
+            1031
+          ],
+          "lines": [
+            {
+              "bbox": [
+                205,
+                924,
+                1275,
+                983
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    205,
+                    924,
+                    1275,
+                    983
+                  ],
+                  "score": 1.0,
+                  "content": "Acute pesticide poisoning is also a serious public health",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            },
+            {
+              "bbox": [
+                206,
+                975,
+                1357,
+                1035
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    206,
+                    975,
+                    1357,
+                    1035
+                  ],
+                  "score": 1.0,
+                  "content": "problem and children are particularly vulnerable to its effects",
+                  "type": "text"
+                }
+              ],
+              "index": 10
+            }
+          ],
+          "index": 9.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            206,
+            1077,
+            1431,
+            1179
+          ],
+          "lines": [
+            {
+              "bbox": [
+                202,
+                1071,
+                1436,
+                1135
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    202,
+                    1071,
+                    1436,
+                    1135
+                  ],
+                  "score": 1.0,
+                  "content": "Many POPs and EDCs may impact the immune, reproductive and",
+                  "type": "text"
+                }
+              ],
+              "index": 11
+            },
+            {
+              "bbox": [
+                201,
+                1123,
+                767,
+                1186
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    201,
+                    1123,
+                    767,
+                    1186
+                  ],
+                  "score": 1.0,
+                  "content": "neurodevelopmental systems",
+                  "type": "text"
+                }
+              ],
+              "index": 12
+            }
+          ],
+          "index": 11.5
+        }
+      ]
+    },
+    "CostTime": 20.241
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "received_at": "2026-07-17T16:14:44.216568+08:00",
+  "callback_count": 1,
+  "payload": {
+    "FileId": "",
+    "RequestId": "0d61dc93-61cd-429e-8270-420422522ef3",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_pptx.pptx",
+    "Pages_Info": {
+      "current": 3,
+      "total": 10,
+      "progress": 0.3
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            72,
+            54,
+            966,
+            242
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57,
+                31,
+                972,
+                161
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    57,
+                    31,
+                    972,
+                    161
+                  ],
+                  "score": 1.0,
+                  "content": "What can community",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            },
+            {
+              "bbox": [
+                61,
+                144,
+                868,
+                252
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    61,
+                    144,
+                    868,
+                    252
+                  ],
+                  "score": 1.0,
+                  "content": "health workers do?",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            }
+          ],
+          "index": 0.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            243,
+            308,
+            1537,
+            404
+          ],
+          "lines": [
+            {
+              "bbox": [
+                243,
+                304,
+                1536,
+                360
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    243,
+                    304,
+                    1536,
+                    360
+                  ],
+                  "score": 1.0,
+                  "content": "Identify links between health outcomes and sources of environmental and",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            },
+            {
+              "bbox": [
+                248,
+                360,
+                838,
+                408
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    248,
+                    360,
+                    838,
+                    408
+                  ],
+                  "score": 1.0,
+                  "content": "occupational exposure in children",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            }
+          ],
+          "index": 2.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            245,
+            482,
+            1453,
+            577
+          ],
+          "lines": [
+            {
+              "bbox": [
+                245,
+                478,
+                1450,
+                533
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    245,
+                    478,
+                    1450,
+                    533
+                  ],
+                  "score": 1.0,
+                  "content": "Disseminate knowledge about the most common environmental risks",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            },
+            {
+              "bbox": [
+                249,
+                533,
+                781,
+                582
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    249,
+                    533,
+                    781,
+                    582
+                  ],
+                  "score": 1.0,
+                  "content": "and measures to prevent them",
+                  "type": "text"
+                }
+              ],
+              "index": 5
+            }
+          ],
+          "index": 4.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            248,
+            654,
+            1198,
+            750
+          ],
+          "lines": [
+            {
+              "bbox": [
+                248,
+                654,
+                1197,
+                704
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    248,
+                    654,
+                    1197,
+                    704
+                  ],
+                  "score": 1.0,
+                  "content": "Identify and report to the local authorities the potential",
+                  "type": "text"
+                }
+              ],
+              "index": 6
+            },
+            {
+              "bbox": [
+                247,
+                704,
+                870,
+                754
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    247,
+                    704,
+                    870,
+                    754
+                  ],
+                  "score": 1.0,
+                  "content": "sources of environmental exposure",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            }
+          ],
+          "index": 6.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            248,
+            828,
+            1036,
+            923
+          ],
+          "lines": [
+            {
+              "bbox": [
+                250,
+                830,
+                1033,
+                870
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    250,
+                    830,
+                    1033,
+                    870
+                  ],
+                  "score": 1.0,
+                  "content": "Be on the alert for cases of disease linked to",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            },
+            {
+              "bbox": [
+                249,
+                878,
+                669,
+                924
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    249,
+                    878,
+                    669,
+                    924
+                  ],
+                  "score": 1.0,
+                  "content": "environmental exposure",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            }
+          ],
+          "index": 8.5
+        },
+        {
+          "type": "image",
+          "bbox": [
+            66,
+            278,
+            228,
+            1132
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                66,
+                278,
+                228,
+                1132
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    66,
+                    278,
+                    228,
+                    1132
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        66,
+                        278,
+                        228,
+                        1132
+                      ],
+                      "score": 0.327,
+                      "type": "image",
+                      "image_path": "126e10e7e21195d0895fed40bf56f4cc4307f8cd79e456f24471974dd6848b99.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 10,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    66,
+                    278,
+                    228,
+                    1132
+                  ],
+                  "spans": [],
+                  "index": 10
+                }
+              ]
+            }
+          ],
+          "index": 10
+        },
+        {
+          "type": "text",
+          "bbox": [
+            245,
+            975,
+            1339,
+            1120
+          ],
+          "lines": [
+            {
+              "bbox": [
+                246,
+                976,
+                1337,
+                1023
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    246,
+                    976,
+                    1337,
+                    1023
+                  ],
+                  "score": 1.0,
+                  "content": "Advocate, raise health concerns, influence decision- makers in",
+                  "type": "text"
+                }
+              ],
+              "index": 11
+            },
+            {
+              "bbox": [
+                246,
+                1025,
+                1327,
+                1077
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    246,
+                    1025,
+                    1327,
+                    1077
+                  ],
+                  "score": 1.0,
+                  "content": "implementing action to protect communities from exposure to",
+                  "type": "text"
+                }
+              ],
+              "index": 12
+            },
+            {
+              "bbox": [
+                249,
+                1079,
+                658,
+                1123
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    249,
+                    1079,
+                    658,
+                    1123
+                  ],
+                  "score": 1.0,
+                  "content": "environmental pollution",
+                  "type": "text"
+                }
+              ],
+              "index": 13
+            }
+          ],
+          "index": 12
+        }
+      ]
+    },
+    "CostTime": 20.241
+  }
+}

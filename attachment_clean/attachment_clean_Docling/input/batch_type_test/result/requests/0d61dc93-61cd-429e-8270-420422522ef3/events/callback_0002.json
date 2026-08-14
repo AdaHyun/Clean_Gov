@@ -1,0 +1,581 @@
+{
+  "received_at": "2026-07-17T16:14:44.249873+08:00",
+  "callback_count": 2,
+  "payload": {
+    "FileId": "",
+    "RequestId": "0d61dc93-61cd-429e-8270-420422522ef3",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_pptx.pptx",
+    "Pages_Info": {
+      "current": 1,
+      "total": 10,
+      "progress": 0.1
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            0,
+            0,
+            408,
+            199
+          ],
+          "lines": [
+            {
+              "bbox": [
+                316,
+                65,
+                320,
+                68
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    316,
+                    65,
+                    320,
+                    68
+                  ],
+                  "score": 0.0,
+                  "content": "",
+                  "type": "text"
+                }
+              ]
+            }
+          ],
+          "index": 1,
+          "virtual_lines": [
+            {
+              "bbox": [
+                0,
+                0,
+                408,
+                66.33333333333333
+              ],
+              "spans": [],
+              "index": 0
+            },
+            {
+              "bbox": [
+                0,
+                66.33333333333333,
+                408,
+                132.66666666666666
+              ],
+              "spans": [],
+              "index": 1
+            },
+            {
+              "bbox": [
+                0,
+                132.66666666666666,
+                408,
+                199.0
+              ],
+              "spans": [],
+              "index": 2
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "bbox": [
+            72,
+            287,
+            676,
+            483
+          ],
+          "lines": [
+            {
+              "bbox": [
+                70,
+                281,
+                472,
+                352
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    70,
+                    281,
+                    472,
+                    352
+                  ],
+                  "score": 1.0,
+                  "content": "Pollution-free",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            },
+            {
+              "bbox": [
+                68,
+                349,
+                592,
+                417
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    68,
+                    349,
+                    488,
+                    416
+                  ],
+                  "score": 1.0,
+                  "content": "environments",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    491,
+                    350,
+                    592,
+                    417
+                  ],
+                  "score": 1.0,
+                  "content": "for",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            },
+            {
+              "bbox": [
+                66,
+                412,
+                674,
+                491
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    66,
+                    412,
+                    304,
+                    491
+                  ],
+                  "score": 1.0,
+                  "content": "healthy",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    306,
+                    420,
+                    674,
+                    483
+                  ],
+                  "score": 1.0,
+                  "content": "generations",
+                  "type": "text"
+                }
+              ],
+              "index": 5
+            }
+          ],
+          "index": 4
+        },
+        {
+          "type": "text",
+          "bbox": [
+            74,
+            484,
+            677,
+            518
+          ],
+          "lines": [
+            {
+              "bbox": [
+                69,
+                481,
+                679,
+                519
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    69,
+                    481,
+                    679,
+                    519
+                  ],
+                  "score": 1.0,
+                  "content": "WHO information slides for the health sector",
+                  "type": "text"
+                }
+              ],
+              "index": 6
+            }
+          ],
+          "index": 6
+        },
+        {
+          "type": "title",
+          "bbox": [
+            70,
+            625,
+            634,
+            854
+          ],
+          "lines": [
+            {
+              "bbox": [
+                61,
+                620,
+                622,
+                690
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    61,
+                    620,
+                    622,
+                    690
+                  ],
+                  "score": 1.0,
+                  "content": "What every community",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            },
+            {
+              "bbox": [
+                69,
+                678,
+                582,
+                740
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    69,
+                    678,
+                    582,
+                    740
+                  ],
+                  "score": 1.0,
+                  "content": "health worker needs",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            },
+            {
+              "bbox": [
+                67,
+                741,
+                636,
+                796
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    67,
+                    741,
+                    636,
+                    796
+                  ],
+                  "score": 1.0,
+                  "content": "to know about children’s",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            },
+            {
+              "bbox": [
+                82,
+                798,
+                570,
+                853
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    82,
+                    798,
+                    570,
+                    853
+                  ],
+                  "score": 1.0,
+                  "content": "environmental health",
+                  "type": "text"
+                }
+              ],
+              "index": 10
+            }
+          ],
+          "index": 8.5
+        },
+        {
+          "type": "title",
+          "bbox": [
+            570,
+            0,
+            1581,
+            198
+          ],
+          "lines": [
+            {
+              "bbox": [
+                612,
+                -22,
+                1554,
+                233
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    612,
+                    44,
+                    755,
+                    117
+                  ],
+                  "score": 0.0,
+                  "content": "",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    763,
+                    -22,
+                    1410,
+                    233
+                  ],
+                  "score": 0.0,
+                  "content": "",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    1430,
+                    71,
+                    1554,
+                    171
+                  ],
+                  "score": 0.549,
+                  "content": "xn",
+                  "type": "text"
+                }
+              ]
+            }
+          ],
+          "index": 12,
+          "virtual_lines": [
+            {
+              "bbox": [
+                570,
+                0,
+                1581,
+                66.0
+              ],
+              "spans": [],
+              "index": 11
+            },
+            {
+              "bbox": [
+                570,
+                66.0,
+                1581,
+                132.0
+              ],
+              "spans": [],
+              "index": 12
+            },
+            {
+              "bbox": [
+                570,
+                132.0,
+                1581,
+                198.0
+              ],
+              "spans": [],
+              "index": 13
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "bbox": [
+            792,
+            202,
+            1581,
+            790
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                792,
+                202,
+                1581,
+                790
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    792,
+                    202,
+                    1581,
+                    790
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        792,
+                        202,
+                        1581,
+                        790
+                      ],
+                      "score": 0.407,
+                      "type": "image",
+                      "image_path": "1328d6382a608137b4455a462d331b79a20df1ab2424d5504f58e7e2f34c9d47.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 18,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    792,
+                    202,
+                    1581,
+                    267.3333333333333
+                  ],
+                  "spans": [],
+                  "index": 14
+                },
+                {
+                  "bbox": [
+                    792,
+                    267.3333333333333,
+                    1581,
+                    332.66666666666663
+                  ],
+                  "spans": [],
+                  "index": 15
+                },
+                {
+                  "bbox": [
+                    792,
+                    332.66666666666663,
+                    1581,
+                    397.99999999999994
+                  ],
+                  "spans": [],
+                  "index": 16
+                },
+                {
+                  "bbox": [
+                    792,
+                    397.99999999999994,
+                    1581,
+                    463.33333333333326
+                  ],
+                  "spans": [],
+                  "index": 17
+                },
+                {
+                  "bbox": [
+                    792,
+                    463.33333333333326,
+                    1581,
+                    528.6666666666666
+                  ],
+                  "spans": [],
+                  "index": 18
+                },
+                {
+                  "bbox": [
+                    792,
+                    528.6666666666666,
+                    1581,
+                    594.0
+                  ],
+                  "spans": [],
+                  "index": 19
+                },
+                {
+                  "bbox": [
+                    792,
+                    594.0,
+                    1581,
+                    659.3333333333334
+                  ],
+                  "spans": [],
+                  "index": 20
+                },
+                {
+                  "bbox": [
+                    792,
+                    659.3333333333334,
+                    1581,
+                    724.6666666666667
+                  ],
+                  "spans": [],
+                  "index": 21
+                },
+                {
+                  "bbox": [
+                    792,
+                    724.6666666666667,
+                    1581,
+                    790.0000000000001
+                  ],
+                  "spans": [],
+                  "index": 22
+                }
+              ]
+            },
+            {
+              "type": "image_caption",
+              "bbox": [
+                981,
+                798,
+                1334,
+                819
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    978,
+                    796,
+                    1334,
+                    820
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        978,
+                        796,
+                        1334,
+                        820
+                      ],
+                      "score": 1.0,
+                      "content": "© World Health Organization/Francis Kokoroko",
+                      "type": "text"
+                    }
+                  ],
+                  "index": 23
+                }
+              ],
+              "index": 23
+            }
+          ],
+          "index": 20.5
+        }
+      ]
+    },
+    "CostTime": 20.241
+  }
+}

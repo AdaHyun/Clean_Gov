@@ -1,0 +1,17 @@
+deterministic_rules:
+  - html_unescape
+  - base64_markdown_image
+  - markdown_image_placeholder
+  - consecutive_exact_line_duplicate
+  - duplicate_title_near_start
+  - conservative_whitespace
+protection:
+  markdown_tables: true
+  markdown_headings: true
+  title_lines: true
+  attachment_links: true
+  long_lines_over: 50
+  document_numbers: true
+  signature_dates: true
+  clause_number_lines: true
+  policy_basis_lines: true

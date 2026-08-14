@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-juicer-pipeline"
+version = "0.1.0"
+description = "Conservative Stage 01 web text cleaning around Data-Juicer"
+requires-python = ">=3.10"
+dependencies = [
+  "py-data-juicer==1.5.3",
+  "PyYAML>=6.0,<7",
+  "ftfy>=6.1,<7",
+  "opencc>=1.1,<2",
+  "openai>=1,<3",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = [
+  "anomaly_detection",
+  "data_juicer_runner",
+  "deterministic_cleaning",
+  "field_export",
+  "input_inspection",
+  "input_resolver",
+  "jsonl_io",
+  "llm_provider",
+  "llm_quality",
+  "merge_results",
+  "native_pipeline",
+  "native_preparation",
+  "native_validation",
+  "paths",
+  "pipeline_timing",
+  "protected_blocks",
+  "quarantine_writer",
+  "report_writer",
+  "result_comparison",
+  "runtime",
+  "site_rule_engine",
+  "source_grouping",
+  "stage01_pipeline",
+  "threshold_policy",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["src"]
+testpaths = ["tests"]

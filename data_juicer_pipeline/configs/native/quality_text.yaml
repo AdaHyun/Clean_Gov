@@ -1,0 +1,29 @@
+# Stage 02: conservative CPT/SFT source-quality gates for non-table text.
+# Tracer exports every rejected record per native filter for auditability.
+open_tracer: true
+op_list_to_trace:
+  - text_length_filter
+  - alphanumeric_filter
+  - special_characters_filter
+  - character_repetition_filter
+  - language_id_score_filter
+trace_num: 100000
+process:
+  - text_length_filter:
+      min_len: 50
+      max_len: 3000000
+  - alphanumeric_filter:
+      tokenization: false
+      min_ratio: 0.45
+      max_ratio: 1.0
+  - special_characters_filter:
+      min_ratio: 0.0
+      max_ratio: 0.75
+  - character_repetition_filter:
+      rep_len: 10
+      min_ratio: 0.0
+      max_ratio: 0.5
+  - language_id_score_filter:
+      lang:
+        - zh
+      min_score: 0.5

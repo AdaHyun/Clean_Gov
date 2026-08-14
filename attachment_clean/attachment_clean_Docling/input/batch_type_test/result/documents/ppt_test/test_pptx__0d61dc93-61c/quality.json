@@ -1,0 +1,18 @@
+{
+  "request_id": "0d61dc93-61cd-429e-8270-420422522ef3",
+  "source_relative_path": "ppt_test/test_pptx.pptx",
+  "is_empty": false,
+  "raw_character_count": 8327,
+  "clean_character_count": 8317,
+  "raw_line_count": 165,
+  "clean_line_count": 165,
+  "heading_count": 18,
+  "table_candidate_count": 0,
+  "image_reference_count": 12,
+  "replacement_character_count": 0,
+  "nul_character_count": 0,
+  "very_long_line_count": 0,
+  "markdown_table_detected": false,
+  "html_residue_detected": false,
+  "warnings": []
+}

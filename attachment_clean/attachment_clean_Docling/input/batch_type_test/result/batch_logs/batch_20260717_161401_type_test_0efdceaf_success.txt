@@ -1,0 +1,2 @@
+doc_test/test_docx_withTable.docx
+doc_test/test_doc.doc

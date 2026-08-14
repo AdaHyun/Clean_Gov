@@ -1,0 +1,69 @@
+# Stage 01: normalize attachment prose and table-cell text while retaining
+# HTML/Markdown row and column structure.
+process:
+  - fix_unicode_mapper:
+      normalization: NFKC
+  - chinese_convert_mapper:
+      mode: t2s
+  - whitespace_normalization_mapper: {}
+  - replace_content_mapper:
+      pattern:
+        - '![[]([^]]*)[]][(]https?://100[.]100[.]33[.]62[^)]*[)]'
+        - '(?<=\p{Han})[ \t]+(?=[\p{Han}\d])'
+        - '(?<=\d)[ \t]+(?=\p{Han})'
+        - '(?<!\d)([12])[ \t]+(\d{3})(?=年)'
+        - '(?<!\d)([12]\d)[ \t]+(\d{2})(?=年)'
+        - '(?<!\d)([12]\d{2})[ \t]+(\d)(?=年)'
+        - '(?<!\d)(1)[ \t]+([0-2])(?=月)'
+        - '(?<!\d)([12])[ \t]+(\d)(?=日)'
+        - '(?<!\d)(3)[ \t]+([01])(?=日)'
+        - '(?<!\d)(\d)[ \t]+(\d)(?=[.]\d+[ \t]*%)'
+        - '(?<=[\p{Han}\d])[ \t]*-[ \t]*(?=\d)'
+        - '(?:(?<=\p{Han}),|,(?=\s*\p{Han}))'
+        - '(?:(?<=\p{Han});|;(?=\s*\p{Han}))'
+        - '(?:(?<=\p{Han}):|:(?=\s*\p{Han}))'
+        - '(?:(?<=\p{Han})!|!(?=\s*\p{Han}))'
+        - '(?:(?<=\p{Han})[?]|[?](?=\s*\p{Han}))'
+        - '(?<=\p{Han})[.](?=\s*(?:\p{Han}|$))'
+        - '[(](?=[ \t]*[\p{Han}\d])'
+        - '(?<=[\p{Han}\d])[ \t]*[)]'
+        - '(?<=[\p{Han}\d%])[ \t]+(?=[\p{P}%])'
+        - '(?<=[\p{P}%])[ \t]+(?=[\p{Han}\d\p{P}%])'
+        - '(?<=[A-Za-z])[ \t]+(?=[\p{P}\p{S}])'
+        - '(?<=[\p{P}\p{S}])[ \t]+(?=[\p{P}\p{S}])'
+        - '(?<=[\p{Ps}，、；：！？。])[ \t]+(?=[A-Za-z])'
+        - '(?m)(?<!^[ \t]{0,3})([/／+\-‐‑‒–—―=＝×÷*＊%％])[ \t]+(?=[A-Za-z])'
+        - '(?<=[，、；：])\r?\n(?=[\p{Han}\d])'
+        - '(?:[ \t]*\r?\n){3,}'
+      repl:
+        - '\1'
+        - ''
+        - ''
+        - '\1\2'
+        - '\1\2'
+        - '\1\2'
+        - '\1\2'
+        - '\1\2'
+        - '\1\2'
+        - '\1\2'
+        - '-'
+        - '，'
+        - '；'
+        - '：'
+        - '！'
+        - '？'
+        - '。'
+        - '（'
+        - '）'
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - '\1'
+        - ''
+        - '\n\n'
+  - extract_tables_from_html_mapper:
+      tables_field_name: html_tables
+      retain_html_tags: false
+      include_header: true

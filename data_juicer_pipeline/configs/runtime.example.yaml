@@ -1,0 +1,5 @@
+python_executable: 'D:\LZH\Environment\Anaconda3\anaconda3\envs\dj-env\python.exe'
+requested_but_missing: 'D:\LZH\Environment\Anaconda3\anaconda3\envs\dj-envs\python.exe'
+expected_py_data_juicer_version: '1.5.3'
+text_key: text
+random_seed: 20260721

@@ -1,0 +1,371 @@
+{
+  "received_at": "2026-07-17T16:14:44.274384+08:00",
+  "callback_count": 3,
+  "payload": {
+    "FileId": "",
+    "RequestId": "0d61dc93-61cd-429e-8270-420422522ef3",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_pptx.pptx",
+    "Pages_Info": {
+      "current": 4,
+      "total": 10,
+      "progress": 0.4
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            235,
+            260,
+            722,
+            350
+          ],
+          "lines": [
+            {
+              "bbox": [
+                238,
+                253,
+                731,
+                360
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    238,
+                    254,
+                    363,
+                    351
+                  ],
+                  "score": 1.0,
+                  "content": "Air",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    363,
+                    253,
+                    731,
+                    360
+                  ],
+                  "score": 1.0,
+                  "content": "pollution",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            }
+          ],
+          "index": 0
+        },
+        {
+          "type": "title",
+          "bbox": [
+            150,
+            401,
+            370,
+            438
+          ],
+          "lines": [
+            {
+              "bbox": [
+                149,
+                401,
+                372,
+                439
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    149,
+                    401,
+                    372,
+                    439
+                  ],
+                  "score": 1.0,
+                  "content": "Health effects",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            }
+          ],
+          "index": 1
+        },
+        {
+          "type": "text",
+          "bbox": [
+            164,
+            461,
+            706,
+            511
+          ],
+          "lines": [
+            {
+              "bbox": [
+                161,
+                459,
+                712,
+                513
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    161,
+                    459,
+                    712,
+                    513
+                  ],
+                  "score": 1.0,
+                  "content": "Air pollution can result in:",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            }
+          ],
+          "index": 2
+        },
+        {
+          "type": "text",
+          "bbox": [
+            158,
+            563,
+            1534,
+            661
+          ],
+          "lines": [
+            {
+              "bbox": [
+                153,
+                555,
+                1537,
+                619
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    153,
+                    555,
+                    1537,
+                    619
+                  ],
+                  "score": 1.0,
+                  "content": "reduced lung function and rate of lung growth, respiratory infections (for",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            },
+            {
+              "bbox": [
+                156,
+                608,
+                1412,
+                666
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    156,
+                    608,
+                    1412,
+                    666
+                  ],
+                  "score": 1.0,
+                  "content": "example, pneumonia), and exacerbation or aggravation of asthma;",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            }
+          ],
+          "index": 3.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            159,
+            706,
+            1423,
+            803
+          ],
+          "lines": [
+            {
+              "bbox": [
+                158,
+                702,
+                1422,
+                755
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    158,
+                    702,
+                    1422,
+                    755
+                  ],
+                  "score": 1.0,
+                  "content": "pre-term birth, low birth weight, still birth and small for gestational",
+                  "type": "text"
+                }
+              ],
+              "index": 5
+            },
+            {
+              "bbox": [
+                157,
+                757,
+                257,
+                808
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    157,
+                    757,
+                    257,
+                    808
+                  ],
+                  "score": 1.0,
+                  "content": "age;",
+                  "type": "text"
+                }
+              ],
+              "index": 6
+            }
+          ],
+          "index": 5.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            163,
+            848,
+            1133,
+            944
+          ],
+          "lines": [
+            {
+              "bbox": [
+                158,
+                842,
+                1136,
+                902
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    158,
+                    842,
+                    1136,
+                    902
+                  ],
+                  "score": 1.0,
+                  "content": "impairment of children’s cognitive and neurological",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            },
+            {
+              "bbox": [
+                161,
+                896,
+                425,
+                949
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    161,
+                    896,
+                    425,
+                    949
+                  ],
+                  "score": 1.0,
+                  "content": "development;",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            }
+          ],
+          "index": 7.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            162,
+            992,
+            982,
+            1040
+          ],
+          "lines": [
+            {
+              "bbox": [
+                157,
+                986,
+                988,
+                1046
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    157,
+                    986,
+                    988,
+                    1046
+                  ],
+                  "score": 1.0,
+                  "content": "increased risk and incidence of otitis media;",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            }
+          ],
+          "index": 9
+        },
+        {
+          "type": "text",
+          "bbox": [
+            169,
+            1089,
+            1307,
+            1136
+          ],
+          "lines": [
+            {
+              "bbox": [
+                162,
+                1085,
+                1312,
+                1137
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    162,
+                    1085,
+                    1312,
+                    1137
+                  ],
+                  "score": 1.0,
+                  "content": "development of some childhood cancers, including leukaemia;",
+                  "type": "text"
+                }
+              ],
+              "index": 10
+            }
+          ],
+          "index": 10
+        }
+      ]
+    },
+    "CostTime": 20.241
+  }
+}

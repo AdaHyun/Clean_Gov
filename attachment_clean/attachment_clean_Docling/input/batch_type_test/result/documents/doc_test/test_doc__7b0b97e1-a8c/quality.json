@@ -1,0 +1,18 @@
+{
+  "request_id": "7b0b97e1-a8c3-4405-8678-5300f0f90dc2",
+  "source_relative_path": "doc_test/test_doc.doc",
+  "is_empty": false,
+  "raw_character_count": 657,
+  "clean_character_count": 658,
+  "raw_line_count": 19,
+  "clean_line_count": 19,
+  "heading_count": 0,
+  "table_candidate_count": 0,
+  "image_reference_count": 0,
+  "replacement_character_count": 0,
+  "nul_character_count": 0,
+  "very_long_line_count": 0,
+  "markdown_table_detected": false,
+  "html_residue_detected": false,
+  "warnings": []
+}

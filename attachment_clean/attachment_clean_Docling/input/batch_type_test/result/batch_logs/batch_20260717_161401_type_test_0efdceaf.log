@@ -1,0 +1,5 @@
+2026-07-17T16:14:01.857497+08:00 batch_start files=8 layout=mirror callback=http://172.16.2.17:8800/callback?token=9af7****a680
+2026-07-17T16:14:01.878014+08:00 file_submitted index=1 path=doc_test/test_doc.doc request_id=7b0b97e1-a8c3-4405-8678-5300f0f90dc2 status=waiting_callback
+2026-07-17T16:14:03.903720+08:00 file_submitted index=2 path=doc_test/test_docx_withTable.docx request_id=1f0dd4eb-9a67-4f79-9010-96a40599eb11 status=waiting_callback
+2026-07-17T16:14:06.555175+08:00 callback_received request_id=7b0b97e1-a8c3-4405-8678-5300f0f90dc2 status=callback_success code=0
+2026-07-17T16:14:08.849709+08:00 callback_received request_id=1f0dd4eb-9a67-4f79-9010-96a40599eb11 status=callback_success code=0

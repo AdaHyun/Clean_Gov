@@ -1,0 +1,357 @@
+{
+  "received_at": "2026-07-17T16:14:24.775707+08:00",
+  "callback_count": 8,
+  "payload": {
+    "FileId": "",
+    "RequestId": "e3587cf7-1a62-4faa-b309-389f14a84786",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_ppt.pdf",
+    "Pages_Info": {
+      "current": 8,
+      "total": 10,
+      "progress": 0.8
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            221,
+            20,
+            509,
+            54
+          ],
+          "lines": [
+            {
+              "bbox": [
+                220,
+                18,
+                510,
+                56
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    220,
+                    18,
+                    510,
+                    56
+                  ],
+                  "score": 1.0,
+                  "content": "狂犬病病毒的致病机理",
+                  "type": "text"
+                }
+              ]
+            }
+          ],
+          "index": 1,
+          "virtual_lines": [
+            {
+              "bbox": [
+                221,
+                20,
+                509,
+                31.333333333333336
+              ],
+              "spans": [],
+              "index": 0
+            },
+            {
+              "bbox": [
+                221,
+                31.333333333333336,
+                509,
+                42.66666666666667
+              ],
+              "spans": [],
+              "index": 1
+            },
+            {
+              "bbox": [
+                221,
+                42.66666666666667,
+                509,
+                54.00000000000001
+              ],
+              "spans": [],
+              "index": 2
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "bbox": [
+            150,
+            63,
+            574,
+            322
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                150,
+                63,
+                574,
+                322
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    150,
+                    63,
+                    574,
+                    321
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        150,
+                        63,
+                        574,
+                        321
+                      ],
+                      "score": 0.964,
+                      "type": "image",
+                      "image_path": "32c8cb82f636a3eace61f52f6e6b08e35b195b7f86dbfa7da1170006acc4eb8c.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 4,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    150,
+                    63,
+                    574,
+                    149.33333333333331
+                  ],
+                  "spans": [],
+                  "index": 3
+                },
+                {
+                  "bbox": [
+                    150,
+                    149.33333333333331,
+                    574,
+                    235.66666666666663
+                  ],
+                  "spans": [],
+                  "index": 4
+                },
+                {
+                  "bbox": [
+                    150,
+                    235.66666666666663,
+                    574,
+                    321.99999999999994
+                  ],
+                  "spans": [],
+                  "index": 5
+                }
+              ]
+            },
+            {
+              "type": "image_caption",
+              "bbox": [
+                152,
+                322,
+                251,
+                330
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    151,
+                    322,
+                    252,
+                    331
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        151,
+                        322,
+                        252,
+                        331
+                      ],
+                      "score": 0.976,
+                      "content": "Figure3: Pathogenesis of rabies virus",
+                      "type": "text"
+                    }
+                  ],
+                  "index": 6
+                }
+              ],
+              "index": 6
+            },
+            {
+              "type": "image_caption",
+              "bbox": [
+                152,
+                328,
+                567,
+                363
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    151,
+                    330,
+                    552,
+                    339
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        151,
+                        330,
+                        552,
+                        339
+                      ],
+                      "score": 0.765,
+                      "content": "Reproducedfeerslseteudtte",
+                      "type": "text"
+                    }
+                  ],
+                  "index": 7
+                },
+                {
+                  "bbox": [
+                    151,
+                    338,
+                    566,
+                    347
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        151,
+                        338,
+                        566,
+                        347
+                      ],
+                      "score": 0.68,
+                      "content": "nerusyseddde",
+                      "type": "text"
+                    }
+                  ],
+                  "index": 8
+                },
+                {
+                  "bbox": [
+                    151,
+                    347,
+                    560,
+                    356
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        151,
+                        347,
+                        560,
+                        356
+                      ],
+                      "score": 0.778,
+                      "content": "leadigto",
+                      "type": "text"
+                    }
+                  ],
+                  "index": 9
+                },
+                {
+                  "bbox": [
+                    151,
+                    355,
+                    501,
+                    364
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        151,
+                        355,
+                        501,
+                        364
+                      ],
+                      "score": 0.832,
+                      "content": "saliva,5b)entersperipheralnrvesofsinandPurkinjecelsand5cspreadsfomhebantoifectmantissesandorgansitheost",
+                      "type": "text"
+                    }
+                  ],
+                  "index": 10
+                }
+              ],
+              "index": 8.5
+            }
+          ],
+          "index": 6
+        },
+        {
+          "type": "text",
+          "bbox": [
+            193,
+            368,
+            532,
+            392
+          ],
+          "lines": [
+            {
+              "bbox": [
+                239,
+                367,
+                480,
+                381
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    239,
+                    367,
+                    480,
+                    381
+                  ],
+                  "score": 1.0,
+                  "content": "Current status of rabies and prospects for elimination,",
+                  "type": "text"
+                }
+              ],
+              "index": 11
+            },
+            {
+              "bbox": [
+                191,
+                378,
+                533,
+                393
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    191,
+                    378,
+                    533,
+                    393
+                  ],
+                  "score": 1.0,
+                  "content": "The Lancet, Volume 384, Issue 9951, 11–17 October 2014, Pages 1389-1399",
+                  "type": "text"
+                }
+              ],
+              "index": 12
+            }
+          ],
+          "index": 11.5
+        }
+      ]
+    },
+    "CostTime": 9.878
+  }
+}

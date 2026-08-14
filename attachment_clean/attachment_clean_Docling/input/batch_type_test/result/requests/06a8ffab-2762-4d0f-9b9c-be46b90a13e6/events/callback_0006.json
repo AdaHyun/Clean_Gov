@@ -1,0 +1,578 @@
+{
+  "received_at": "2026-07-17T16:14:29.932074+08:00",
+  "callback_count": 6,
+  "payload": {
+    "FileId": "",
+    "RequestId": "06a8ffab-2762-4d0f-9b9c-be46b90a13e6",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test.pdf",
+    "Pages_Info": {
+      "current": 6,
+      "total": 8,
+      "progress": 0.75
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            66,
+            121,
+            176,
+            134
+          ],
+          "lines": [
+            {
+              "bbox": [
+                64,
+                121,
+                175,
+                133
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    64,
+                    121,
+                    175,
+                    133
+                  ],
+                  "score": 0.997,
+                  "content": "4.4游泳池水、沐浴用水",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            }
+          ],
+          "index": 0
+        },
+        {
+          "type": "title",
+          "bbox": [
+            65,
+            144,
+            159,
+            156
+          ],
+          "lines": [
+            {
+              "bbox": [
+                64,
+                143,
+                158,
+                156
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    64,
+                    143,
+                    158,
+                    156
+                  ],
+                  "score": 0.997,
+                  "content": "4.4.1人工游泳池水",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            }
+          ],
+          "index": 1
+        },
+        {
+          "type": "text",
+          "bbox": [
+            63,
+            166,
+            468,
+            179
+          ],
+          "lines": [
+            {
+              "bbox": [
+                64,
+                165,
+                468,
+                179
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    64,
+                    165,
+                    468,
+                    179
+                  ],
+                  "score": 0.998,
+                  "content": "4.4.1.1人工游泳池水质指标应符合表4的要求，其原水及补充用水应符合GB5749的要求。",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            }
+          ],
+          "index": 2
+        },
+        {
+          "type": "table",
+          "bbox": [
+            65,
+            211,
+            509,
+            439
+          ],
+          "blocks": [
+            {
+              "type": "table_caption",
+              "bbox": [
+                207,
+                189,
+                366,
+                201
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    206,
+                    188,
+                    366,
+                    201
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        206,
+                        188,
+                        366,
+                        201
+                      ],
+                      "score": 0.999,
+                      "content": "表4人工游泳池水质指标卫生要求",
+                      "type": "text"
+                    }
+                  ],
+                  "index": 3
+                }
+              ],
+              "index": 3
+            },
+            {
+              "type": "table_body",
+              "bbox": [
+                65,
+                211,
+                509,
+                439
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    65,
+                    211,
+                    509,
+                    439
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        65,
+                        211,
+                        509,
+                        439
+                      ],
+                      "score": 0.983,
+                      "html": "<table><tr><td rowspan=1 colspan=1>指标</td><td rowspan=1 colspan=1>要求</td><td rowspan=1 colspan=1>备注</td></tr><tr><td rowspan=1 colspan=1>游泳池水浑浊度/NTU</td><td rowspan=1 colspan=1>≤</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>pH</td><td rowspan=1 colspan=1>7.0~7.8</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>游离性余氯/（mg/L）</td><td rowspan=1 colspan=1>0.3~1.0</td><td rowspan=1 colspan=1>使用氯气及游离氯制剂消毒时要求</td></tr><tr><td rowspan=1 colspan=1>化合性余氯/（mg/L）</td><td rowspan=1 colspan=1>≤0.4</td><td rowspan=1 colspan=1>使用氯气及游离氯制剂消毒时要求</td></tr><tr><td rowspan=1 colspan=1>浸脚池游离性余氯/（mg/L）</td><td rowspan=1 colspan=1>5~10</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>臭氧/（mg/m³）</td><td rowspan=1 colspan=1>≤0.2</td><td rowspan=1 colspan=1>使用臭氧消毒时要求，水面上方20cm空气中浓度</td></tr><tr><td rowspan=1 colspan=1>氧化还原电位（ORP）/mV</td><td rowspan=1 colspan=1>≥650</td><td rowspan=1 colspan=1>采用氯和臭氧消毒时</td></tr><tr><td rowspan=1 colspan=1>氰尿酸/（mg/L）</td><td rowspan=1 colspan=1>≤50</td><td rowspan=1 colspan=1>使用二氯异氰尿酸钠和三氯异氰尿酸消毒时要求</td></tr><tr><td rowspan=1 colspan=1>尿素/（mg/L）</td><td rowspan=1 colspan=1>≤3.5</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>菌落总数/（CFU/mL）</td><td rowspan=1 colspan=1>≤200</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>大肠菌群/(CFU/100mL或MPN/100mL)</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>其他毒理指标</td><td rowspan=1 colspan=1>按GB5749执行</td><td rowspan=1 colspan=1>根据水质情况选择</td></tr></table>",
+                      "type": "table",
+                      "image_path": "586b13a505eea1bf42adccf752d4ffed0bb6fb4ac786371e1721be4432bae93c.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 5,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    65,
+                    211,
+                    509,
+                    287.0
+                  ],
+                  "spans": [],
+                  "index": 4
+                },
+                {
+                  "bbox": [
+                    65,
+                    287.0,
+                    509,
+                    363.0
+                  ],
+                  "spans": [],
+                  "index": 5
+                },
+                {
+                  "bbox": [
+                    65,
+                    363.0,
+                    509,
+                    439.0
+                  ],
+                  "spans": [],
+                  "index": 6
+                }
+              ]
+            }
+          ],
+          "index": 4.0
+        },
+        {
+          "type": "text",
+          "bbox": [
+            64,
+            450,
+            478,
+            463
+          ],
+          "lines": [
+            {
+              "bbox": [
+                64,
+                447,
+                479,
+                464
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    64,
+                    447,
+                    479,
+                    464
+                  ],
+                  "score": 0.979,
+                  "content": "4.4.1.2人工游泳池水温度宜在23℃～30℃之间、三卤甲烷(THMs)浓度不宜高于200μg/L。",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            }
+          ],
+          "index": 7
+        },
+        {
+          "type": "title",
+          "bbox": [
+            65,
+            472,
+            149,
+            484
+          ],
+          "lines": [
+            {
+              "bbox": [
+                64,
+                471,
+                149,
+                485
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    64,
+                    471,
+                    149,
+                    485
+                  ],
+                  "score": 0.998,
+                  "content": "4.4.2天然游泳池",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            }
+          ],
+          "index": 8
+        },
+        {
+          "type": "text",
+          "bbox": [
+            86,
+            495,
+            262,
+            507
+          ],
+          "lines": [
+            {
+              "bbox": [
+                85,
+                494,
+                263,
+                507
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    85,
+                    494,
+                    263,
+                    507
+                  ],
+                  "score": 0.999,
+                  "content": "天然游泳池水质指标应符合表5的要求。",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            }
+          ],
+          "index": 9
+        },
+        {
+          "type": "table",
+          "bbox": [
+            65,
+            540,
+            509,
+            646
+          ],
+          "blocks": [
+            {
+              "type": "table_caption",
+              "bbox": [
+                208,
+                518,
+                367,
+                531
+              ],
+              "group_id": 1,
+              "lines": [
+                {
+                  "bbox": [
+                    207,
+                    516,
+                    367,
+                    530
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        207,
+                        516,
+                        367,
+                        530
+                      ],
+                      "score": 0.999,
+                      "content": "表5天然游泳池水质指标卫生要求",
+                      "type": "text"
+                    }
+                  ],
+                  "index": 10
+                }
+              ],
+              "index": 10
+            },
+            {
+              "type": "table_body",
+              "bbox": [
+                65,
+                540,
+                509,
+                646
+              ],
+              "group_id": 1,
+              "lines": [
+                {
+                  "bbox": [
+                    65,
+                    540,
+                    509,
+                    646
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        65,
+                        540,
+                        509,
+                        646
+                      ],
+                      "score": 0.982,
+                      "html": "<table><tr><td rowspan=1 colspan=1>指标</td><td rowspan=1 colspan=1>要求</td></tr><tr><td rowspan=1 colspan=1>pH</td><td rowspan=1 colspan=1>6.0~9.0</td></tr><tr><td rowspan=1 colspan=1>透明度/cm</td><td rowspan=1 colspan=1>≥30</td></tr><tr><td rowspan=1 colspan=1>漂浮物质</td><td rowspan=1 colspan=1>无油膜及无漂浮物</td></tr><tr><td rowspan=1 colspan=1>有毒物质</td><td rowspan=1 colspan=1>按GB3838-2002I类、Ⅱ类和Ⅲ类水或按GB3097-1997第一类和第二类执行</td></tr></table>",
+                      "type": "table",
+                      "image_path": "f0cb61c9a1f2f057973c9c7646bf4597f46daccb0fede566834008a0d5e60e25.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 12,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    65,
+                    540,
+                    509,
+                    575.3333333333334
+                  ],
+                  "spans": [],
+                  "index": 11
+                },
+                {
+                  "bbox": [
+                    65,
+                    575.3333333333334,
+                    509,
+                    610.6666666666667
+                  ],
+                  "spans": [],
+                  "index": 12
+                },
+                {
+                  "bbox": [
+                    65,
+                    610.6666666666667,
+                    509,
+                    646.0000000000001
+                  ],
+                  "spans": [],
+                  "index": 13
+                }
+              ]
+            }
+          ],
+          "index": 11.0
+        },
+        {
+          "type": "title",
+          "bbox": [
+            66,
+            664,
+            139,
+            676
+          ],
+          "lines": [
+            {
+              "bbox": [
+                63,
+                661,
+                141,
+                678
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    63,
+                    661,
+                    141,
+                    678
+                  ],
+                  "score": 0.997,
+                  "content": "4.4.3沐浴用水",
+                  "type": "text"
+                }
+              ],
+              "index": 14
+            }
+          ],
+          "index": 14
+        },
+        {
+          "type": "text",
+          "bbox": [
+            66,
+            687,
+            510,
+            714
+          ],
+          "lines": [
+            {
+              "bbox": [
+                64,
+                686,
+                508,
+                700
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    64,
+                    686,
+                    508,
+                    700
+                  ],
+                  "score": 0.998,
+                  "content": "4.4.3.1沐浴用水中不得检出嗜肺军团菌，池水浊度不应大于5NTU，池水原水及补充用水应符合",
+                  "type": "text"
+                }
+              ],
+              "index": 15
+            },
+            {
+              "bbox": [
+                65,
+                702,
+                143,
+                714
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    65,
+                    702,
+                    143,
+                    714
+                  ],
+                  "score": 0.997,
+                  "content": "GB5749的要求。",
+                  "type": "text"
+                }
+              ],
+              "index": 16
+            }
+          ],
+          "index": 15.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            67,
+            717,
+            261,
+            730
+          ],
+          "lines": [
+            {
+              "bbox": [
+                65,
+                716,
+                262,
+                730
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    65,
+                    716,
+                    262,
+                    730
+                  ],
+                  "score": 0.979,
+                  "content": "4.4.3.2沐浴池水温宜在38℃～40℃之间。",
+                  "type": "text"
+                }
+              ],
+              "index": 17
+            }
+          ],
+          "index": 17
+        }
+      ]
+    },
+    "CostTime": 17.1205
+  }
+}

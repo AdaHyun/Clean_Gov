@@ -1,0 +1,21 @@
+{
+  "request_id": "62873975-a129-4c15-b056-7562903f2189",
+  "source_relative_path": "xlsx_test/test_xlsx.xlsx",
+  "is_empty": false,
+  "raw_character_count": 10885,
+  "clean_character_count": 10886,
+  "raw_line_count": 1,
+  "clean_line_count": 1,
+  "heading_count": 0,
+  "table_candidate_count": 0,
+  "image_reference_count": 0,
+  "replacement_character_count": 0,
+  "nul_character_count": 0,
+  "very_long_line_count": 1,
+  "markdown_table_detected": false,
+  "html_residue_detected": true,
+  "warnings": [
+    "very_long_line_detected",
+    "html_residue_detected"
+  ]
+}

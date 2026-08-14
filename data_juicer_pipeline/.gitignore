@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hfc/
+.env.local
+data/runs/
+data/intermediate/runs/
+data/intermediate/manual_prepared/
+data/intermediate/smoke_outputs/
+data/output/*.jsonl
+data/quarantine/runs/
+data/reports/runs/
+data/logs/runs/
+!data/input/README.md

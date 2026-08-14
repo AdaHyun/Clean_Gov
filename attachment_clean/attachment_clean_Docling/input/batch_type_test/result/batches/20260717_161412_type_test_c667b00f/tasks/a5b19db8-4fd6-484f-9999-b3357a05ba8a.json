@@ -1,0 +1,23 @@
+{
+  "document_id": "2e7a06878353d3fc6c357d8ea9ae7b7c",
+  "request_id": "a5b19db8-4fd6-484f-9999-b3357a05ba8a",
+  "batch_id": "20260717_161412_type_test_c667b00f",
+  "batch_name": "type_test",
+  "input_root": "/home/linzihan/PublicHealthProject/Clean_Gov_Attachments_Company/data/attachments/batch_type_test",
+  "source_absolute_path": "/home/linzihan/PublicHealthProject/Clean_Gov_Attachments_Company/data/attachments/batch_type_test/table_test/test_docx_withTable.docx",
+  "source_relative_path": "table_test/test_docx_withTable.docx",
+  "source_file_name": "test_docx_withTable.docx",
+  "source_extension": ".docx",
+  "source_size_bytes": 309611,
+  "source_mtime": "2026-07-17T16:09:11.520900+08:00",
+  "file_sha256": "6e2f1eced2b5c5ce4055b4d97dbcb1cdef1ed98093e2b8c566cf91f886588063",
+  "output_layout": "mirror",
+  "status": "skipped_duplicate",
+  "discovered_at": "2026-07-17T16:14:18.822236+08:00",
+  "submitted_at": "",
+  "callback_at": "",
+  "callback_count": 0,
+  "error_type": null,
+  "error_message": null,
+  "duplicate_of_request_id": "1f0dd4eb-9a67-4f79-9010-96a40599eb11"
+}

@@ -1,0 +1,402 @@
+{
+  "received_at": "2026-07-17T16:14:44.410687+08:00",
+  "callback_count": 8,
+  "payload": {
+    "FileId": "",
+    "RequestId": "0d61dc93-61cd-429e-8270-420422522ef3",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_pptx.pptx",
+    "Pages_Info": {
+      "current": 7,
+      "total": 10,
+      "progress": 0.7
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "text",
+          "bbox": [
+            233,
+            263,
+            1252,
+            440
+          ],
+          "lines": [
+            {
+              "bbox": [
+                233,
+                261,
+                1204,
+                353
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    233,
+                    261,
+                    1204,
+                    353
+                  ],
+                  "score": 1.0,
+                  "content": "Chemicals: heavy metals, persistent",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            },
+            {
+              "bbox": [
+                233,
+                341,
+                1251,
+                393
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    233,
+                    341,
+                    1251,
+                    393
+                  ],
+                  "score": 1.0,
+                  "content": "organic pollutants (POPs), pesticides and endocrine",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            },
+            {
+              "bbox": [
+                236,
+                393,
+                793,
+                441
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    236,
+                    393,
+                    793,
+                    441
+                  ],
+                  "score": 1.0,
+                  "content": "disrupting chemicals (EDCs)",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            }
+          ],
+          "index": 1
+        },
+        {
+          "type": "title",
+          "bbox": [
+            92,
+            462,
+            444,
+            500
+          ],
+          "lines": [
+            {
+              "bbox": [
+                85,
+                455,
+                449,
+                503
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    85,
+                    455,
+                    449,
+                    503
+                  ],
+                  "score": 1.0,
+                  "content": "Recommended actions",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            }
+          ],
+          "index": 3
+        },
+        {
+          "type": "text",
+          "bbox": [
+            156,
+            517,
+            1412,
+            612
+          ],
+          "lines": [
+            {
+              "bbox": [
+                153,
+                505,
+                1410,
+                576
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    153,
+                    505,
+                    1410,
+                    576
+                  ],
+                  "score": 1.0,
+                  "content": "Advise people to limit their intake of POPs and mercury from food by",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            },
+            {
+              "bbox": [
+                153,
+                561,
+                1115,
+                620
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    153,
+                    561,
+                    1115,
+                    620
+                  ],
+                  "score": 1.0,
+                  "content": "following the advice of the local food-safety authorities",
+                  "type": "text"
+                }
+              ],
+              "index": 5
+            }
+          ],
+          "index": 4.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            157,
+            665,
+            1495,
+            812
+          ],
+          "lines": [
+            {
+              "bbox": [
+                156,
+                665,
+                1352,
+                719
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    156,
+                    665,
+                    1352,
+                    719
+                  ],
+                  "score": 1.0,
+                  "content": "Advise people against keeping toxic chemicals in the home.",
+                  "type": "text"
+                }
+              ],
+              "index": 6
+            },
+            {
+              "bbox": [
+                155,
+                712,
+                1489,
+                771
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    155,
+                    712,
+                    1489,
+                    771
+                  ],
+                  "score": 1.0,
+                  "content": "Promote the safe packaging and clear labelling of toxic substances,",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            },
+            {
+              "bbox": [
+                152,
+                760,
+                1407,
+                823
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    152,
+                    760,
+                    1407,
+                    823
+                  ],
+                  "score": 1.0,
+                  "content": "as well as their storage out of the reach of children to prevent poisoning",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            }
+          ],
+          "index": 7
+        },
+        {
+          "type": "text",
+          "bbox": [
+            157,
+            854,
+            1389,
+            999
+          ],
+          "lines": [
+            {
+              "bbox": [
+                156,
+                854,
+                1349,
+                905
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    156,
+                    854,
+                    1349,
+                    905
+                  ],
+                  "score": 1.0,
+                  "content": "Identify and report to the local authorities the potential sources of",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            },
+            {
+              "bbox": [
+                156,
+                905,
+                1382,
+                953
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    156,
+                    905,
+                    1382,
+                    953
+                  ],
+                  "score": 1.0,
+                  "content": "environmental exposure, such as hazardous waste sites and electronic",
+                  "type": "text"
+                }
+              ],
+              "index": 10
+            },
+            {
+              "bbox": [
+                158,
+                957,
+                630,
+                1005
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    158,
+                    957,
+                    630,
+                    1005
+                  ],
+                  "score": 1.0,
+                  "content": "waste- recycling activities.",
+                  "type": "text"
+                }
+              ],
+              "index": 11
+            }
+          ],
+          "index": 10
+        },
+        {
+          "type": "text",
+          "bbox": [
+            156,
+            1050,
+            1471,
+            1144
+          ],
+          "lines": [
+            {
+              "bbox": [
+                155,
+                1046,
+                1470,
+                1106
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    155,
+                    1046,
+                    1470,
+                    1106
+                  ],
+                  "score": 1.0,
+                  "content": "Advise parents and caretakers to prevent children from accessing",
+                  "type": "text"
+                }
+              ],
+              "index": 12
+            },
+            {
+              "bbox": [
+                158,
+                1103,
+                359,
+                1147
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    158,
+                    1103,
+                    359,
+                    1147
+                  ],
+                  "score": 1.0,
+                  "content": "waste sites",
+                  "type": "text"
+                }
+              ],
+              "index": 13
+            }
+          ],
+          "index": 12.5
+        }
+      ]
+    },
+    "CostTime": 20.241
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "submitted_at": "2026-07-17T09:25:37.383614+08:00",
+  "request_id": "dcfc76b8-7871-4e7f-bac7-24b05850c90f",
+  "source_file": "/home/linzihan/attachment_clean_Company/input/test1.pdf",
+  "http_status": 200,
+  "retry_count": 0,
+  "request_summary": {
+    "RequestId": "dcfc76b8-7871-4e7f-bac7-24b05850c90f",
+    "UrlType": 2,
+    "FileUrl": "data:application/pdf;base64,<BASE64省略，1932896字符>",
+    "FileType": "pdf",
+    "FileName": "test1.pdf",
+    "ParseMode": "auto",
+    "OutputMode": "markdown"
+  },
+  "response": {
+    "FileId": "",
+    "RequestId": "dcfc76b8-7871-4e7f-bac7-24b05850c90f",
+    "Status": 200,
+    "Message": "接收输入成功, 解析完成后将向http://172.16.2.17:8800/callback?token=9af7d84e3c8b4b7db6741d3b45e2a680发送解析结果"
+  }
+}

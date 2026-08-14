@@ -1,0 +1,180 @@
+{
+  "received_at": "2026-07-17T16:14:24.607217+08:00",
+  "callback_count": 1,
+  "payload": {
+    "FileId": "",
+    "RequestId": "e3587cf7-1a62-4faa-b309-389f14a84786",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_ppt.pdf",
+    "Pages_Info": {
+      "current": 1,
+      "total": 10,
+      "progress": 0.1
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            268,
+            98,
+            435,
+            135
+          ],
+          "lines": [
+            {
+              "bbox": [
+                266,
+                96,
+                436,
+                138
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    266,
+                    96,
+                    436,
+                    138
+                  ],
+                  "score": 1.0,
+                  "content": "预防狂犬病",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            }
+          ],
+          "index": 0
+        },
+        {
+          "type": "text",
+          "bbox": [
+            291,
+            149,
+            413,
+            165
+          ],
+          "lines": [
+            {
+              "bbox": [
+                289,
+                147,
+                415,
+                167
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    289,
+                    147,
+                    415,
+                    167
+                  ],
+                  "score": 1.0,
+                  "content": "Rabies Prevention",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            }
+          ],
+          "index": 1
+        },
+        {
+          "type": "text",
+          "bbox": [
+            314,
+            209,
+            400,
+            234
+          ],
+          "lines": [
+            {
+              "bbox": [
+                312,
+                205,
+                403,
+                237
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    312,
+                    205,
+                    403,
+                    237
+                  ],
+                  "score": 1.0,
+                  "content": "许 锐 恒",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            }
+          ],
+          "index": 2
+        },
+        {
+          "type": "text",
+          "bbox": [
+            247,
+            244,
+            475,
+            301
+          ],
+          "lines": [
+            {
+              "bbox": [
+                248,
+                244,
+                475,
+                270
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    248,
+                    244,
+                    475,
+                    270
+                  ],
+                  "score": 1.0,
+                  "content": "广东省疾病预防控制中心",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            },
+            {
+              "bbox": [
+                258,
+                278,
+                454,
+                301
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    258,
+                    278,
+                    454,
+                    301
+                  ],
+                  "score": 1.0,
+                  "content": "xuruiheng@cdcp.org.cn",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            }
+          ],
+          "index": 3.5
+        }
+      ]
+    },
+    "CostTime": 9.878
+  }
+}

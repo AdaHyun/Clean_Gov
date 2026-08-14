@@ -1,0 +1,362 @@
+{
+  "received_at": "2026-07-17T16:14:24.843093+08:00",
+  "callback_count": 11,
+  "payload": {
+    "FileId": "",
+    "RequestId": "e3587cf7-1a62-4faa-b309-389f14a84786",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_ppt.pdf",
+    "Pages_Info": {
+      "current": -1,
+      "total": 10,
+      "progress": 1
+    },
+    "Result": {
+      "md_content": "# 预防狂犬病\n\nRabies Prevention\n\n许 锐 恒\n\n广东省疾病预防控制中心xuruiheng@cdcp.org.cn\n\n# 内容\n\n1.狂犬病简介\n\n2.暴露后预防\n\n3.小结\n\n# 1.狂犬病简介\n\n• 狂犬病是由狂犬病病毒引起的动物源性传染病 (人兽共患病)狂犬病导致急性进行性脑炎一旦出现症状,几乎全部死亡  \n犬是狂犬病的主要宿主和传播动物通过咬伤或抓痕经唾液传给人\n\n# 99% 的人狂犬病病例源于犬\n\n被犬伤后的处置 （暴露后预防）是预防狂犬病的唯一有效手段伤口处理 + 免疫球蛋白 + 疫苗“公平全民及时可及”\n\n犬接种疫苗是最具成本效益的方法阻断传播,是消除狂犬病的根本\n\n# 狂犬病\n\n狂犬病病毒（至少有 14 种）感染引起的急性脑炎临床上人狂犬病分为狂躁型或麻痹型一旦出现病临床症状,几乎全部死亡  \n• 潜伏期 多为 1\\~3 个月,也有 >1年的记载暴露后,高度嗜神经性的狂犬病病毒在肌肉组织中复制进入周围神经,经周围神经系统扩散到脊髓并上行至脑部到达脑部后,病毒迅速复制和播散经神经系统播散到许多不同的组织,包括唾液腺  \n• 临床狂犬病存活极罕见如无重症监护,通常入院后 2\\~3 天内死亡\n\n![](http://100.100.33.62:30900/wdzszt-docparse-test/d9b2e774918d43e1e671887a023c874f4db386e0320c25838b1962016abf9782.jpg)\n\n# 狂犬病重要事实\n\n狂犬病是一种疫苗可预防的病毒性疾病  \n全球有该病国家和地区 >150  \n高达 99% 人狂犬病死亡病例源于犬  \n小部分是通过野生动物传播的（如狐狸、狼、豺狼、蝙蝠、浣熊、臭鼬或猫鼬）  \n犬接种疫苗和防止犬咬伤,可阻断传播  \n每年导致数万人(59000)死亡,主要在亚洲和非洲  \n被疑患狂犬病动物咬伤者中, <15 岁儿童占 40%  \n接触疑患狂犬病动物后  \n立即用肥皂和水彻底清洗伤口极为重要,可挽救生命  \nWHO牵头组织 ［联合国粮食及农业组织（FAO）、世界动物卫生组织（OIE）和全球狂犬病控制联盟(GARC)  \n成立“联合抗击狂犬病”全球合作 ―United Against Rabies‖  \n推动实现“到 2030 年人类狂犬病零死亡”\n\n# 狂犬病\n\n狂犬病是由狂犬病病毒感染  \n引起的一种动物源性传染病  \n狂犬病病毒主要通过  \n破损的皮肤或粘膜侵入人体  \n临床大多表现为特异性  \n恐风、恐水、咽肌痉挛、 进行性瘫痪等  \n近年来,狂犬病报告死亡数  \n一直位居我国法定报告传染病前列  \n给人民群众生命健康带来严重威胁\n\n# 狂犬病病毒的致病机理\n\n![](http://100.100.33.62:30900/wdzszt-docparse-test/32c8cb82f636a3eace61f52f6e6b08e35b195b7f86dbfa7da1170006acc4eb8c.jpg)  \nFigure3: Pathogenesis of rabies virus   \nReproducedfeerslseteudtte nerusyseddde leadigto saliva,5b)entersperipheralnrvesofsinandPurkinjecelsand5cspreadsfomhebantoifectmantissesandorgansitheost\n\nCurrent status of rabies and prospects for elimination, The Lancet, Volume 384, Issue 9951, 11–17 October 2014, Pages 1389-1399\n\n# 狂犬病在自然界的储存宿主动物\n\n# 包括食肉目动物和翼手目动物\n\n狐、狼、豺、鼬獾、貉、臭鼬、浣熊、猫鼬和蝙蝠等  \n也是狂犬病的自然储存宿主  \n均可感染狂犬病病毒成为传染源  \n进而感染猪、牛、羊和马等家畜\n\n狂犬病易感动物主要包括犬科、猫科及翼手目动物禽类、鱼类、昆虫、蜥蛎、龟和蛇等不感染和传播狂犬病病毒全球范围内, 99% 的人狂犬病是由犬引起\n\n# 全球狂犬病病毒的宿主动物\n\n![](http://100.100.33.62:30900/wdzszt-docparse-test/f7db703d6314786a3c2089a86cdc2573247a2da9246e777b45ffd77392f4a61b.jpg)",
+      "html_content": "",
+      "detailed_info": [
+        {
+          "type": "text",
+          "text": "预防狂犬病",
+          "text_level": 1,
+          "bbox": [
+            372,
+            241,
+            604,
+            333
+          ],
+          "page_idx": 0
+        },
+        {
+          "type": "text",
+          "text": "Rabies Prevention ",
+          "bbox": [
+            404,
+            367,
+            573,
+            407
+          ],
+          "page_idx": 0
+        },
+        {
+          "type": "text",
+          "text": "许 锐 恒 ",
+          "bbox": [
+            436,
+            516,
+            555,
+            577
+          ],
+          "page_idx": 0
+        },
+        {
+          "type": "text",
+          "text": "广东省疾病预防控制中心xuruiheng@cdcp.org.cn",
+          "bbox": [
+            343,
+            602,
+            659,
+            743
+          ],
+          "page_idx": 0
+        },
+        {
+          "type": "text",
+          "text": "内容",
+          "text_level": 1,
+          "bbox": [
+            438,
+            197,
+            559,
+            288
+          ],
+          "page_idx": 1
+        },
+        {
+          "type": "text",
+          "text": "1.狂犬病简介",
+          "bbox": [
+            375,
+            387,
+            583,
+            461
+          ],
+          "page_idx": 1
+        },
+        {
+          "type": "text",
+          "text": "2.暴露后预防 ",
+          "bbox": [
+            372,
+            520,
+            584,
+            592
+          ],
+          "page_idx": 1
+        },
+        {
+          "type": "text",
+          "text": "3.小结 ",
+          "bbox": [
+            372,
+            656,
+            483,
+            725
+          ],
+          "page_idx": 1
+        },
+        {
+          "type": "text",
+          "text": "1.狂犬病简介",
+          "text_level": 1,
+          "bbox": [
+            363,
+            441,
+            638,
+            538
+          ],
+          "page_idx": 2
+        },
+        {
+          "type": "text",
+          "text": "• 狂犬病是由狂犬病病毒引起的动物源性传染病 (人兽共患病)狂犬病导致急性进行性脑炎一旦出现症状,几乎全部死亡  \n犬是狂犬病的主要宿主和传播动物通过咬伤或抓痕经唾液传给人",
+          "bbox": [
+            262,
+            91,
+            645,
+            439
+          ],
+          "page_idx": 3
+        },
+        {
+          "type": "text",
+          "text": "99% 的人狂犬病病例源于犬",
+          "text_level": 1,
+          "bbox": [
+            302,
+            466,
+            583,
+            518
+          ],
+          "page_idx": 3
+        },
+        {
+          "type": "text",
+          "text": "被犬伤后的处置 （暴露后预防）是预防狂犬病的唯一有效手段伤口处理 + 免疫球蛋白 + 疫苗“公平全民及时可及”",
+          "bbox": [
+            272,
+            550,
+            619,
+            767
+          ],
+          "page_idx": 3
+        },
+        {
+          "type": "text",
+          "text": "犬接种疫苗是最具成本效益的方法阻断传播,是消除狂犬病的根本",
+          "bbox": [
+            305,
+            802,
+            647,
+            908
+          ],
+          "page_idx": 3
+        },
+        {
+          "type": "text",
+          "text": "狂犬病",
+          "text_level": 1,
+          "bbox": [
+            419,
+            74,
+            543,
+            153
+          ],
+          "page_idx": 4
+        },
+        {
+          "type": "text",
+          "text": "狂犬病病毒（至少有 14 种）感染引起的急性脑炎临床上人狂犬病分为狂躁型或麻痹型一旦出现病临床症状,几乎全部死亡  \n• 潜伏期 多为 1\\~3 个月,也有 >1年的记载暴露后,高度嗜神经性的狂犬病病毒在肌肉组织中复制进入周围神经,经周围神经系统扩散到脊髓并上行至脑部到达脑部后,病毒迅速复制和播散经神经系统播散到许多不同的组织,包括唾液腺  \n• 临床狂犬病存活极罕见如无重症监护,通常入院后 2\\~3 天内死亡",
+          "bbox": [
+            56,
+            175,
+            650,
+            837
+          ],
+          "page_idx": 4
+        },
+        {
+          "type": "image",
+          "img_path": "http://100.100.33.62:30900/wdzszt-docparse-test/d9b2e774918d43e1e671887a023c874f4db386e0320c25838b1962016abf9782.jpg",
+          "image_caption": [],
+          "image_footnote": [],
+          "bbox": [
+            609,
+            158,
+            930,
+            839
+          ],
+          "page_idx": 4
+        },
+        {
+          "type": "text",
+          "text": "狂犬病重要事实",
+          "text_level": 1,
+          "bbox": [
+            358,
+            49,
+            640,
+            130
+          ],
+          "page_idx": 5
+        },
+        {
+          "type": "text",
+          "text": "狂犬病是一种疫苗可预防的病毒性疾病  \n全球有该病国家和地区 >150  \n高达 99% 人狂犬病死亡病例源于犬  \n小部分是通过野生动物传播的（如狐狸、狼、豺狼、蝙蝠、浣熊、臭鼬或猫鼬）  \n犬接种疫苗和防止犬咬伤,可阻断传播  \n每年导致数万人(59000)死亡,主要在亚洲和非洲  \n被疑患狂犬病动物咬伤者中, <15 岁儿童占 40%  \n接触疑患狂犬病动物后  \n立即用肥皂和水彻底清洗伤口极为重要,可挽救生命  \nWHO牵头组织 ［联合国粮食及农业组织（FAO）、世界动物卫生组织（OIE）和全球狂犬病控制联盟(GARC)  \n成立“联合抗击狂犬病”全球合作 ―United Against Rabies‖  \n推动实现“到 2030 年人类狂犬病零死亡”",
+          "bbox": [
+            120,
+            145,
+            893,
+            948
+          ],
+          "page_idx": 5
+        },
+        {
+          "type": "text",
+          "text": "狂犬病",
+          "text_level": 1,
+          "bbox": [
+            437,
+            101,
+            562,
+            180
+          ],
+          "page_idx": 6
+        },
+        {
+          "type": "text",
+          "text": "狂犬病是由狂犬病病毒感染  \n引起的一种动物源性传染病  \n狂犬病病毒主要通过  \n破损的皮肤或粘膜侵入人体  \n临床大多表现为特异性  \n恐风、恐水、咽肌痉挛、 进行性瘫痪等  \n近年来,狂犬病报告死亡数  \n一直位居我国法定报告传染病前列  \n给人民群众生命健康带来严重威胁",
+          "bbox": [
+            252,
+            217,
+            731,
+            829
+          ],
+          "page_idx": 6
+        },
+        {
+          "type": "text",
+          "text": "狂犬病病毒的致病机理",
+          "text_level": 1,
+          "bbox": [
+            306,
+            49,
+            706,
+            133
+          ],
+          "page_idx": 7
+        },
+        {
+          "type": "image",
+          "img_path": "http://100.100.33.62:30900/wdzszt-docparse-test/32c8cb82f636a3eace61f52f6e6b08e35b195b7f86dbfa7da1170006acc4eb8c.jpg",
+          "image_caption": [
+            "Figure3: Pathogenesis of rabies virus ",
+            "Reproducedfeerslseteudtte nerusyseddde leadigto saliva,5b)entersperipheralnrvesofsinandPurkinjecelsand5cspreadsfomhebantoifectmantissesandorgansitheost "
+          ],
+          "image_footnote": [],
+          "bbox": [
+            208,
+            155,
+            797,
+            795
+          ],
+          "page_idx": 7
+        },
+        {
+          "type": "text",
+          "text": "Current status of rabies and prospects for elimination, The Lancet, Volume 384, Issue 9951, 11–17 October 2014, Pages 1389-1399 ",
+          "bbox": [
+            268,
+            908,
+            738,
+            967
+          ],
+          "page_idx": 7
+        },
+        {
+          "type": "text",
+          "text": "狂犬病在自然界的储存宿主动物",
+          "text_level": 1,
+          "bbox": [
+            220,
+            81,
+            777,
+            167
+          ],
+          "page_idx": 8
+        },
+        {
+          "type": "text",
+          "text": "包括食肉目动物和翼手目动物",
+          "text_level": 1,
+          "bbox": [
+            162,
+            204,
+            497,
+            261
+          ],
+          "page_idx": 8
+        },
+        {
+          "type": "text",
+          "text": "狐、狼、豺、鼬獾、貉、臭鼬、浣熊、猫鼬和蝙蝠等  \n也是狂犬病的自然储存宿主  \n均可感染狂犬病病毒成为传染源  \n进而感染猪、牛、羊和马等家畜",
+          "bbox": [
+            198,
+            281,
+            786,
+            533
+          ],
+          "page_idx": 8
+        },
+        {
+          "type": "text",
+          "text": "狂犬病易感动物主要包括犬科、猫科及翼手目动物禽类、鱼类、昆虫、蜥蛎、龟和蛇等不感染和传播狂犬病病毒全球范围内, 99% 的人狂犬病是由犬引起",
+          "bbox": [
+            238,
+            562,
+            748,
+            859
+          ],
+          "page_idx": 8
+        },
+        {
+          "type": "text",
+          "text": "全球狂犬病病毒的宿主动物",
+          "text_level": 1,
+          "bbox": [
+            259,
+            51,
+            738,
+            135
+          ],
+          "page_idx": 9
+        },
+        {
+          "type": "image",
+          "img_path": "http://100.100.33.62:30900/wdzszt-docparse-test/f7db703d6314786a3c2089a86cdc2573247a2da9246e777b45ffd77392f4a61b.jpg",
+          "image_caption": [],
+          "image_footnote": [],
+          "bbox": [
+            31,
+            158,
+            969,
+            869
+          ],
+          "page_idx": 9
+        }
+      ]
+    },
+    "CostTime": 9.914588451385498
+  }
+}

@@ -1,0 +1,1078 @@
+{
+  "received_at": "2026-07-17T16:14:44.365039+08:00",
+  "callback_count": 6,
+  "payload": {
+    "FileId": "",
+    "RequestId": "0d61dc93-61cd-429e-8270-420422522ef3",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_pptx.pptx",
+    "Pages_Info": {
+      "current": 2,
+      "total": 10,
+      "progress": 0.2
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            72,
+            57,
+            461,
+            147
+          ],
+          "lines": [
+            {
+              "bbox": [
+                68,
+                42,
+                466,
+                162
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    68,
+                    42,
+                    234,
+                    162
+                  ],
+                  "score": 1.0,
+                  "content": "Key",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    243,
+                    47,
+                    466,
+                    147
+                  ],
+                  "score": 1.0,
+                  "content": "Facts",
+                  "type": "text"
+                }
+              ]
+            }
+          ],
+          "index": 0.5,
+          "virtual_lines": [
+            {
+              "bbox": [
+                72,
+                57,
+                461,
+                102.0
+              ],
+              "spans": [],
+              "index": 0
+            },
+            {
+              "bbox": [
+                72,
+                102.0,
+                461,
+                147.0
+              ],
+              "spans": [],
+              "index": 1
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "bbox": [
+            79,
+            246,
+            235,
+            402
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                79,
+                246,
+                235,
+                402
+              ],
+              "group_id": 1,
+              "lines": [
+                {
+                  "bbox": [
+                    79,
+                    246,
+                    235,
+                    402
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        79,
+                        246,
+                        235,
+                        402
+                      ],
+                      "score": 0.752,
+                      "type": "image",
+                      "image_path": "224e7ceddeec1326e1f0701fd113300c5b8ae4285acbbbfa1d957d84c81ea0b1.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 2.5,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    79,
+                    246,
+                    235,
+                    324.0
+                  ],
+                  "spans": [],
+                  "index": 2
+                },
+                {
+                  "bbox": [
+                    79,
+                    324.0,
+                    235,
+                    402.0
+                  ],
+                  "spans": [],
+                  "index": 3
+                }
+              ]
+            }
+          ],
+          "index": 2.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            255,
+            253,
+            608,
+            447
+          ],
+          "lines": [
+            {
+              "bbox": [
+                256,
+                254,
+                418,
+                301
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    256,
+                    254,
+                    418,
+                    301
+                  ],
+                  "score": 1.0,
+                  "content": "Early-life",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            },
+            {
+              "bbox": [
+                256,
+                303,
+                608,
+                346
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    256,
+                    303,
+                    608,
+                    346
+                  ],
+                  "score": 1.0,
+                  "content": "environment affects",
+                  "type": "text"
+                }
+              ],
+              "index": 5
+            },
+            {
+              "bbox": [
+                265,
+                348,
+                597,
+                402
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    265,
+                    348,
+                    597,
+                    402
+                  ],
+                  "score": 1.0,
+                  "content": "lifelong health and",
+                  "type": "text"
+                }
+              ],
+              "index": 6
+            },
+            {
+              "bbox": [
+                257,
+                402,
+                530,
+                445
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    257,
+                    402,
+                    530,
+                    445
+                  ],
+                  "score": 1.0,
+                  "content": "risk for disease",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            }
+          ],
+          "index": 5.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            254,
+            477,
+            484,
+            669
+          ],
+          "lines": [
+            {
+              "bbox": [
+                256,
+                473,
+                440,
+                527
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    256,
+                    473,
+                    440,
+                    527
+                  ],
+                  "score": 1.0,
+                  "content": "Unhealthy",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            },
+            {
+              "bbox": [
+                258,
+                530,
+                481,
+                568
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    258,
+                    530,
+                    481,
+                    568
+                  ],
+                  "score": 1.0,
+                  "content": "environment",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            },
+            {
+              "bbox": [
+                259,
+                583,
+                387,
+                617
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    259,
+                    583,
+                    387,
+                    617
+                  ],
+                  "score": 1.0,
+                  "content": "causes",
+                  "type": "text"
+                }
+              ],
+              "index": 10
+            },
+            {
+              "bbox": [
+                257,
+                626,
+                363,
+                667
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    257,
+                    626,
+                    363,
+                    667
+                  ],
+                  "score": 1.0,
+                  "content": "death",
+                  "type": "text"
+                }
+              ],
+              "index": 11
+            }
+          ],
+          "index": 9.5
+        },
+        {
+          "type": "image",
+          "bbox": [
+            641,
+            264,
+            704,
+            378
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                641,
+                264,
+                704,
+                378
+              ],
+              "group_id": 4,
+              "lines": [
+                {
+                  "bbox": [
+                    641,
+                    264,
+                    704,
+                    378
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        641,
+                        264,
+                        704,
+                        378
+                      ],
+                      "score": 0.503,
+                      "type": "image",
+                      "image_path": "c501b71ae95b12c76084fbbf0fd6495b2219f56638ec3119aaa591efc5bc72ce.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 12,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    641,
+                    264,
+                    704,
+                    378
+                  ],
+                  "spans": [],
+                  "index": 12
+                }
+              ]
+            }
+          ],
+          "index": 12
+        },
+        {
+          "type": "text",
+          "bbox": [
+            723,
+            253,
+            1371,
+            448
+          ],
+          "lines": [
+            {
+              "bbox": [
+                725,
+                249,
+                1232,
+                302
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    725,
+                    249,
+                    1232,
+                    302
+                  ],
+                  "score": 1.0,
+                  "content": "Environmental threats during",
+                  "type": "text"
+                }
+              ],
+              "index": 13
+            },
+            {
+              "bbox": [
+                723,
+                303,
+                1369,
+                350
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    723,
+                    303,
+                    1369,
+                    350
+                  ],
+                  "score": 1.0,
+                  "content": "preconception, prenatal life and early",
+                  "type": "text"
+                }
+              ],
+              "index": 14
+            },
+            {
+              "bbox": [
+                736,
+                353,
+                1340,
+                394
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    736,
+                    353,
+                    1340,
+                    394
+                  ],
+                  "score": 1.0,
+                  "content": "childhood can have immediate and",
+                  "type": "text"
+                }
+              ],
+              "index": 15
+            },
+            {
+              "bbox": [
+                724,
+                401,
+                1221,
+                446
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    724,
+                    401,
+                    1221,
+                    446
+                  ],
+                  "score": 1.0,
+                  "content": "future health consequences.",
+                  "type": "text"
+                }
+              ],
+              "index": 17
+            }
+          ],
+          "index": 14.5
+        },
+        {
+          "type": "image",
+          "bbox": [
+            642,
+            476,
+            703,
+            588
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                642,
+                476,
+                703,
+                588
+              ],
+              "group_id": 5,
+              "lines": [
+                {
+                  "bbox": [
+                    642,
+                    476,
+                    703,
+                    588
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        642,
+                        476,
+                        703,
+                        588
+                      ],
+                      "score": 0.18,
+                      "type": "image",
+                      "image_path": "b12f3ef9bd65655a3d32d671b93fe26fc0810a124ff84d7ae1f94eb76c130dcc.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 16,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    642,
+                    476,
+                    703,
+                    588
+                  ],
+                  "spans": [],
+                  "index": 16
+                }
+              ]
+            }
+          ],
+          "index": 16
+        },
+        {
+          "type": "text",
+          "bbox": [
+            724,
+            478,
+            1239,
+            623
+          ],
+          "lines": [
+            {
+              "bbox": [
+                724,
+                476,
+                1233,
+                521
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    724,
+                    476,
+                    1233,
+                    521
+                  ],
+                  "score": 1.0,
+                  "content": "In 2016, the environment was",
+                  "type": "text"
+                }
+              ],
+              "index": 18
+            },
+            {
+              "bbox": [
+                734,
+                527,
+                1234,
+                569
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    734,
+                    527,
+                    1234,
+                    569
+                  ],
+                  "score": 1.0,
+                  "content": "responsible for an estimated",
+                  "type": "text"
+                }
+              ],
+              "index": 19
+            },
+            {
+              "bbox": [
+                723,
+                570,
+                1200,
+                626
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    723,
+                    570,
+                    1200,
+                    626
+                  ],
+                  "score": 1.0,
+                  "content": "13.7 million deaths globally",
+                  "type": "text"
+                }
+              ],
+              "index": 20
+            }
+          ],
+          "index": 19
+        },
+        {
+          "type": "image",
+          "bbox": [
+            80,
+            683,
+            235,
+            839
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                80,
+                683,
+                235,
+                839
+              ],
+              "group_id": 3,
+              "lines": [
+                {
+                  "bbox": [
+                    80,
+                    683,
+                    235,
+                    839
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        80,
+                        683,
+                        235,
+                        839
+                      ],
+                      "score": 0.57,
+                      "type": "image",
+                      "image_path": "ef2cfc78921b0633b1925d9b042f25daa4b8f104af4a1ceaf00ca4fde16893a0.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 21.5,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    80,
+                    683,
+                    235,
+                    761.0
+                  ],
+                  "spans": [],
+                  "index": 21
+                },
+                {
+                  "bbox": [
+                    80,
+                    761.0,
+                    235,
+                    839.0
+                  ],
+                  "spans": [],
+                  "index": 22
+                }
+              ]
+            }
+          ],
+          "index": 21.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            257,
+            748,
+            435,
+            840
+          ],
+          "lines": [
+            {
+              "bbox": [
+                257,
+                747,
+                434,
+                789
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    257,
+                    747,
+                    434,
+                    789
+                  ],
+                  "score": 1.0,
+                  "content": "Preventio",
+                  "type": "text"
+                }
+              ],
+              "index": 23
+            },
+            {
+              "bbox": [
+                255,
+                797,
+                411,
+                838
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    255,
+                    797,
+                    411,
+                    838
+                  ],
+                  "score": 1.0,
+                  "content": "n works",
+                  "type": "text"
+                }
+              ],
+              "index": 24
+            }
+          ],
+          "index": 23.5
+        },
+        {
+          "type": "image",
+          "bbox": [
+            642,
+            689,
+            704,
+            801
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                642,
+                689,
+                704,
+                801
+              ],
+              "group_id": 7,
+              "lines": [
+                {
+                  "bbox": [
+                    642,
+                    689,
+                    704,
+                    801
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        642,
+                        689,
+                        704,
+                        801
+                      ],
+                      "score": 0.444,
+                      "type": "image",
+                      "image_path": "5faa0fea85b79c363cfd6a69be2c3a70076e3b0c1123fe85dbcc9bc8be080f12.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 25,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    642,
+                    689,
+                    704,
+                    801
+                  ],
+                  "spans": [],
+                  "index": 25
+                }
+              ]
+            }
+          ],
+          "index": 25
+        },
+        {
+          "type": "text",
+          "bbox": [
+            255,
+            958,
+            646,
+            1100
+          ],
+          "lines": [
+            {
+              "bbox": [
+                254,
+                951,
+                648,
+                1008
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    254,
+                    951,
+                    648,
+                    1008
+                  ],
+                  "score": 1.0,
+                  "content": "Action to reduce early",
+                  "type": "text"
+                }
+              ],
+              "index": 26
+            },
+            {
+              "bbox": [
+                255,
+                1012,
+                643,
+                1053
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    255,
+                    1012,
+                    643,
+                    1053
+                  ],
+                  "score": 1.0,
+                  "content": "exposure can protect",
+                  "type": "text"
+                }
+              ],
+              "index": 27
+            },
+            {
+              "bbox": [
+                256,
+                1057,
+                373,
+                1099
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    256,
+                    1057,
+                    373,
+                    1099
+                  ],
+                  "score": 1.0,
+                  "content": "health",
+                  "type": "text"
+                }
+              ],
+              "index": 28
+            }
+          ],
+          "index": 27
+        },
+        {
+          "type": "text",
+          "bbox": [
+            724,
+            697,
+            1102,
+            840
+          ],
+          "lines": [
+            {
+              "bbox": [
+                725,
+                693,
+                1097,
+                745
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    725,
+                    693,
+                    1097,
+                    745
+                  ],
+                  "score": 1.0,
+                  "content": "Decreasing exposure",
+                  "type": "text"
+                }
+              ],
+              "index": 29
+            },
+            {
+              "bbox": [
+                800,
+                747,
+                1097,
+                792
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    800,
+                    747,
+                    850,
+                    792
+                  ],
+                  "score": 1.0,
+                  "content": "to",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    916,
+                    748,
+                    1097,
+                    789
+                  ],
+                  "score": 1.0,
+                  "content": "pollutants",
+                  "type": "text"
+                }
+              ],
+              "index": 30
+            },
+            {
+              "bbox": [
+                725,
+                796,
+                1023,
+                839
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    725,
+                    797,
+                    875,
+                    837
+                  ],
+                  "score": 1.0,
+                  "content": "reduces",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    881,
+                    796,
+                    1023,
+                    839
+                  ],
+                  "score": 1.0,
+                  "content": "disease",
+                  "type": "text"
+                }
+              ],
+              "index": 31
+            }
+          ],
+          "index": 30
+        },
+        {
+          "type": "image",
+          "bbox": [
+            1188,
+            761,
+            1579,
+            1155
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                1188,
+                761,
+                1579,
+                1155
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    1188,
+                    761,
+                    1579,
+                    1155
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        1188,
+                        761,
+                        1579,
+                        1155
+                      ],
+                      "score": 0.127,
+                      "type": "image",
+                      "image_path": "4ee4e04afef0c09f2e0e7dee78f88e4556822f8a65f8a447257e46d42dddd212.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 32.5,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    1188,
+                    761,
+                    1579,
+                    958.0
+                  ],
+                  "spans": [],
+                  "index": 32
+                },
+                {
+                  "bbox": [
+                    1188,
+                    958.0,
+                    1579,
+                    1155.0
+                  ],
+                  "spans": [],
+                  "index": 33
+                }
+              ]
+            }
+          ],
+          "index": 32.5
+        }
+      ]
+    },
+    "CostTime": 20.241
+  }
+}

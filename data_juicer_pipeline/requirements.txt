@@ -1,0 +1,5 @@
+py-data-juicer==1.5.3
+PyYAML>=6.0,<7
+ftfy>=6.1,<7
+opencc>=1.1,<2
+pytest>=8,<9

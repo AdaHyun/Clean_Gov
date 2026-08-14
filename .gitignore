@@ -41,3 +41,28 @@ data/tmp/
 data/cache/
 exports/
 
+# Clean_Gov 根目录本地缓存与打包文件
+/.hfc/
+/data_juicer_pipeline.zip
+/data_juicer_pipeline_prompt1.md
+/text_clean.zip
+
+# text_clean 运行数据与生成结果，不上传 GitHub
+/text_clean/data/
+/text_clean/data.zip
+
+# attachment_clean 下不上传的备份、实验项目与传输文件
+/attachment_clean/_config_backups/
+/attachment_clean/attachment_clean_MinerU/
+/attachment_clean/grg_test/
+/attachment_clean/server_upload_temp/
+/attachment_clean/attachment_clean_Company.zip
+/attachment_clean/attachment_clean_Company_prompt2.md
+
+# attachment_clean_Company 下不上传的运行数据和本地派生内容
+/attachment_clean/attachment_clean_Company/.pytest_cache/
+/attachment_clean/attachment_clean_Company/data/
+/attachment_clean/attachment_clean_Company/docs/
+
+# Data-Juicer 运行数据与生成结果
+/data_juicer_pipeline/data/

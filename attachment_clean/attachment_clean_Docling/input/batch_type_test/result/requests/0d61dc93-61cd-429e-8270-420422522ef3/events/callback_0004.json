@@ -1,0 +1,798 @@
+{
+  "received_at": "2026-07-17T16:14:44.298299+08:00",
+  "callback_count": 4,
+  "payload": {
+    "FileId": "",
+    "RequestId": "0d61dc93-61cd-429e-8270-420422522ef3",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_pptx.pptx",
+    "Pages_Info": {
+      "current": 5,
+      "total": 10,
+      "progress": 0.5
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            236,
+            260,
+            722,
+            349
+          ],
+          "lines": [
+            {
+              "bbox": [
+                237,
+                252,
+                730,
+                352
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    237,
+                    252,
+                    730,
+                    352
+                  ],
+                  "score": 1.0,
+                  "content": "Air pollution",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            }
+          ],
+          "index": 0
+        },
+        {
+          "type": "title",
+          "bbox": [
+            89,
+            435,
+            441,
+            471
+          ],
+          "lines": [
+            {
+              "bbox": [
+                83,
+                428,
+                446,
+                475
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    83,
+                    428,
+                    446,
+                    475
+                  ],
+                  "score": 1.0,
+                  "content": "Recommended actions",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            }
+          ],
+          "index": 1
+        },
+        {
+          "type": "text",
+          "bbox": [
+            142,
+            530,
+            712,
+            677
+          ],
+          "lines": [
+            {
+              "bbox": [
+                143,
+                528,
+                712,
+                574
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    143,
+                    528,
+                    712,
+                    574
+                  ],
+                  "score": 1.0,
+                  "content": "Be informed about the health",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            },
+            {
+              "bbox": [
+                139,
+                577,
+                649,
+                629
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    139,
+                    577,
+                    649,
+                    629
+                  ],
+                  "score": 1.0,
+                  "content": "effects of exposure to air",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            },
+            {
+              "bbox": [
+                142,
+                630,
+                708,
+                678
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    142,
+                    630,
+                    708,
+                    678
+                  ],
+                  "score": 1.0,
+                  "content": "pollution, especially on children",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            }
+          ],
+          "index": 3
+        },
+        {
+          "type": "text",
+          "bbox": [
+            142,
+            731,
+            606,
+            876
+          ],
+          "lines": [
+            {
+              "bbox": [
+                140,
+                724,
+                607,
+                784
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    140,
+                    724,
+                    607,
+                    784
+                  ],
+                  "score": 1.0,
+                  "content": "Advise families on ways",
+                  "type": "text"
+                }
+              ],
+              "index": 5
+            },
+            {
+              "bbox": [
+                139,
+                777,
+                594,
+                834
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    139,
+                    777,
+                    594,
+                    834
+                  ],
+                  "score": 1.0,
+                  "content": "of promoting sustainable",
+                  "type": "text"
+                }
+              ],
+              "index": 6
+            },
+            {
+              "bbox": [
+                142,
+                829,
+                306,
+                880
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    142,
+                    829,
+                    306,
+                    880
+                  ],
+                  "score": 1.0,
+                  "content": "lifestyles",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            }
+          ],
+          "index": 6
+        },
+        {
+          "type": "text",
+          "bbox": [
+            143,
+            931,
+            655,
+            1121
+          ],
+          "lines": [
+            {
+              "bbox": [
+                139,
+                924,
+                658,
+                979
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    139,
+                    924,
+                    658,
+                    979
+                  ],
+                  "score": 1.0,
+                  "content": "Engage with other sectors",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            },
+            {
+              "bbox": [
+                140,
+                980,
+                640,
+                1023
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    140,
+                    980,
+                    640,
+                    1023
+                  ],
+                  "score": 1.0,
+                  "content": "and advocate adoption of air",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            },
+            {
+              "bbox": [
+                140,
+                1026,
+                656,
+                1076
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    140,
+                    1026,
+                    656,
+                    1076
+                  ],
+                  "score": 1.0,
+                  "content": "pollution policies at local and",
+                  "type": "text"
+                }
+              ],
+              "index": 10
+            },
+            {
+              "bbox": [
+                142,
+                1077,
+                399,
+                1120
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    142,
+                    1077,
+                    399,
+                    1120
+                  ],
+                  "score": 1.0,
+                  "content": "national levels",
+                  "type": "text"
+                }
+              ],
+              "index": 11
+            }
+          ],
+          "index": 9.5
+        },
+        {
+          "type": "image",
+          "bbox": [
+            755,
+            533,
+            805,
+            624
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                755,
+                533,
+                805,
+                624
+              ],
+              "group_id": 1,
+              "lines": [
+                {
+                  "bbox": [
+                    755,
+                    533,
+                    805,
+                    624
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        755,
+                        533,
+                        805,
+                        624
+                      ],
+                      "score": 0.415,
+                      "type": "image",
+                      "image_path": "ed00764ca6a23c6cbbf33c3221912f3592895cf185123adcebc4c97627ac3c72.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 12,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    755,
+                    533,
+                    805,
+                    624
+                  ],
+                  "spans": [],
+                  "index": 12
+                }
+              ]
+            }
+          ],
+          "index": 12
+        },
+        {
+          "type": "text",
+          "bbox": [
+            824,
+            529,
+            1483,
+            662
+          ],
+          "lines": [
+            {
+              "bbox": [
+                828,
+                527,
+                1438,
+                574
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    828,
+                    527,
+                    1438,
+                    574
+                  ],
+                  "score": 1.0,
+                  "content": "Recognize and assess exposure",
+                  "type": "text"
+                }
+              ],
+              "index": 13
+            },
+            {
+              "bbox": [
+                821,
+                568,
+                1486,
+                624
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    821,
+                    568,
+                    1486,
+                    624
+                  ],
+                  "score": 1.0,
+                  "content": "risks in pregnant women and/or child",
+                  "type": "text"
+                }
+              ],
+              "index": 14
+            },
+            {
+              "bbox": [
+                824,
+                620,
+                971,
+                663
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    824,
+                    620,
+                    971,
+                    663
+                  ],
+                  "score": 1.0,
+                  "content": "patients",
+                  "type": "text"
+                }
+              ],
+              "index": 15
+            }
+          ],
+          "index": 14
+        },
+        {
+          "type": "image",
+          "bbox": [
+            757,
+            707,
+            804,
+            795
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                757,
+                707,
+                804,
+                795
+              ],
+              "group_id": 2,
+              "lines": [
+                {
+                  "bbox": [
+                    757,
+                    707,
+                    804,
+                    795
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        757,
+                        707,
+                        804,
+                        795
+                      ],
+                      "score": 0.513,
+                      "type": "image",
+                      "image_path": "175e64503d502b270a397c9634f1b7052053360f2b24e536e9ab838262ad9a01.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 16,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    757,
+                    707,
+                    804,
+                    795
+                  ],
+                  "spans": [],
+                  "index": 16
+                }
+              ]
+            }
+          ],
+          "index": 16
+        },
+        {
+          "type": "text",
+          "bbox": [
+            824,
+            716,
+            1521,
+            913
+          ],
+          "lines": [
+            {
+              "bbox": [
+                828,
+                718,
+                1517,
+                763
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    828,
+                    718,
+                    1517,
+                    763
+                  ],
+                  "score": 1.0,
+                  "content": "Advise families on switching to clean",
+                  "type": "text"
+                }
+              ],
+              "index": 17
+            },
+            {
+              "bbox": [
+                824,
+                767,
+                1452,
+                814
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    824,
+                    767,
+                    1452,
+                    814
+                  ],
+                  "score": 1.0,
+                  "content": "household fuels, increasing indoor",
+                  "type": "text"
+                }
+              ],
+              "index": 18
+            },
+            {
+              "bbox": [
+                824,
+                819,
+                1365,
+                863
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    824,
+                    819,
+                    1365,
+                    863
+                  ],
+                  "score": 1.0,
+                  "content": "ventilation, and keeping indoor",
+                  "type": "text"
+                }
+              ],
+              "index": 19
+            },
+            {
+              "bbox": [
+                826,
+                870,
+                1138,
+                914
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    826,
+                    870,
+                    1138,
+                    914
+                  ],
+                  "score": 1.0,
+                  "content": "environments dry",
+                  "type": "text"
+                }
+              ],
+              "index": 20
+            }
+          ],
+          "index": 18.5
+        },
+        {
+          "type": "image",
+          "bbox": [
+            761,
+            959,
+            810,
+            1050
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                761,
+                959,
+                810,
+                1050
+              ],
+              "group_id": 3,
+              "lines": [
+                {
+                  "bbox": [
+                    761,
+                    959,
+                    810,
+                    1050
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        761,
+                        959,
+                        810,
+                        1050
+                      ],
+                      "score": 0.404,
+                      "type": "image",
+                      "image_path": "75b22c28c3b8c6f29a7b806ad8b63984655c930392c1a9ca24d2f596026043a5.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 21,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    761,
+                    959,
+                    810,
+                    1050
+                  ],
+                  "spans": [],
+                  "index": 21
+                }
+              ]
+            }
+          ],
+          "index": 21
+        },
+        {
+          "type": "text",
+          "bbox": [
+            824,
+            965,
+            1519,
+            1160
+          ],
+          "lines": [
+            {
+              "bbox": [
+                826,
+                966,
+                1417,
+                1009
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    826,
+                    966,
+                    1417,
+                    1009
+                  ],
+                  "score": 1.0,
+                  "content": "Be aware of local, national and",
+                  "type": "text"
+                }
+              ],
+              "index": 22
+            },
+            {
+              "bbox": [
+                826,
+                1016,
+                1424,
+                1059
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    826,
+                    1016,
+                    1424,
+                    1059
+                  ],
+                  "score": 1.0,
+                  "content": "international medical and health-",
+                  "type": "text"
+                }
+              ],
+              "index": 23
+            },
+            {
+              "bbox": [
+                824,
+                1068,
+                1518,
+                1107
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    824,
+                    1068,
+                    1518,
+                    1107
+                  ],
+                  "score": 1.0,
+                  "content": "related societies active in the field of air",
+                  "type": "text"
+                }
+              ],
+              "index": 24
+            },
+            {
+              "bbox": [
+                823,
+                1117,
+                985,
+                1159
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    823,
+                    1117,
+                    985,
+                    1159
+                  ],
+                  "score": 1.0,
+                  "content": "pollution",
+                  "type": "text"
+                }
+              ],
+              "index": 25
+            }
+          ],
+          "index": 23.5
+        }
+      ]
+    },
+    "CostTime": 20.241
+  }
+}

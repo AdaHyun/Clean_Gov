@@ -1,0 +1,134 @@
+{
+  "received_at": "2026-07-17T16:14:24.823452+08:00",
+  "callback_count": 10,
+  "payload": {
+    "FileId": "",
+    "RequestId": "e3587cf7-1a62-4faa-b309-389f14a84786",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_ppt.pdf",
+    "Pages_Info": {
+      "current": 10,
+      "total": 10,
+      "progress": 1.0
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            187,
+            21,
+            532,
+            55
+          ],
+          "lines": [
+            {
+              "bbox": [
+                188,
+                21,
+                531,
+                57
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    188,
+                    21,
+                    531,
+                    57
+                  ],
+                  "score": 1.0,
+                  "content": "全球狂犬病病毒的宿主动物",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            }
+          ],
+          "index": 0
+        },
+        {
+          "type": "image",
+          "bbox": [
+            23,
+            64,
+            698,
+            352
+          ],
+          "blocks": [
+            {
+              "type": "image_body",
+              "bbox": [
+                23,
+                64,
+                698,
+                352
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    23,
+                    64,
+                    698,
+                    352
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        23,
+                        64,
+                        698,
+                        352
+                      ],
+                      "score": 0.922,
+                      "type": "image",
+                      "image_path": "f7db703d6314786a3c2089a86cdc2573247a2da9246e777b45ffd77392f4a61b.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 2,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    23,
+                    64,
+                    698,
+                    160.0
+                  ],
+                  "spans": [],
+                  "index": 1
+                },
+                {
+                  "bbox": [
+                    23,
+                    160.0,
+                    698,
+                    256.0
+                  ],
+                  "spans": [],
+                  "index": 2
+                },
+                {
+                  "bbox": [
+                    23,
+                    256.0,
+                    698,
+                    352.0
+                  ],
+                  "spans": [],
+                  "index": 3
+                }
+              ]
+            }
+          ],
+          "index": 2
+        }
+      ]
+    },
+    "CostTime": 9.878
+  }
+}

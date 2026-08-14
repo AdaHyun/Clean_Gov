@@ -1,0 +1,10 @@
+2026-07-17T16:12:01.120923+08:00 batch_start files=8 layout=mirror callback=
+2026-07-17T16:12:01.124185+08:00 dry_run path=doc_test/test_doc.doc extension=.doc
+2026-07-17T16:12:01.127537+08:00 dry_run path=doc_test/test_docx_withTable.docx extension=.docx
+2026-07-17T16:12:01.134775+08:00 dry_run path=PDF_test/test.pdf extension=.pdf
+2026-07-17T16:12:01.139648+08:00 dry_run path=PDF_test/test_ppt.pdf extension=.pdf
+2026-07-17T16:12:01.154080+08:00 dry_run path=ppt_test/test_pptx.pptx extension=.pptx
+2026-07-17T16:12:01.157498+08:00 dry_run path=table_test/test_docx_withTable.docx extension=.docx
+2026-07-17T16:12:01.266885+08:00 file_unsupported path=test_tif.tif extension=.tif
+2026-07-17T16:12:01.269914+08:00 dry_run path=xlsx_test/test_xlsx.xlsx extension=.xlsx
+2026-07-17T16:12:01.277559+08:00 batch_submit_finished summary={"batch_id": "20260717_161201_type_test_023af860", "batch_name": "type_test", "input_dir": "/home/linzihan/PublicHealthProject/Clean_Gov_Attachments_Company/data/attachments/batch_type_test", "started_at": "2026-07-17T16:12:01.119383+08:00", "finished_at": "2026-07-17T16:12:01.270148+08:00", "total_files": 8, "submit_success": 0, "submit_failed": 0, "unsupported": 1, "waiting_callback": 0, "callback_success": 0, "callback_failed": 0, "callback_timeout": 0, "skipped_duplicate": 0, "dry_run": 7, "by_extension": {".doc": {"total": 1, "submit_success": 0, "callback_success": 0, "failed": 0}, ".docx": {"total": 2, "submit_success": 0, "callback_success": 0, "failed": 0}, ".pdf": {"total": 2, "submit_success": 0, "callback_success": 0, "failed": 0}, ".pptx": {"total": 1, "submit_success": 0, "callback_success": 0, "failed": 0}, ".tif": {"total": 1, "submit_success": 0, "callback_success": 0, "failed": 1}, ".xlsx": {"total": 1, "submit_success": 0, "callback_success": 0, "failed": 0}}}

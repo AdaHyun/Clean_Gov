@@ -1,0 +1,27 @@
+# 本文件是人工可读模板；每次运行会在 intermediate/runs/<run_id>/configs 生成真实配置。
+project_name: stage01_GROUP_NAME
+executor_type: default
+dataset_path: ''
+dataset:
+  configs:
+    - type: local
+      path: INPUT_JSONL
+      weight: 1.0
+export_path: OUTPUT_JSONL
+export_type: jsonl
+export_shard_size: 0
+export_in_parallel: false
+text_keys: text
+np: 1
+use_cache: false
+skip_op_error: false
+process:
+  - document_line_deduplicator:
+      frequency_threshold: FREQUENCY_THRESHOLD
+      lowercase: false
+      ignore_special_character: false
+      min_line_length: 2
+      skip_brackets: true
+      skip_markdown_headers: true
+      skip_latex_env: true
+      skip_html_tags: true

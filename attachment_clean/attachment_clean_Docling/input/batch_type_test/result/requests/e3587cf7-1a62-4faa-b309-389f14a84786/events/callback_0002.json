@@ -1,0 +1,56 @@
+{
+  "received_at": "2026-07-17T16:14:24.637253+08:00",
+  "callback_count": 2,
+  "payload": {
+    "FileId": "",
+    "RequestId": "e3587cf7-1a62-4faa-b309-389f14a84786",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_ppt.pdf",
+    "Pages_Info": {
+      "current": 3,
+      "total": 10,
+      "progress": 0.3
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            262,
+            179,
+            460,
+            218
+          ],
+          "lines": [
+            {
+              "bbox": [
+                259,
+                174,
+                464,
+                222
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    259,
+                    174,
+                    464,
+                    222
+                  ],
+                  "score": 0.993,
+                  "content": "1.狂犬病简介",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            }
+          ],
+          "index": 0
+        }
+      ]
+    },
+    "CostTime": 9.878
+  }
+}

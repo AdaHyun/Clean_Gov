@@ -1,0 +1,20 @@
+{
+  "request_id": "06a8ffab-2762-4d0f-9b9c-be46b90a13e6",
+  "source_relative_path": "PDF_test/test.pdf",
+  "is_empty": false,
+  "raw_character_count": 9464,
+  "clean_character_count": 9423,
+  "raw_line_count": 203,
+  "clean_line_count": 203,
+  "heading_count": 33,
+  "table_candidate_count": 0,
+  "image_reference_count": 1,
+  "replacement_character_count": 0,
+  "nul_character_count": 0,
+  "very_long_line_count": 0,
+  "markdown_table_detected": false,
+  "html_residue_detected": true,
+  "warnings": [
+    "html_residue_detected"
+  ]
+}

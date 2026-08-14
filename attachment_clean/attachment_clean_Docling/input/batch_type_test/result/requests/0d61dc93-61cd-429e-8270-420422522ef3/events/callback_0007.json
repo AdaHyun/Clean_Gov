@@ -1,0 +1,435 @@
+{
+  "received_at": "2026-07-17T16:14:44.388857+08:00",
+  "callback_count": 7,
+  "payload": {
+    "FileId": "",
+    "RequestId": "0d61dc93-61cd-429e-8270-420422522ef3",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_pptx.pptx",
+    "Pages_Info": {
+      "current": 8,
+      "total": 10,
+      "progress": 0.8
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            243,
+            261,
+            956,
+            444
+          ],
+          "lines": [
+            {
+              "bbox": [
+                243,
+                258,
+                962,
+                353
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    243,
+                    258,
+                    527,
+                    353
+                  ],
+                  "score": 1.0,
+                  "content": "Water,",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    534,
+                    260,
+                    962,
+                    348
+                  ],
+                  "score": 1.0,
+                  "content": "sanitation",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            },
+            {
+              "bbox": [
+                265,
+                346,
+                951,
+                460
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    265,
+                    353,
+                    433,
+                    440
+                  ],
+                  "score": 1.0,
+                  "content": "and",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    439,
+                    346,
+                    782,
+                    460
+                  ],
+                  "score": 1.0,
+                  "content": "hygiene",
+                  "type": "text"
+                },
+                {
+                  "bbox": [
+                    792,
+                    381,
+                    951,
+                    437
+                  ],
+                  "score": 1.0,
+                  "content": "(WASH)",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            }
+          ],
+          "index": 0.5
+        },
+        {
+          "type": "title",
+          "bbox": [
+            125,
+            461,
+            346,
+            499
+          ],
+          "lines": [
+            {
+              "bbox": [
+                123,
+                460,
+                347,
+                499
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    123,
+                    460,
+                    347,
+                    499
+                  ],
+                  "score": 1.0,
+                  "content": "Health effects",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            }
+          ],
+          "index": 2
+        },
+        {
+          "type": "text",
+          "bbox": [
+            167,
+            540,
+            1455,
+            685
+          ],
+          "lines": [
+            {
+              "bbox": [
+                164,
+                535,
+                1454,
+                589
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    164,
+                    535,
+                    1454,
+                    589
+                  ],
+                  "score": 1.0,
+                  "content": "Lack of WASH is a major risk factor for diarrhoea, parasitic infections and",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            },
+            {
+              "bbox": [
+                165,
+                586,
+                1371,
+                640
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    165,
+                    586,
+                    1371,
+                    640
+                  ],
+                  "score": 1.0,
+                  "content": "malnutrition in children. Diarrhoea is the fourth leading cause of death",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            },
+            {
+              "bbox": [
+                161,
+                637,
+                691,
+                689
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    161,
+                    637,
+                    691,
+                    689
+                  ],
+                  "score": 1.0,
+                  "content": "among children under 5 years",
+                  "type": "text"
+                }
+              ],
+              "index": 5
+            }
+          ],
+          "index": 4
+        },
+        {
+          "type": "text",
+          "bbox": [
+            165,
+            724,
+            1385,
+            811
+          ],
+          "lines": [
+            {
+              "bbox": [
+                163,
+                718,
+                1387,
+                773
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    163,
+                    718,
+                    1387,
+                    773
+                  ],
+                  "score": 1.0,
+                  "content": "Infections associated with unclean births account for 26% of neonatal",
+                  "type": "text"
+                }
+              ],
+              "index": 6
+            },
+            {
+              "bbox": [
+                165,
+                764,
+                299,
+                814
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    165,
+                    764,
+                    299,
+                    814
+                  ],
+                  "score": 1.0,
+                  "content": "deaths",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            }
+          ],
+          "index": 6.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            169,
+            849,
+            1494,
+            995
+          ],
+          "lines": [
+            {
+              "bbox": [
+                167,
+                844,
+                1354,
+                898
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    167,
+                    844,
+                    1354,
+                    898
+                  ],
+                  "score": 1.0,
+                  "content": "Inadequate WASH in health-care facilities and the unsafe disposal of",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            },
+            {
+              "bbox": [
+                164,
+                892,
+                1495,
+                950
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    164,
+                    892,
+                    1495,
+                    950
+                  ],
+                  "score": 1.0,
+                  "content": "wastewater from health centres can contribute to the spread of antimicrobial",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            },
+            {
+              "bbox": [
+                164,
+                944,
+                945,
+                999
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    164,
+                    944,
+                    945,
+                    999
+                  ],
+                  "score": 1.0,
+                  "content": "resistance among patients and communities",
+                  "type": "text"
+                }
+              ],
+              "index": 10
+            }
+          ],
+          "index": 9
+        },
+        {
+          "type": "text",
+          "bbox": [
+            169,
+            1032,
+            1488,
+            1177
+          ],
+          "lines": [
+            {
+              "bbox": [
+                164,
+                1020,
+                1479,
+                1085
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    164,
+                    1020,
+                    1479,
+                    1085
+                  ],
+                  "score": 1.0,
+                  "content": "The unsafe management of health-care waste exposes health-care workers,",
+                  "type": "text"
+                }
+              ],
+              "index": 11
+            },
+            {
+              "bbox": [
+                164,
+                1074,
+                1306,
+                1132
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    164,
+                    1074,
+                    1306,
+                    1132
+                  ],
+                  "score": 1.0,
+                  "content": "waste handlers, patients and their families, and the community to",
+                  "type": "text"
+                }
+              ],
+              "index": 12
+            },
+            {
+              "bbox": [
+                164,
+                1123,
+                1493,
+                1181
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    164,
+                    1123,
+                    1493,
+                    1181
+                  ],
+                  "score": 1.0,
+                  "content": "preventable infections and the effects of toxic substances, including injuries",
+                  "type": "text"
+                }
+              ],
+              "index": 13
+            }
+          ],
+          "index": 12
+        }
+      ]
+    },
+    "CostTime": 20.241
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "received_at": "2026-07-17T16:14:44.472251+08:00",
+  "callback_count": 10,
+  "payload": {
+    "FileId": "",
+    "RequestId": "0d61dc93-61cd-429e-8270-420422522ef3",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test_pptx.pptx",
+    "Pages_Info": {
+      "current": 10,
+      "total": 10,
+      "progress": 1.0
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            72,
+            21,
+            631,
+            85
+          ],
+          "lines": [
+            {
+              "bbox": [
+                65,
+                13,
+                639,
+                95
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    65,
+                    13,
+                    639,
+                    95
+                  ],
+                  "score": 1.0,
+                  "content": "Acknowledgements",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            }
+          ],
+          "index": 0
+        },
+        {
+          "type": "text",
+          "bbox": [
+            74,
+            99,
+            1476,
+            161
+          ],
+          "lines": [
+            {
+              "bbox": [
+                68,
+                94,
+                1479,
+                139
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    68,
+                    94,
+                    1479,
+                    139
+                  ],
+                  "score": 1.0,
+                  "content": "WHO is grateful to the Center for Preventive Medical Sciences, Chiba University, Japan, for providing the technical and",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            },
+            {
+              "bbox": [
+                68,
+                125,
+                654,
+                166
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    68,
+                    125,
+                    654,
+                    166
+                  ],
+                  "score": 1.0,
+                  "content": "financial support that made this project possible.",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            }
+          ],
+          "index": 1.5
+        },
+        {
+          "type": "title",
+          "bbox": [
+            76,
+            184,
+            377,
+            241
+          ],
+          "lines": [
+            {
+              "bbox": [
+                72,
+                176,
+                380,
+                248
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    72,
+                    176,
+                    380,
+                    248
+                  ],
+                  "score": 1.0,
+                  "content": "Disclaimer",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            }
+          ],
+          "index": 3
+        },
+        {
+          "type": "title",
+          "bbox": [
+            145,
+            246,
+            613,
+            279
+          ],
+          "lines": [
+            {
+              "bbox": [
+                143,
+                244,
+                605,
+                281
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    143,
+                    244,
+                    605,
+                    281
+                  ],
+                  "score": 1.0,
+                  "content": "WHO/HEP/ECH/CHE/slides/22.03",
+                  "type": "text"
+                }
+              ],
+              "index": 4
+            }
+          ],
+          "index": 4
+        },
+        {
+          "type": "text",
+          "bbox": [
+            146,
+            283,
+            632,
+            316
+          ],
+          "lines": [
+            {
+              "bbox": [
+                141,
+                279,
+                634,
+                318
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    141,
+                    279,
+                    634,
+                    318
+                  ],
+                  "score": 1.0,
+                  "content": "© World Health Organization 2022",
+                  "type": "text"
+                }
+              ],
+              "index": 5
+            }
+          ],
+          "index": 5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            93,
+            318,
+            1291,
+            424
+          ],
+          "lines": [
+            {
+              "bbox": [
+                143,
+                315,
+                1285,
+                353
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    143,
+                    315,
+                    1285,
+                    353
+                  ],
+                  "score": 1.0,
+                  "content": "Some rights reserved. This work is available under the Creative Commons Attribution-",
+                  "type": "text"
+                }
+              ],
+              "index": 6
+            },
+            {
+              "bbox": [
+                139,
+                349,
+                1070,
+                393
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    139,
+                    349,
+                    1070,
+                    393
+                  ],
+                  "score": 1.0,
+                  "content": "NonCommercial-ShareAlike 3.0 IGO licence (CC BY-NC-SA 3.0 IGO;",
+                  "type": "text"
+                }
+              ],
+              "index": 7
+            },
+            {
+              "bbox": [
+                139,
+                383,
+                885,
+                433
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    139,
+                    383,
+                    885,
+                    433
+                  ],
+                  "score": 1.0,
+                  "content": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo).",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            }
+          ],
+          "index": 7
+        },
+        {
+          "type": "text",
+          "bbox": [
+            132,
+            426,
+            1473,
+            821
+          ],
+          "lines": [
+            {
+              "bbox": [
+                143,
+                422,
+                1451,
+                467
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    143,
+                    422,
+                    1451,
+                    467
+                  ],
+                  "score": 1.0,
+                  "content": "Under the terms of this licence, you may copy, redistribute and adapt the work for non-commercial",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            },
+            {
+              "bbox": [
+                140,
+                461,
+                1473,
+                500
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    140,
+                    461,
+                    1473,
+                    500
+                  ],
+                  "score": 1.0,
+                  "content": "purposes, provided the work is appropriately cited, as indicated below. In any use of this work, there",
+                  "type": "text"
+                }
+              ],
+              "index": 10
+            },
+            {
+              "bbox": [
+                143,
+                499,
+                1435,
+                535
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    143,
+                    499,
+                    1435,
+                    535
+                  ],
+                  "score": 1.0,
+                  "content": "should be no suggestion that WHO endorses any specific organization, products or services. The",
+                  "type": "text"
+                }
+              ],
+              "index": 11
+            },
+            {
+              "bbox": [
+                141,
+                532,
+                1467,
+                573
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    141,
+                    532,
+                    1467,
+                    573
+                  ],
+                  "score": 1.0,
+                  "content": "use of the WHO logo is not permitted. If you adapt the work, then you must license your work under",
+                  "type": "text"
+                }
+              ],
+              "index": 12
+            },
+            {
+              "bbox": [
+                140,
+                567,
+                1400,
+                609
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    140,
+                    567,
+                    1400,
+                    609
+                  ],
+                  "score": 1.0,
+                  "content": "the same or equivalent Creative Commons licence. If you create a translation of this work, you",
+                  "type": "text"
+                }
+              ],
+              "index": 13
+            },
+            {
+              "bbox": [
+                143,
+                605,
+                1403,
+                645
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    143,
+                    605,
+                    1403,
+                    645
+                  ],
+                  "score": 1.0,
+                  "content": "should add the following disclaimer along with the suggested citation: “This translation was not",
+                  "type": "text"
+                }
+              ],
+              "index": 14
+            },
+            {
+              "bbox": [
+                141,
+                641,
+                1369,
+                681
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    141,
+                    641,
+                    1369,
+                    681
+                  ],
+                  "score": 1.0,
+                  "content": "created by the World Health Organization (WHO). WHO is not responsible for the content or",
+                  "type": "text"
+                }
+              ],
+              "index": 15
+            },
+            {
+              "bbox": [
+                141,
+                676,
+                1450,
+                716
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    141,
+                    676,
+                    1450,
+                    716
+                  ],
+                  "score": 1.0,
+                  "content": "accuracy of this translation. The original English edition shall be the binding and authentic edition”.",
+                  "type": "text"
+                }
+              ],
+              "index": 16
+            },
+            {
+              "bbox": [
+                141,
+                712,
+                1450,
+                751
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    141,
+                    712,
+                    1450,
+                    751
+                  ],
+                  "score": 1.0,
+                  "content": "Any mediation relating to disputes arising under the licence shall be conducted in accordance with",
+                  "type": "text"
+                }
+              ],
+              "index": 17
+            },
+            {
+              "bbox": [
+                140,
+                746,
+                1047,
+                788
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    140,
+                    746,
+                    1047,
+                    788
+                  ],
+                  "score": 1.0,
+                  "content": "the mediation rules of the World Intellectual Property Organization (",
+                  "type": "text"
+                }
+              ],
+              "index": 18
+            },
+            {
+              "bbox": [
+                142,
+                782,
+                745,
+                824
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    142,
+                    782,
+                    745,
+                    824
+                  ],
+                  "score": 1.0,
+                  "content": "http://www.wipo.int/amc/en/mediation/rules/).",
+                  "type": "text"
+                }
+              ],
+              "index": 19
+            }
+          ],
+          "index": 14
+        },
+        {
+          "type": "text",
+          "bbox": [
+            92,
+            836,
+            1490,
+            906
+          ],
+          "lines": [
+            {
+              "bbox": [
+                107,
+                828,
+                1485,
+                878
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    107,
+                    828,
+                    1485,
+                    878
+                  ],
+                  "score": 1.0,
+                  "content": "The opinions and conclusions expressed do not necessarily represent the official position of the World",
+                  "type": "text"
+                }
+              ],
+              "index": 20
+            },
+            {
+              "bbox": [
+                132,
+                869,
+                423,
+                911
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    132,
+                    869,
+                    423,
+                    911
+                  ],
+                  "score": 1.0,
+                  "content": "Health Organization.",
+                  "type": "text"
+                }
+              ],
+              "index": 21
+            }
+          ],
+          "index": 20.5
+        },
+        {
+          "type": "text",
+          "bbox": [
+            88,
+            927,
+            1489,
+            1034
+          ],
+          "lines": [
+            {
+              "bbox": [
+                91,
+                925,
+                1487,
+                967
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    91,
+                    925,
+                    1487,
+                    967
+                  ],
+                  "score": 1.0,
+                  "content": "This publication is being distributed without warranty of any kind, either express or implied. In no event•",
+                  "type": "text"
+                }
+              ],
+              "index": 22
+            },
+            {
+              "bbox": [
+                132,
+                959,
+                1466,
+                1004
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    132,
+                    959,
+                    1466,
+                    1004
+                  ],
+                  "score": 1.0,
+                  "content": "shall the World Health Organization be liable for damages, including any general, special, incidental,",
+                  "type": "text"
+                }
+              ],
+              "index": 23
+            },
+            {
+              "bbox": [
+                134,
+                998,
+                1028,
+                1036
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    134,
+                    998,
+                    1028,
+                    1036
+                  ],
+                  "score": 1.0,
+                  "content": "or consequential damages, arising out of the use of this publication",
+                  "type": "text"
+                }
+              ],
+              "index": 24
+            }
+          ],
+          "index": 23
+        },
+        {
+          "type": "text",
+          "bbox": [
+            100,
+            1058,
+            1478,
+            1167
+          ],
+          "lines": [
+            {
+              "bbox": [
+                90,
+                1053,
+                1474,
+                1099
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    90,
+                    1053,
+                    1474,
+                    1099
+                  ],
+                  "score": 1.0,
+                  "content": "The contents of this PowerPoint slides are based upon references available in the published literature•",
+                  "type": "text"
+                }
+              ],
+              "index": 25
+            },
+            {
+              "bbox": [
+                132,
+                1093,
+                1469,
+                1133
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    132,
+                    1093,
+                    1469,
+                    1133
+                  ],
+                  "score": 1.0,
+                  "content": "as of its last update. Users are encouraged to search standard medical databases for updates in the",
+                  "type": "text"
+                }
+              ],
+              "index": 26
+            },
+            {
+              "bbox": [
+                131,
+                1125,
+                1429,
+                1171
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    131,
+                    1125,
+                    1429,
+                    1171
+                  ],
+                  "score": 1.0,
+                  "content": "science for issues of particular interest or sensitivity in their regions and areas of specific concern.",
+                  "type": "text"
+                }
+              ],
+              "index": 27
+            }
+          ],
+          "index": 26
+        }
+      ]
+    },
+    "CostTime": 20.241
+  }
+}

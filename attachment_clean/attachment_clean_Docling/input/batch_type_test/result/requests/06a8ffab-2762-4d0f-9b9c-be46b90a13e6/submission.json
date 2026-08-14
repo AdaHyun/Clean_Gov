@@ -1,0 +1,30 @@
+{
+  "submitted_at": "2026-07-17T16:14:12.637198+08:00",
+  "request_id": "06a8ffab-2762-4d0f-9b9c-be46b90a13e6",
+  "batch_id": "20260717_161412_type_test_c667b00f",
+  "input_root": "/home/linzihan/PublicHealthProject/Clean_Gov_Attachments_Company/data/attachments/batch_type_test",
+  "source_absolute_path": "/home/linzihan/PublicHealthProject/Clean_Gov_Attachments_Company/data/attachments/batch_type_test/PDF_test/test.pdf",
+  "source_relative_path": "PDF_test/test.pdf",
+  "source_file_name": "test.pdf",
+  "source_extension": ".pdf",
+  "source_size_bytes": 1449670,
+  "file_sha256": "4723e13ac586308379b19c53d1d6c39c42f4ea8ac43d007079d73416715df98b",
+  "output_layout": "mirror",
+  "http_status": 200,
+  "retry_count": 0,
+  "request_summary": {
+    "RequestId": "06a8ffab-2762-4d0f-9b9c-be46b90a13e6",
+    "UrlType": 2,
+    "FileUrl": "data:application/pdf;base64,<BASE64省略，1932896字符>",
+    "FileType": "pdf",
+    "FileName": "test.pdf",
+    "ParseMode": "auto",
+    "OutputMode": "markdown"
+  },
+  "response": {
+    "FileId": "",
+    "RequestId": "06a8ffab-2762-4d0f-9b9c-be46b90a13e6",
+    "Status": 200,
+    "Message": "接收输入成功, 解析完成后将向http://172.16.2.17:8800/callback?token=****"
+  }
+}

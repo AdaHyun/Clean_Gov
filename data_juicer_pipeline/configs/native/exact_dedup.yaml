@@ -1,0 +1,9 @@
+# Stage 03: exact full-text deduplication after normalization and filtering.
+open_tracer: true
+op_list_to_trace:
+  - document_deduplicator
+trace_num: 100000
+process:
+  - document_deduplicator:
+      lowercase: false
+      ignore_non_character: false

@@ -1,0 +1,462 @@
+{
+  "received_at": "2026-07-17T16:14:29.956728+08:00",
+  "callback_count": 7,
+  "payload": {
+    "FileId": "",
+    "RequestId": "06a8ffab-2762-4d0f-9b9c-be46b90a13e6",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test.pdf",
+    "Pages_Info": {
+      "current": 7,
+      "total": 8,
+      "progress": 0.875
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "title",
+          "bbox": [
+            78,
+            122,
+            184,
+            135
+          ],
+          "lines": [
+            {
+              "bbox": [
+                77,
+                121,
+                184,
+                135
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    77,
+                    121,
+                    184,
+                    135
+                  ],
+                  "score": 0.999,
+                  "content": "4.5集中空调通风系统",
+                  "type": "text"
+                }
+              ],
+              "index": 0
+            }
+          ],
+          "index": 0
+        },
+        {
+          "type": "text",
+          "bbox": [
+            98,
+            145,
+            324,
+            159
+          ],
+          "lines": [
+            {
+              "bbox": [
+                98,
+                144,
+                324,
+                159
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    98,
+                    144,
+                    324,
+                    159
+                  ],
+                  "score": 0.999,
+                  "content": "公共场所集中空调通风系统应符合WS394的要求。",
+                  "type": "text"
+                }
+              ],
+              "index": 1
+            }
+          ],
+          "index": 1
+        },
+        {
+          "type": "title",
+          "bbox": [
+            78,
+            167,
+            164,
+            180
+          ],
+          "lines": [
+            {
+              "bbox": [
+                76,
+                167,
+                164,
+                180
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    76,
+                    167,
+                    164,
+                    180
+                  ],
+                  "score": 1.0,
+                  "content": "4.6公共用品用具",
+                  "type": "text"
+                }
+              ],
+              "index": 2
+            }
+          ],
+          "index": 2
+        },
+        {
+          "type": "text",
+          "bbox": [
+            97,
+            191,
+            401,
+            205
+          ],
+          "lines": [
+            {
+              "bbox": [
+                98,
+                190,
+                401,
+                205
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    98,
+                    190,
+                    401,
+                    205
+                  ],
+                  "score": 0.997,
+                  "content": "公共用品用具应符合表6的要求，棉织品的pH值应在6.5～8.5之间。",
+                  "type": "text"
+                }
+              ],
+              "index": 3
+            }
+          ],
+          "index": 3
+        },
+        {
+          "type": "table",
+          "bbox": [
+            77,
+            236,
+            522,
+            480
+          ],
+          "blocks": [
+            {
+              "type": "table_caption",
+              "bbox": [
+                215,
+                214,
+                384,
+                227
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    214,
+                    213,
+                    384,
+                    228
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        214,
+                        213,
+                        384,
+                        228
+                      ],
+                      "score": 0.999,
+                      "content": "表6公共场所公共用品用具卫生要求",
+                      "type": "text"
+                    }
+                  ],
+                  "index": 4
+                }
+              ],
+              "index": 4
+            },
+            {
+              "type": "table_body",
+              "bbox": [
+                77,
+                236,
+                522,
+                480
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    77,
+                    236,
+                    522,
+                    480
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        77,
+                        236,
+                        522,
+                        480
+                      ],
+                      "score": 0.984,
+                      "html": "<table><tr><td rowspan=1 colspan=1>公共用品用具</td><td rowspan=1 colspan=1>外观</td><td rowspan=1 colspan=1>细菌总数</td><td rowspan=1 colspan=1>大肠菌群</td><td rowspan=1 colspan=1>金黄色葡萄球菌</td><td rowspan=1 colspan=1>真菌总数</td></tr><tr><td rowspan=1 colspan=1>杯具</td><td rowspan=1 colspan=1>表面光洁、无污渍、无水渍、无异味、无破损</td><td rowspan=1 colspan=1>≤5CFU/cm²</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>棉织品</td><td rowspan=1 colspan=1>清洁整齐、无污渍、无破损、无毛发、无异味</td><td rowspan=1 colspan=1>≤200CFU/25cm</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>洁具</td><td rowspan=1 colspan=1>表面光洁、无污渍、无异味</td><td rowspan=1 colspan=1>≤300CFU/25cm²</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>鞋类</td><td rowspan=1 colspan=1>表面清洁、无破损、无污渍、无异味</td><td rowspan=1 colspan=1>≤300CFU/25cm²</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>≤50CFU/50cm²</td></tr><tr><td rowspan=1 colspan=1>美容美发工具</td><td rowspan=1 colspan=1>表面清洁、无异味</td><td rowspan=1 colspan=1>≤200CFU/25cm²</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>修脚工具</td><td rowspan=1 colspan=1>表面清洁、无异味</td><td rowspan=1 colspan=1>≤200CFU/25cm²</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1>≤50 CFU/50cm²</td></tr><tr><td rowspan=1 colspan=1>其他用品用具</td><td rowspan=1 colspan=1>表面清洁、无污渍、无破损、无异味</td><td rowspan=1 colspan=1>≤300CFU/25cm</td><td rowspan=1 colspan=1>不得检出</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=6>大肠菌群、金黄色葡萄球菌在与检验方法相对应的采样面积内该指标不得检出。</td></tr></table>",
+                      "type": "table",
+                      "image_path": "f3475e95f6eaff66e6c6ddc54ebb52bbfa060ba16cc438c32f7e9e4838c78a7a.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 6,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    77,
+                    236,
+                    522,
+                    317.3333333333333
+                  ],
+                  "spans": [],
+                  "index": 5
+                },
+                {
+                  "bbox": [
+                    77,
+                    317.3333333333333,
+                    522,
+                    398.66666666666663
+                  ],
+                  "spans": [],
+                  "index": 6
+                },
+                {
+                  "bbox": [
+                    77,
+                    398.66666666666663,
+                    522,
+                    479.99999999999994
+                  ],
+                  "spans": [],
+                  "index": 7
+                }
+              ]
+            }
+          ],
+          "index": 5.0
+        },
+        {
+          "type": "title",
+          "bbox": [
+            76,
+            506,
+            134,
+            518
+          ],
+          "lines": [
+            {
+              "bbox": [
+                74,
+                504,
+                135,
+                519
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    74,
+                    504,
+                    135,
+                    519
+                  ],
+                  "score": 1.0,
+                  "content": "5检验方法",
+                  "type": "text"
+                }
+              ],
+              "index": 8
+            }
+          ],
+          "index": 8
+        },
+        {
+          "type": "text",
+          "bbox": [
+            76,
+            536,
+            520,
+            578
+          ],
+          "lines": [
+            {
+              "bbox": [
+                75,
+                537,
+                519,
+                549
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    75,
+                    537,
+                    519,
+                    549
+                  ],
+                  "score": 0.998,
+                  "content": "5.1室内空气质量、集中空调通风系统、物理因素和公共用品用具指标检验按GB/T18204执行，硫磺",
+                  "type": "text"
+                }
+              ],
+              "index": 9
+            },
+            {
+              "bbox": [
+                76,
+                552,
+                519,
+                564
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    76,
+                    552,
+                    519,
+                    564
+                  ],
+                  "score": 0.994,
+                  "content": "泉温泉场所室内空气中硫化氢浓度的检验按GB/T11742执行，氢的检验按GBZ/T155执行，棉织品",
+                  "type": "text"
+                }
+              ],
+              "index": 10
+            },
+            {
+              "bbox": [
+                76,
+                566,
+                224,
+                578
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    76,
+                    566,
+                    224,
+                    578
+                  ],
+                  "score": 0.998,
+                  "content": "pH值的检测按GB/T7573执行。",
+                  "type": "text"
+                }
+              ],
+              "index": 11
+            }
+          ],
+          "index": 10
+        },
+        {
+          "type": "text",
+          "bbox": [
+            76,
+            582,
+            520,
+            624
+          ],
+          "lines": [
+            {
+              "bbox": [
+                74,
+                582,
+                519,
+                594
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    74,
+                    582,
+                    519,
+                    594
+                  ],
+                  "score": 0.999,
+                  "content": "5.2游泳池水温度、尿素、透明度和沐浴用水中嗜肺军团菌的检验按GB/T18204执行，游泳池水氰尿",
+                  "type": "text"
+                }
+              ],
+              "index": 12
+            },
+            {
+              "bbox": [
+                75,
+                597,
+                519,
+                609
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    75,
+                    597,
+                    519,
+                    609
+                  ],
+                  "score": 0.997,
+                  "content": "酸的检测按CJ/T244执行，游泳池水中氧化还原电位测定按SL94执行，游泳池水、沐浴用水水质其他",
+                  "type": "text"
+                }
+              ],
+              "index": 13
+            },
+            {
+              "bbox": [
+                75,
+                610,
+                288,
+                624
+              ],
+              "spans": [
+                {
+                  "bbox": [
+                    75,
+                    610,
+                    288,
+                    624
+                  ],
+                  "score": 0.999,
+                  "content": "指标和生活饮用水指标检验按GB/T5750执行。",
+                  "type": "text"
+                }
+              ],
+              "index": 14
+            }
+          ],
+          "index": 13
+        }
+      ]
+    },
+    "CostTime": 17.1205
+  }
+}

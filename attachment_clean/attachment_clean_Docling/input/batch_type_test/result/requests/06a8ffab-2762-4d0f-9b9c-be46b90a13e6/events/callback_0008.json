@@ -1,0 +1,144 @@
+{
+  "received_at": "2026-07-17T16:14:29.978617+08:00",
+  "callback_count": 8,
+  "payload": {
+    "FileId": "",
+    "RequestId": "06a8ffab-2762-4d0f-9b9c-be46b90a13e6",
+    "Code": 0,
+    "Message": "success",
+    "FileName": "test.pdf",
+    "Pages_Info": {
+      "current": 8,
+      "total": 8,
+      "progress": 1.0
+    },
+    "Result": {
+      "md_content": "",
+      "detailed_info": [
+        {
+          "type": "text",
+          "bbox": [
+            189,
+            63,
+            442,
+            80
+          ],
+          "lines": [
+            {
+              "bbox": [
+                189,
+                63,
+                442,
+                80
+              ],
+              "spans": [],
+              "index": 0
+            }
+          ],
+          "index": 0
+        },
+        {
+          "type": "text",
+          "bbox": [
+            276,
+            141,
+            434,
+            157
+          ],
+          "lines": [
+            {
+              "bbox": [
+                276,
+                141,
+                434,
+                157
+              ],
+              "spans": [],
+              "index": 1
+            }
+          ],
+          "index": 1
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0,
+            169,
+            595,
+            841
+          ],
+          "blocks": [
+            {
+              "type": "table_body",
+              "bbox": [
+                0,
+                169,
+                595,
+                841
+              ],
+              "group_id": 0,
+              "lines": [
+                {
+                  "bbox": [
+                    0,
+                    169,
+                    595,
+                    841
+                  ],
+                  "spans": [
+                    {
+                      "bbox": [
+                        0,
+                        169,
+                        595,
+                        841
+                      ],
+                      "score": 0.159,
+                      "type": "table",
+                      "image_path": "c26b35df2e40b318f0ea2e079d0415369681fde741a3402d9af5677eb00b7f70.jpg"
+                    }
+                  ]
+                }
+              ],
+              "index": 3,
+              "virtual_lines": [
+                {
+                  "bbox": [
+                    0,
+                    169,
+                    595,
+                    393.0
+                  ],
+                  "spans": [],
+                  "index": 2
+                },
+                {
+                  "bbox": [
+                    0,
+                    393.0,
+                    595,
+                    617.0
+                  ],
+                  "spans": [],
+                  "index": 3
+                },
+                {
+                  "bbox": [
+                    0,
+                    617.0,
+                    595,
+                    841.0
+                  ],
+                  "spans": [],
+                  "index": 4
+                }
+              ]
+            }
+          ],
+          "index": 3
+        }
+      ]
+    },
+    "CostTime": 17.1205
+  }
+}

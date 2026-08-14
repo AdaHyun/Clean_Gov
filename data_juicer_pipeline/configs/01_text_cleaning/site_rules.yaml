@@ -1,0 +1,102 @@
+rules:
+  - id: generic_print_control
+    description: 完整匹配打印控件，仅在页面尾部生效
+    match_type: anchored_regex
+    pattern: '(?:【?打印(?:本页)?】?|打印本页)'
+    source: '*'
+    domain: '*'
+    region: footer_region
+    min_position_ratio: 0.60
+    preserve_link: true
+    risk_level: low
+    enabled: true
+  - id: generic_close_control
+    description: 完整匹配关闭窗口控件，仅在页面尾部生效
+    match_type: anchored_regex
+    pattern: '(?:【?关闭(?:窗口)?】?|关闭窗口)'
+    source: '*'
+    domain: '*'
+    region: footer_region
+    min_position_ratio: 0.60
+    preserve_link: true
+    risk_level: low
+    enabled: true
+  - id: generic_share_control
+    description: 完整匹配分享控件
+    match_type: anchored_regex
+    pattern: '(?:分享(?:到)?[：:]?|：分享)'
+    source: '*'
+    domain: '*'
+    max_position_ratio: 0.60
+    preserve_link: true
+    risk_level: low
+    enabled: true
+  - id: generic_font_size_control
+    description: 完整匹配字号控件
+    match_type: anchored_regex
+    pattern: '字号[：:]?\s*[\[【]?\s*大\s+中\s+小\s*[\]】]?'
+    source: '*'
+    domain: '*'
+    max_position_ratio: 0.45
+    preserve_link: true
+    risk_level: low
+    enabled: true
+  - id: generic_visit_count
+    description: 完整匹配纯访问次数控件
+    match_type: anchored_regex
+    pattern: '(?:访问次数|浏览次数|点击量)[：:]?\s*\d+'
+    source: '*'
+    domain: '*'
+    max_position_ratio: 0.45
+    preserve_link: true
+    risk_level: low
+    enabled: true
+  - id: generic_previous_next
+    description: 上一篇或下一篇链接由 preserve_link 保护
+    match_type: anchored_regex
+    pattern: '(?:上一篇|下一篇)[：:].*'
+    source: '*'
+    domain: '*'
+    region: footer_region
+    min_position_ratio: 0.70
+    preserve_link: true
+    risk_level: low
+    enabled: true
+  - id: editor_title_residue
+    description: 已知编辑后台残留
+    match_type: exact_line
+    pattern: '标题请修改！谢谢！'
+    source: '*'
+    domain: '*'
+    preserve_link: true
+    risk_level: low
+    enabled: true
+  - id: generic_current_date_with_weekday
+    description: 带星期的页面当前日期格式，仅限页面前部完整匹配
+    match_type: anchored_regex
+    pattern: '\d{4}年\d{1,2}月\d{1,2}日\s+星期[一二三四五六日天]'
+    source: '*'
+    domain: '*'
+    max_position_ratio: 0.45
+    preserve_link: true
+    preserve_metadata_field: publish_date
+    risk_level: low
+    enabled: true
+  - id: approval_comment_empty
+    description: 空审批意见标签
+    match_type: exact_line
+    pattern: '审批意见：'
+    source: '*'
+    domain: '*'
+    preserve_link: true
+    risk_level: low
+    enabled: true
+  - id: chinacdc_empty_quote_marker
+    description: 真实样本中反复出现的空 Markdown 引用标记
+    match_type: anchored_regex
+    pattern: '>\s*>?'
+    source: '*'
+    domain: 'chinacdc.cn'
+    preserve_link: true
+    risk_level: low
+    enabled: true

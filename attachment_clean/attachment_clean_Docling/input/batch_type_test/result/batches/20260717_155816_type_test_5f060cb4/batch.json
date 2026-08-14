@@ -1,0 +1,25 @@
+{
+  "batch_id": "20260717_155816_type_test_5f060cb4",
+  "batch_name": "type_test",
+  "input_dir": "/home/linzihan/PublicHealthProject/Clean_Gov_Attachments_Company/data/attachments/batch_type_test",
+  "recursive": true,
+  "extensions": [
+    ".pdf",
+    ".doc",
+    ".docx",
+    ".ppt",
+    ".pptx",
+    ".xls",
+    ".xlsx",
+    ".txt",
+    ".rtf"
+  ],
+  "interval": 2.0,
+  "max_files": null,
+  "dry_run": true,
+  "force": false,
+  "output_layout": "mirror",
+  "callback_url_masked": "",
+  "started_at": "2026-07-17T15:58:16.892987+08:00",
+  "finished_at": "2026-07-17T15:58:16.894402+08:00"
+}

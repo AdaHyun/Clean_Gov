@@ -1,0 +1,22 @@
+{
+  "document_id": "07aad674d786bb8316e2cf2f4724d5c0",
+  "request_id": "e3587cf7-1a62-4faa-b309-389f14a84786",
+  "batch_id": "20260717_161412_type_test_c667b00f",
+  "source_file_name": "test_ppt.pdf",
+  "source_extension": ".pdf",
+  "source_relative_path": "PDF_test/test_ppt.pdf",
+  "source_absolute_path": "/home/linzihan/PublicHealthProject/Clean_Gov_Attachments_Company/data/attachments/batch_type_test/PDF_test/test_ppt.pdf",
+  "source_size_bytes": 881485,
+  "source_mtime": "2026-07-17T16:09:11.473901+08:00",
+  "file_sha256": "14568986a5b4042a0c908061d40999d32c09961f6914fe215f6ed7af4b4c5a45",
+  "parser": "company_api",
+  "status": "callback_success",
+  "submission_time": "2026-07-17T16:14:14.679646+08:00",
+  "callback_time": "2026-07-17T16:14:24.843093+08:00",
+  "processing_duration_seconds": 9.914588451385498,
+  "raw_request_dir": "requests/e3587cf7-1a62-4faa-b309-389f14a84786",
+  "mirror_document_dir": "documents/PDF_test/test_ppt__e3587cf7-1a6",
+  "raw_markdown_path": "documents/PDF_test/test_ppt__e3587cf7-1a6/raw.md",
+  "clean_markdown_path": "documents/PDF_test/test_ppt__e3587cf7-1a6/content.md",
+  "callback_count": 11
+}

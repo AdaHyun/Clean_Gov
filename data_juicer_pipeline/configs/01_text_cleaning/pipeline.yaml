@@ -1,0 +1,10 @@
+stage: 01_text_cleaning
+grouping: source_plus_normalized_domain
+small_group_min_documents: 20
+long_line_protection_length: 50
+frequency_thresholds:
+  less_than_20: skip
+  20_to_99: 5
+  100_to_999: 10
+  1000_or_more: 20
+data_juicer_operator: document_line_deduplicator
